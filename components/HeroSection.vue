@@ -68,7 +68,8 @@
               Niyog is a recruitment software solution designed to simplify the hiring process for everyone. It's aimed at making the hiring journey easy and efficient, catering to individuals, freelancers, small businesses, and HR professionals.
             </p>
             <div class="mt-8 mx-auto max-w-2xl p-3 bg-white border rounded-lg shadow-lg shadow-gray-100 dark:bg-slate-900 dark:border-gray-700 dark:shadow-gray-900/[.2] flex-col">
-              <iframe width="540" height="305" src="https://be17ac57.sibforms.com/serve/MUIFAH-_TDQzA8TDMwgRxsWew8m3TzGgbru0DYxYNvRHxy4p3ybKbGMxcYD-W84ZKG-rq7dp55T4BFyoc32PdntiK9NcIDeKzacq0EJunKkOh_sSYeHE6kqgFCtlAgWpmnusVUc1gReLn9LJ1MupEk5CxcnyRDkQ1XA3pll7XAjsBriKQOScwOUVUITEjDZ5TCm14XR9FAl4-pXA" frameborder="0" scrolling="auto" allowfullscreen style="display: block;margin-left: auto;margin-right: auto;max-width: 100%;"></iframe>
+              <!-- <iframe width="540" height="305" src="https://be17ac57.sibforms.com/serve/MUIFAH-_TDQzA8TDMwgRxsWew8m3TzGgbru0DYxYNvRHxy4p3ybKbGMxcYD-W84ZKG-rq7dp55T4BFyoc32PdntiK9NcIDeKzacq0EJunKkOh_sSYeHE6kqgFCtlAgWpmnusVUc1gReLn9LJ1MupEk5CxcnyRDkQ1XA3pll7XAjsBriKQOScwOUVUITEjDZ5TCm14XR9FAl4-pXA" frameborder="0" scrolling="auto" allowfullscreen style="display: block;margin-left: auto;margin-right: auto;max-width: 100%;"></iframe> -->
+              <div id="signupForm"></div>
             </div>
           </div>
           <img src="https://tailwindui.com/img/component-images/dark-project-app-screenshot.png" alt="App screenshot" width="2432" height="1442" class="mt-16 rounded-md bg-white/5 shadow-2xl ring-1 ring-white/10 sm:mt-24" />
@@ -82,14 +83,28 @@
 </template>
 
 <script setup>
-import { ref } from 'vue'
-import { Dialog, DialogPanel } from '@headlessui/vue'
-import { Bars3Icon, XMarkIcon } from '@heroicons/vue/24/outline'
+  import { ref } from 'vue'
+  import { Dialog, DialogPanel } from '@headlessui/vue'
+  import { Bars3Icon, XMarkIcon } from '@heroicons/vue/24/outline'
 
-const navigation = [
-  { name: 'Features', href: '#features' },
-  { name: 'How it works', href: '#works' },
-]
+  const navigation = [
+    { name: 'Features', href: '#features' },
+    { name: 'How it works', href: '#works' },
+  ]
 
-const mobileMenuOpen = ref(false)
+  const mobileMenuOpen = ref(false)
+
+  // Hubspot Signup Form
+  const script = document.createElement("script");
+  script.src = "https://js.hsforms.net/forms/v2.js";
+  document.body.appendChild(script);
+
+  script.addEventListener("load", () => {
+    window.hbspt.forms.create({
+      region: "na1",
+      portalId: "22534729",
+      formId: "e645a13e-9b76-4b56-80ec-88d5a9c10c0a",
+      target: "#signupForm",
+    });
+  });
 </script>
