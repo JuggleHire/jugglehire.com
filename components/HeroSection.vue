@@ -6,7 +6,6 @@
           <a href="/" class="-m-1.5 p-1.5">
             <span class="sr-only">Niyog</span>
             <span class="text-xl text-white font-bold">Niyog</span>
-            <!-- <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500" alt="" /> -->
           </a>
         </div>
         <div class="flex lg:hidden">
@@ -19,8 +18,8 @@
           <a v-for="item in navigation" :key="item.name" :href="item.href" class="text-sm font-semibold leading-6 text-white">{{ item.name }}</a>
         </div>
         <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-          <a href="#waitlist" class="text-sm font-semibold leading-6 text-white">
-            Join the waitlist
+          <a href="https://web.facebook.com/groups/useniyog" target="_blank" class="text-sm font-semibold leading-6 text-white">
+            Join our Facebook Group
             <span aria-hidden="true">&rarr;</span>
           </a>
         </div>
@@ -68,29 +67,8 @@
             <p class="mt-6 text-lg leading-8 text-gray-300">
               Niyog is a recruitment software solution designed to simplify the hiring process for everyone. It's aimed at making the hiring journey easy and efficient, catering to individuals, freelancers, small businesses, and HR professionals.
             </p>
-            <!-- <div class="mt-10 flex items-center justify-center gap-x-6">
-              <a href="#" class="rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400">Get started</a>
-              <a href="#" class="text-sm font-semibold leading-6 text-white">Learn more <span aria-hidden="true">→</span></a>
-            </div> -->
-            <!-- <div class="mx-auto mt-6 flex justify-center max-w-md gap-x-4">
-              <label for="email-address" class="sr-only">Email address</label>
-              <input id="email-address" name="email" type="email" autocomplete="email" required class="min-w-0 flex-auto rounded-md border-0 bg-white/5 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6" placeholder="Enter your email">
-              <button type="submit" class="flex-none rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500">Join the waitlist</button>
-            </div> -->
             <div class="mt-8 mx-auto max-w-2xl p-3 bg-white border rounded-lg shadow-lg shadow-gray-100 dark:bg-slate-900 dark:border-gray-700 dark:shadow-gray-900/[.2] flex-col">
-              <div class="pb-2">
-                <label for="hs-hero-name-1" class="block text-sm font-medium dark:text-white"><span class="sr-only">Your name</span></label>
-                <input type="text" id="hs-hero-name-1" class="py-3 px-4 block w-full border-transparent rounded-md text-sm focus:border-blue-500 focus:ring-blue-500 dark:bg-slate-900 dark:border-transparent dark:text-gray-400" placeholder="Your name">
-              </div>
-              <div class="pt-2 border-t border-gray-200 dark:border-gray-700">
-                <label for="hs-hero-email-1" class="block text-sm font-medium dark:text-white"><span class="sr-only">Your email address</span></label>
-                <input type="email" id="hs-hero-email-1" class="py-3 px-4 block w-full border-transparent rounded-md text-sm focus:border-blue-500 focus:ring-blue-500 dark:bg-slate-900 dark:border-transparent dark:text-gray-400" placeholder="Your email address">
-              </div>
-              <div class="pt-2 grid">
-                <a class="py-3 px-4 inline-flex justify-center items-center gap-2 rounded-md border border-transparent font-semibold bg-blue-500 text-white hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-all text-sm dark:focus:ring-offset-gray-800" href="#">
-                  Join the waitlist
-                </a>
-              </div>
+              <iframe width="540" height="305" src="https://be17ac57.sibforms.com/serve/MUIFAH-_TDQzA8TDMwgRxsWew8m3TzGgbru0DYxYNvRHxy4p3ybKbGMxcYD-W84ZKG-rq7dp55T4BFyoc32PdntiK9NcIDeKzacq0EJunKkOh_sSYeHE6kqgFCtlAgWpmnusVUc1gReLn9LJ1MupEk5CxcnyRDkQ1XA3pll7XAjsBriKQOScwOUVUITEjDZ5TCm14XR9FAl4-pXA" frameborder="0" scrolling="auto" allowfullscreen style="display: block;margin-left: auto;margin-right: auto;max-width: 100%;"></iframe>
             </div>
           </div>
           <img src="https://tailwindui.com/img/component-images/dark-project-app-screenshot.png" alt="App screenshot" width="2432" height="1442" class="mt-16 rounded-md bg-white/5 shadow-2xl ring-1 ring-white/10 sm:mt-24" />
