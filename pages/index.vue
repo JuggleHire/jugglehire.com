@@ -2,8 +2,8 @@
   <div>
     <hero-section />
     <feature-section />
-    <benefit-section />
-    <how-it-works />
+    <!-- <benefit-section />
+    <how-it-works /> -->
     <stats />
   </div>
 </template>
