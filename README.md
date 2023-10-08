@@ -1,4 +1,4 @@
-# Nuxt 3 Minimal Starter
+# Jugglehire.com - Recruitment software for busy founder and Recruiters
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
