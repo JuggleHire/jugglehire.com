@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gray-900">
+  <div class="bg-gray-900 relative z-50">
     <!-- <header class="absolute inset-x-0 top-0 z-50"> -->
     <header class="">
       <nav class="flex items-center justify-between p-6 lg:px-8" aria-label="Global">

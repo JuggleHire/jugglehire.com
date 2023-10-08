@@ -11,7 +11,6 @@
     <pricing-section />
     <blog-section />
     <stats />
-    <footer-section />
   </div>
 </template>
 
