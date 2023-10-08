@@ -1,3 +1,7 @@
 <template>
-  <NuxtPage />
+  <div>
+    <header-menu />
+    <NuxtPage />
+    <footer-section />
+  </div>
 </template>

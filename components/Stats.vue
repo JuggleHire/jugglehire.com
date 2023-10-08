@@ -33,14 +33,14 @@
         <div class="aspect-[1108/632] w-[69.25rem] flex-none bg-gradient-to-r from-[#80caff] to-[#4f46e5] opacity-20" style="clip-path: polygon(73.6% 51.7%, 91.7% 11.8%, 100% 46.4%, 97.4% 82.2%, 92.5% 84.9%, 75.7% 64%, 55.3% 47.5%, 46.5% 49.4%, 45% 62.9%, 50.3% 87.2%, 21.3% 64.1%, 0.1% 100%, 5.4% 51.1%, 21.4% 63.9%, 58.9% 0.2%, 73.6% 51.7%)" />
       </div>
       <div class="mx-auto max-w-2xl text-center">
-        <h2 class="text-3xl font-bold tracking-tight text-white sm:text-4xl">Boost your productivity.<br />Start using Niyog app today.</h2>
+        <h2 class="text-3xl font-bold tracking-tight text-white sm:text-4xl">Boost your productivity.<br />Start using JuggleHire app today.</h2>
         <p class="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-300">
-          Experience the future of hiring with Niyog. Connect with like-minded professionals and stay updated on the latest in recruitment. Boost your productivity and career growth. Join our Facebook group today!
+          Experience the future of hiring with JuggleHire. Connect with like-minded professionals and stay updated on the latest in recruitment. Boost your productivity and career growth. Join our Facebook group today!
         </p>
         <div class="mt-10 flex items-center justify-center gap-x-6">
           <!-- <a href="#" class="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">Get started</a>
           <a href="#" class="text-sm font-semibold leading-6 text-white">Learn more <span aria-hidden="true">→</span></a> -->
-            <a href="https://facebook.com/groups/useniyog" target="_blank" class="inline-flex items-center gap-x-2 rounded-md bg-indigo-600 px-8 py-5 text-base font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 uppercase">
+            <a href="https://facebook.com/groups/useJuggleHire" target="_blank" class="inline-flex items-center gap-x-2 rounded-md bg-indigo-600 px-8 py-5 text-base font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 uppercase">
               <CheckCircleIcon class="-ml-0.5 h-5 w-5" aria-hidden="true" />
               join our facebook group
             </a>

@@ -29,24 +29,24 @@
 import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from '@heroicons/vue/20/solid'
 
 const sectionInfo = {
-  subtitle: "Get it done",
-  title: "Easy Job Posting",
+  subtitle: "Keep your candidate updated",
+  title: "Send email is 1 click away",
   description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
-  screenshot: "/post-job-ui.png",
+  screenshot: "/rejection-email-ui.png",
   features: [
     {
-      name: 'Job Information',
+      name: 'Application received email',
       description:
         'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
       icon: CloudArrowUpIcon,
     },
     {
-      name: 'Candidate Information',
+      name: 'Rejection email',
       description: 'Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.',
       icon: LockClosedIcon,
     },
     {
-      name: 'Automated Screening',
+      name: 'Application status',
       description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
       icon: ServerIcon,
     },

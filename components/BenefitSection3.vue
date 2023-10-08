@@ -29,10 +29,10 @@
 import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from '@heroicons/vue/20/solid'
 
 const sectionInfo = {
-  subtitle: "Get it done",
-  title: "Easy Job Posting",
+  subtitle: "Find Quicker",
+  title: "Efficient Candidate Discovery",
   description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
-  screenshot: "/post-job-ui.png",
+  screenshot: "/candidate-listing-ui.png",
   features: [
     {
       name: 'Job Information',

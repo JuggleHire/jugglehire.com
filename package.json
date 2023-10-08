@@ -6,13 +6,14 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "devupgrade": "nuxi upgrade"
   },
   "devDependencies": {
-    "@nuxt/devtools": "latest",
+    "@nuxt/devtools": "^1.0.0-beta.0",
     "@nuxtjs/tailwindcss": "^6.8.0",
     "@types/node": "^18.17.3",
-    "nuxt": "^3.6.5"
+    "nuxt": "^3.7.4"
   },
   "dependencies": {
     "@headlessui/vue": "^1.7.15",
