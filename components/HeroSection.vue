@@ -12,7 +12,8 @@
               <!-- Simplifying Hiring for Individuals and Small Businesses -->
             </h1>
             <p class="mt-6 text-lg leading-8 text-gray-300">
-              JuggleHire is a recruitment software solution designed to simplify the hiring process for everyone. It's aimed at making the hiring journey easy and efficient, catering to individuals, freelancers, small businesses, and HR professionals.
+            JuggleHire is a recruitment software solution designed to simplify the hiring process for everyone. It's aimed at making
+            the hiring journey easy and efficient, catering to individuals, freelancers, small businesses, and HR professionals.
             </p>
             <!-- <div class="mt-8 mx-auto max-w-2xl p-3 rounded-lg dark:bg-slate-900 dark:border-gray-700 dark:shadow-gray-900/[.2] flex-col">
               <a href="https://facebook.com/groups/useJuggleHire" target="_blank" class="inline-flex items-center gap-x-2 rounded-md bg-indigo-600 px-8 py-5 text-base font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 uppercase">
