@@ -31,23 +31,23 @@ import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from '@heroicons/vue/20/
 const sectionInfo = {
   subtitle: "Keep your candidate updated",
   title: "Send email is 1 click away",
-  description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
+  description: "Effective communication with candidates is crucial for a positive recruitment experience. JuggleHire's streamlined email communication feature ensures you can effortlessly keep your candidates informed every step of the way. Here are three highlighting points that make it a breeze:",
   screenshot: "/rejection-email-ui.png",
   features: [
     {
       name: 'Application received email',
       description:
-        'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+        `As soon as a candidate applies, send an automatic "Application Received" email to acknowledge their submission. This not only confirms their application but also demonstrates your professionalism and commitment to a transparent process.`,
       icon: CloudArrowUpIcon,
     },
     {
       name: 'Rejection email',
-      description: 'Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.',
+      description: `For candidates who may not be the right fit, the "Rejection Email" function allows you to send courteous and considerate rejection notices with a single click. Maintaining a positive candidate experience, even for those who are not selected, is crucial for your brand's reputation.`,
       icon: LockClosedIcon,
     },
     {
       name: 'Application status',
-      description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
+      description: `Stay transparent and keep your candidates in the loop by sending "Application Status Updates" in real-time. Candidates can easily check the status of their application, reducing inquiries and ensuring they always know where they stand in the hiring process.`,
       icon: ServerIcon,
     },
   ]
