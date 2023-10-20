@@ -32,25 +32,25 @@ import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from '@heroicons/vue/20/
 
 
 const sectionInfo = {
-  subtitle: "Best-fit candidates",
-  title: "Schedule Interview",
-  description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
+  subtitle: "Seamless Interview",
+  title: "Scheduling with JuggleHire",
+  description: `Efficiently coordinating interviews is essential for a successful hiring process, and JuggleHire simplifies this task. Our "Schedule Interview" feature offers you a hassle-free way to set up interviews with candidates, ensuring a smooth and productive experience. Here's how it works:`,
   screenshot: "/candidate-sorting-ui.png",
   features: [
     {
-      name: 'Everything in one place',
+      name: 'Calendar Integration',
       description:
-        'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+        `Integrate your calendar with JuggleHire, allowing you to view your availability at a glance. This feature enables you to select suitable time slots without the risk of double bookings or scheduling conflicts.`,
       icon: CloudArrowUpIcon,
     },
     {
-      name: 'Company Gallery',
-      description: 'Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.',
+      name: 'Automated Notifications',
+      description: `Once you've set up an interview, JuggleHire sends automated notifications to both you and the candidate. This ensures that both parties are well-informed and prepared for the interview, reducing the risk of no-shows and last-minute changes.`,
       icon: LockClosedIcon,
     },
     {
-      name: 'Open Jobs',
-      description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
+      name: 'Communication Tracking',
+      description: `The dashboard provides a clear overview of all communication with candidates, including application emails, interview invitations, status updates, and feedback. Monitor the status of each candidate's journey in one centralized location.`,
       icon: ServerIcon,
     },
   ]
