@@ -12,7 +12,7 @@ export default defineNuxtConfig({
         { hid: "description", name: "description",
           content: "JuggleHire is a recruitment software solution designed to simplify the hiring process. It's aimed at making the hiring journey easy and efficient for everyone.",
         },
-        { hid: "og:image", property: "og:image", content: "/meta.png" },
+        { hid: "og:image", property: "og:image", content: "/jugglehire.com.jpg" },
       ],
       link: [{ rel: "icon", type: "image/png", href: "/favicon.svg" }],
       script: [
