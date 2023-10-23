@@ -11,14 +11,6 @@
   import { Bars3Icon, XMarkIcon } from '@heroicons/vue/24/outline'
   import { CheckIcon } from '@heroicons/vue/20/solid'
 
-  // Productlift Roadmap
-  useHead({
-    script: [
-      { src: "https://jugglehire.productlift.dev/widgets_sdk", defer: true },
-    ],
-  });
-
-
   const title = "JuggleHire Roadmap | Our Vision for Simplified Hiring";
   const description = "Discover JuggleHire's roadmap, where we outline our vision for simplifying the hiring process. See our plans for enhancing our recruitment software to benefit small businesses.";
 
@@ -28,5 +20,18 @@
     description: description,
     ogDescription: description,
   });
+
+  const route = useRoute()
+  useHead({
+    script: [
+      { src: "https://jugglehire.productlift.dev/widgets_sdk", defer: true },
+    ],
+    link: [
+      {
+        rel: 'canonical',
+        href: 'https://www.jugglehire.com/' + route.path,
+      },
+    ],
+  })
 
 </script>

@@ -7,7 +7,7 @@
           <nuxt-link href="/" class="-m-1.5 p-1.5">
             <span class="sr-only">JuggleHire</span>
             <!-- <span class="text-xl text-white font-bold">JuggleHire</span> -->
-            <img class="h-8 w-auto" src="/logo-light.svg" alt="" />
+            <img class="h-8 w-auto" src="/logo-light.svg" alt="Jugglehire Logo - Light theme" />
           </nuxt-link>
         </div>
         <div class="flex lg:hidden">
@@ -29,7 +29,7 @@
                   <div class="p-4">
                     <div v-for="item in features" :key="item.name" class="group relative flex gap-x-6 rounded-lg p-4 hover:bg-gray-100">
                       <div class="mt-1 flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
-                        <component :is="item.icon" class="h-6 w-6 text-gray-600 group-hover:text-indigo-600" aria-hidden="true" />
+                        <component :is="item.icon" class="h-6 w-6 text-gray-600 group-hover:text-blue-600" aria-hidden="true" />
                       </div>
                       <div>
                         <a :href="item.href" class="font-semibold text-gray-900">
@@ -53,9 +53,16 @@
           <nuxt-link v-for="item in navigation" :key="item.name" :to="item.href" class="text-sm font-semibold leading-6 text-white">{{ item.name }}</nuxt-link>
         </div>
         <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-          <a href="https://facebook.com/groups/useJuggleHire" target="_blank" class="text-sm font-semibold leading-6 text-white">
+          <!-- <a href="https://facebook.com/groups/useJuggleHire" target="_blank" class="text-sm font-semibold leading-6 text-white">
             Join our Facebook Group
             <span aria-hidden="true">&rarr;</span>
+          </a> -->
+
+          <a href="https://app.jugglehire.com" class="ml-auto flex items-center gap-x-1 rounded-md bg-blue-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600">
+            <svg class="-ml-1.5 h-5 w-5" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+              <path d="M10.75 6.75a.75.75 0 00-1.5 0v2.5h-2.5a.75.75 0 000 1.5h2.5v2.5a.75.75 0 001.5 0v-2.5h2.5a.75.75 0 000-1.5h-2.5v-2.5z" />
+            </svg>
+            Get Beta Access
           </a>
         </div>
       </nav>
@@ -65,7 +72,7 @@
           <div class="flex items-center justify-between">
             <nuxt-link to="/" class="-m-1.5 p-1.5">
               <span class="sr-only">JuggleHire</span>
-              <img class="h-8 w-auto" src="/logo-light.svg" alt="" />
+              <img class="h-8 w-auto" src="/logo-light.svg" alt="Jugglehire.com logo - light theme" />
               <!-- <span class="text-xl text-white font-bold">JuggleHire</span> -->
             </nuxt-link>
             <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-400" @click="mobileMenuOpen = false">
@@ -79,8 +86,14 @@
                 <nuxt-link v-for="item in navigation" :key="item.name" :to="item.href" @click="mobileMenuOpen = false" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-gray-800">{{ item.name }}</nuxt-link>
               </div>
               <div class="py-6">
-                <a href="https://facebook.com/groups/useJuggleHire" target="_blank" class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-white hover:bg-gray-800 bg-blue-700 text-center uppercase">
+                <!-- <a href="https://facebook.com/groups/useJuggleHire" target="_blank" class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-white hover:bg-gray-800 bg-blue-700 text-center uppercase">
                   Join our Facebook Group
+                </a> -->
+                <a href="https://app.jugglehire.com" class="ml-auto flex items-center gap-x-1 rounded-md bg-blue-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600">
+                  <svg class="-ml-1.5 h-5 w-5" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path d="M10.75 6.75a.75.75 0 00-1.5 0v2.5h-2.5a.75.75 0 000 1.5h2.5v2.5a.75.75 0 001.5 0v-2.5h2.5a.75.75 0 000-1.5h-2.5v-2.5z" />
+                  </svg>
+                  Get Beta Access
                 </a>
               </div>
             </div>

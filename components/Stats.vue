@@ -3,7 +3,7 @@
     <!-- Stats -->
     <!-- <div class="mx-auto pt-32 max-w-7xl px-6 sm:pt-56 lg:px-8">
       <div class="mx-auto max-w-2xl lg:mx-0 lg:max-w-xl">
-        <h2 class="text-base font-semibold leading-8 text-indigo-400">Our track record</h2>
+        <h2 class="text-base font-semibold leading-8 text-blue-400">Our track record</h2>
         <p class="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">Trusted by thousands of developers&nbsp;worldwide</p>
         <p class="mt-6 text-lg leading-8 text-gray-300">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.</p>
       </div>
@@ -40,7 +40,7 @@
         <div class="mt-10 flex items-center justify-center gap-x-6">
           <!-- <a href="#" class="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">Get started</a>
           <a href="#" class="text-sm font-semibold leading-6 text-white">Learn more <span aria-hidden="true">→</span></a> -->
-            <a href="https://facebook.com/groups/useJuggleHire" target="_blank" class="inline-flex items-center gap-x-2 rounded-md bg-indigo-600 px-8 py-5 text-base font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 uppercase">
+            <a href="https://facebook.com/groups/useJuggleHire" target="_blank" class="inline-flex items-center gap-x-2 rounded-md bg-blue-600 px-8 py-5 text-base font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600 uppercase">
               <CheckCircleIcon class="-ml-0.5 h-5 w-5" aria-hidden="true" />
               join our facebook group
             </a>

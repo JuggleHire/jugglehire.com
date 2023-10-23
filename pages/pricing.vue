@@ -19,4 +19,14 @@ useSeoMeta({
   description: description,
   ogDescription: description,
 });
+
+const route = useRoute()
+useHead({
+  link: [
+    {
+      rel: 'canonical',
+      href: 'https://www.jugglehire.com/' + route.path,
+    },
+  ],
+})
 </script>
