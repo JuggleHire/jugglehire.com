@@ -1,6 +1,9 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   ssr: true,
+  site: {
+    url: 'https://www.jugglehire.com',
+  },
 
   app: {
     head: {
@@ -55,7 +58,9 @@ export default defineNuxtConfig({
     },
   },
   modules: [
-    '@nuxtjs/tailwindcss'
+    '@nuxtjs/tailwindcss',
+    '@nuxtjs/robots',
+    'nuxt-simple-sitemap'
   ],
   devtools: { enabled: true },
 })

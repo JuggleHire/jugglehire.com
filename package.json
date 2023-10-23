@@ -13,11 +13,13 @@
     "@nuxt/devtools": "^1.0.0-beta.0",
     "@nuxtjs/tailwindcss": "^6.8.0",
     "@types/node": "^18.17.3",
-    "nuxt": "^3.7.4"
+    "nuxt": "^3.7.4",
+    "nuxt-simple-sitemap": "^3.4.0"
   },
   "dependencies": {
     "@headlessui/vue": "^1.7.15",
     "@heroicons/vue": "^2.0.18",
+    "@nuxtjs/robots": "^3.0.0",
     "axios": "^1.5.1"
   }
 }
