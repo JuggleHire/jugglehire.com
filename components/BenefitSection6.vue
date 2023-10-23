@@ -34,23 +34,23 @@ import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from '@heroicons/vue/20/
 const sectionInfo = {
   subtitle: "Seamless Interview",
   title: "Scheduling with JuggleHire",
-  description: `Efficiently coordinating interviews is essential for a successful hiring process, and JuggleHire simplifies this task. Our "Schedule Interview" feature offers you a hassle-free way to set up interviews with candidates, ensuring a smooth and productive experience. Here's how it works:`,
+  description: `Efficiently coordinating interviews is essential for a successful hiring process, and we simplifies this task. We offer you a hassle-free way to set up interviews with candidates, ensuring a smooth and productive experience.`,
   screenshot: "/candidate-sorting-ui.png",
   features: [
     {
-      name: 'Calendar Integration',
+      name: 'Calendar Integration:',
       description:
-        `Integrate your calendar with JuggleHire, allowing you to view your availability at a glance. This feature enables you to select suitable time slots without the risk of double bookings or scheduling conflicts.`,
+        `Sync your calendar with JuggleHire to easily see your availability and avoid double bookings or scheduling conflicts.`,
       icon: CloudArrowUpIcon,
     },
     {
-      name: 'Automated Notifications',
-      description: `Once you've set up an interview, JuggleHire sends automated notifications to both you and the candidate. This ensures that both parties are well-informed and prepared for the interview, reducing the risk of no-shows and last-minute changes.`,
+      name: 'Automated Notifications:',
+      description: `JuggleHire sends automated notifications to both the employer and the candidate to ensure that both parties are well informed.`,
       icon: LockClosedIcon,
     },
     {
-      name: 'Communication Tracking',
-      description: `The dashboard provides a clear overview of all communication with candidates, including application emails, interview invitations, status updates, and feedback. Monitor the status of each candidate's journey in one centralized location.`,
+      name: 'Communication Tracking:',
+      description: `The dashboard provides a clear overview of all communication with candidates, including application emails, interview invitations, status updates, and feedback.`,
       icon: ServerIcon,
     },
   ]

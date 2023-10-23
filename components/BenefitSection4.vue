@@ -34,22 +34,22 @@ import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from '@heroicons/vue/20/
 const sectionInfo = {
   subtitle: "Best-fit candidates",
   title: "Easy-to-use Candidate Sorting",
-  description: `The heart of successful recruitment is identifying the best-fit candidates, and JuggleHire's "Easy-to-Use Candidate Sorting" feature makes this process effortless. Here are three highlighting points that showcase how it simplifies and accelerates your candidate selection:`,
+  description: `The "Easy-to-Use Candidate Sorting" feature offered by JuggleHire simplifies and speeds up the candidate selection process, making it easier to identify the most suitable candidates.`,
   screenshot: "/candidate-sorting-ui.png",
   features: [
     {
-      name: 'Intuitive Sorting Interface',
-      description:`JuggleHire's user-friendly interface allows you to sort and categorize candidates with ease. Quickly identify top performers, promising talent, and other categories relevant to your hiring needs, saving you time and effort during the decision-making process.`,
+      name: 'Intuitive Sorting Interface:',
+      description:`Quickly identify top performers, promising talent, and other categories relevant to your hiring needs, saving you time and effort during the decision-making process.`,
       icon: CloudArrowUpIcon,
     },
     {
-      name: 'Customized Filters',
-      description: `Tailor your sorting criteria to match your unique requirements. Use custom filters to hone in on specific skills, qualifications, or attributes that are critical for your open positions. The result? A highly targeted candidate selection that fits your organization's needs like a glove.`,
+      name: 'Customized Filters:',
+      description: `Customize your sorting criteria to fit your needs. Use filters to find specific skills, qualifications, or attributes for your open positions.`,
       icon: LockClosedIcon,
     },
     {
-      name: 'Streamlined Collaboration',
-      description: `Collaboration with your team is made simple with JuggleHire's candidate sorting. Share and discuss candidates, their strengths, and potential concerns within the platform, ensuring that your hiring decisions are well-informed and collaborative. `,
+      name: 'Streamlined Collaboration:',
+      description: `Discuss and evaluate candidates, considering their strengths and potential concerns within the platform, to ensure informed and collaborative hiring decisions.`,
       icon: ServerIcon,
     },
   ]

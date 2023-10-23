@@ -34,22 +34,22 @@ import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from '@heroicons/vue/20/
 const sectionInfo = {
   subtitle: "Look professional",
   title: "Company Career Portal",
-  description: `First impressions matter, and with JuggleHire, you'll always make a professional one. Our "Company Career Portal" offers you a polished and comprehensive platform that not only simplifies your hiring but also enhances your brand's image.`,
+  description: `First impressions matter, and now you'll always make a professional one. Juggle Hire is a polished and comprehensive platform that not only simplifies your hiring but also enhances your brand's image.`,
   screenshot: "/company-profile-ui.png",
   features: [
     {
-      name: 'Everything in one place',
-      description:`Streamline your recruitment process from the start. JuggleHire's "Company Career Portal" puts everything you need in one central location.Post jobs, collect candidate data, schedule interviews, and manage your hiring pipeline with ease, all within a clean and professional environment.`,
+      name: 'Everything in one place:',
+      description:`Post jobs, collect candidate data, schedule interviews, and manage your hiring pipeline with ease, all within a clean and professional environment.`,
       icon: CloudArrowUpIcon,
     },
     {
-      name: 'Company Gallery',
-      description: `Showcase your brand with our "Company Gallery" feature. Display your company's culture, values, and workplace through images and media. Make a lasting impression on potential candidates and highlight what makes your organization stand out.`,
+      name: 'Company Gallery:',
+      description: `Showcase your company's culture, values, and workplace through visuals. Leave a lasting impression on potential candidates and highlight your organization's unique qualities.`,
       icon: LockClosedIcon,
     },
     {
-      name: 'Open Jobs',
-      description: `Keep candidates informed about your job opportunities with the "Open Jobs" section. A neatly organized list of your current openings will not only attract talent but also ensure you're always ahead of the game in your hiring process.`,
+      name: 'Open Jobs:',
+      description: `A neatly organised list of your current openings will not only attract talent but also ensure you're always ahead of the game in your hiring process.`,
       icon: ServerIcon,
     },
   ]

@@ -31,23 +31,23 @@ import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from '@heroicons/vue/20/
 const sectionInfo = {
   subtitle: "Keep your candidate updated",
   title: "Send email is 1 click away",
-  description: "Effective communication with candidates is crucial for a positive recruitment experience. JuggleHire's streamlined email communication feature ensures you can effortlessly keep your candidates informed every step of the way. Here are three highlighting points that make it a breeze:",
+  description: `Effective communication with candidates is essential for a positive recruitment experience. JuggleHire will allow you to easily keep your candidates informed at every stage.`,
   screenshot: "/rejection-email-ui.png",
   features: [
     {
-      name: 'Application received email',
+      name: 'Application received email:',
       description:
-        `As soon as a candidate applies, send an automatic "Application Received" email to acknowledge their submission. This not only confirms their application but also demonstrates your professionalism and commitment to a transparent process.`,
+        `Send an "Application Received" email as soon as a candidate applies to show professionalism and commitment to a transparent process.`,
       icon: CloudArrowUpIcon,
     },
     {
-      name: 'Rejection email',
-      description: `For candidates who may not be the right fit, the "Rejection Email" function allows you to send courteous and considerate rejection notices with a single click. Maintaining a positive candidate experience, even for those who are not selected, is crucial for your brand's reputation.`,
+      name: 'Rejection email:',
+      description: `The "Rejection Email" function allows you to send rejection notices quickly and with professionalism, helping you maintain a positive brand reputation.`,
       icon: LockClosedIcon,
     },
     {
-      name: 'Application status',
-      description: `Stay transparent and keep your candidates in the loop by sending "Application Status Updates" in real-time. Candidates can easily check the status of their application, reducing inquiries and ensuring they always know where they stand in the hiring process.`,
+      name: 'Application status:',
+      description: `Stay transparent and keep your candidates in the loop by sending "Application Status Updates" in real-time.`,
       icon: ServerIcon,
     },
   ]

@@ -29,23 +29,23 @@
 import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from '@heroicons/vue/20/solid'
 
 const sectionInfo = {
-  subtitle: "Get it done",
+  subtitle: "Get it Done with Ease",
   title: "Easy Job Posting",
-  description: "Finding the right candidate for your job openings has never been this effortless. JuggleHire simplifies the hiring process with a comprehensive suite of features designed to streamline your recruitment journey. Here's why you should choose us. ",
+  description: `Finding the right candidate for your job openings has never been this effortless. JuggleHire simplifies the hiring process with a comprehensive suite of features designed to streamline your recruitment journey.`,
   screenshot: "/post-job-ui.png",
   features: [
     {
-      name: 'Job Information',
+      name: 'Job Information:',
       description:'Post your job openings in minutes with our user-friendly platform. Provide all the essential details to attract the best candidates.',
       icon: CloudArrowUpIcon,
     },
     {
-      name:'Candidate Information',
+      name:'Candidate Information:',
       description:'Collect candidate information seamlessly. JuggleHire ensures you have all the data you need to make informed hiring decisions.',
       icon: LockClosedIcon,
     },
     {
-      name: 'Automated Screening',
+      name: 'Automated Screening:',
       description: 'Save time and eliminate unqualified candidates with our automated screening tools. Let technology do the heavy lifting so you can focus on the best fit for your team.',
       icon: ServerIcon,
     },
