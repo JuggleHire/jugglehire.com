@@ -31,22 +31,22 @@ import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from '@heroicons/vue/20/
 const sectionInfo = {
   subtitle: "Find Quicker",
   title: "Efficient Candidate Discovery",
-  description: `When time is of the essence, finding the right candidates swiftly is crucial. JuggleHire's "Efficient Candidate Discovery" feature empowers you to do just that. Here are three essential highlighting points that make your recruitment process faster and more effective:`,
+  description: `JuggleHire's "Efficient Candidate Discovery" feature helps you find the right candidates quickly, saving time and making your recruitment process more effective.`,
   screenshot: "/candidate-listing-ui.png",
   features: [
     {
       name: 'Smart Candidate Matching:',
-      description:`Our advanced algorithms and intelligent matching capabilities ensure that you find candidates that perfectly fit your job requirements. Say goodbye to endless scrolling through resumes – JuggleHire does the heavy lifting for you, presenting you with the best-matched candidates instantly.`,
+      description:`Our algorithms and matching capabilities help you find candidates that meet your job requirements, saving you time reviewing resumes.`,
       icon: CloudArrowUpIcon,
     },
     {
-      name: 'Streamlined Search Filters',
-      description: `With a range of powerful search filters at your disposal, you can pinpoint your ideal candidates with precision. Filter by skills, experience, location, and more, narrowing down your candidate pool to a manageable list of top prospects in a matter of seconds.`,
+      name: 'Streamlined Search Filters:',
+      description: `You can use various search filters to find your ideal candidates. These filters include skills, experience, location, and more.`,
       icon: LockClosedIcon,
     },
     {
-      name: 'Instant Notifications',
-      description: `Don't wait for candidates to come to you; let JuggleHire notify you as soon as a matching candidate applies. Receive real-time alerts to stay ahead in the recruitment game, ensuring you reach out to the best candidates promptly.`,
+      name: 'Instant Notifications:',
+      description: `Receive real-time alerts to stay ahead in the recruitment game, ensuring you reach out to the best candidates promptly.`,
       icon: ServerIcon,
     },
   ]
