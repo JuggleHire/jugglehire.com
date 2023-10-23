@@ -10,4 +10,13 @@ import { Dialog, DialogPanel, RadioGroup, RadioGroupLabel, RadioGroupOption } fr
 import { Bars3Icon, XMarkIcon } from '@heroicons/vue/24/outline'
 import { CheckIcon } from '@heroicons/vue/20/solid'
 
+const title = "JuggleHire Pricing | Affordable Plans for Every Small Business";
+const description = "Explore JuggleHire's pricing options designed to meet the needs of small businesses. Find the perfect plan to simplify your hiring process while keeping costs in check.";
+
+useSeoMeta({
+  title: title,
+  ogTitle: title,
+  description: description,
+  ogDescription: description,
+});
 </script>

@@ -13,6 +13,15 @@
 </template>
 
 <script setup>
+const title = "JuggleHire Blog | Insights, Tips, and Trends in Small Business Hiring";
+const description = "Stay updated with the JuggleHire blog. Get valuable insights, tips, and the latest trends in small business hiring to help you make informed decisions.";
+
+useSeoMeta({
+  title: title,
+  ogTitle: title,
+  description: description,
+  ogDescription: description,
+});
 const posts = [
   {
     id: 1,

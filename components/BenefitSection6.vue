@@ -45,12 +45,12 @@ const sectionInfo = {
     },
     {
       name: 'Automated Notifications',
-      description: `Once you've set up an interview, JuggleHire sends automated notifications to both you and the candidate. This ensures that both parties are well-informed and prepared for the interview, reducing the risk of no-shows and last-minute changes.`,
+      description: `Once you've set up an interview, JuggleHire sends automated notifications to both you and the candidate to ensures that both parties are well-informed.`,
       icon: LockClosedIcon,
     },
     {
       name: 'Communication Tracking',
-      description: `The dashboard provides a clear overview of all communication with candidates, including application emails, interview invitations, status updates, and feedback. Monitor the status of each candidate's journey in one centralized location.`,
+      description: `The dashboard provides a clear overview of all communication with candidates, including application emails, interview invitations, status updates, and feedback.`,
       icon: ServerIcon,
     },
   ]

@@ -15,12 +15,13 @@
 </template>
 
 <script setup>
-  const priorityFeatures = [
-    {
+  const title = "JuggleHire | Simplifying Hiring for Busy Founders & Recruiters";
+  const description = "Welcome to JuggleHire, your trusted partner in streamlining the hiring process. Discover how our recruitment software can make hiring easy for busy founders, entrepreneurs, and small business owners.";
 
-    },
-    {
-
-    },
-  ]
+  useSeoMeta({
+    title: title,
+    ogTitle: title,
+    description: description,
+    ogDescription: description,
+  });
 </script>
