@@ -8,13 +8,7 @@
                 <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
                     JuggleHire: Your Ultimate Hiring Solution
                 </p>
-                <p class="mt-6 text-lg leading-8 text-gray-600">In today's fast-paced world, efficiency is the key to
-                    success. JuggleHire is here to help you stay ahead in the
-                    competitive hiring landscape. Our platform is your ultimate hiring solution, designed to simplify
-                    and accelerate your
-                    recruitment process. We understand that time is of the essence, and that's why we've created a
-                    solution that empowers
-                    you to find the right candidates swiftly and effortlessly.</p>
+                <p class="mt-6 text-lg leading-8 text-gray-600">JuggleHire simplifies and accelerates your recruitment process, helping you find the right candidates swiftly in today's competitive hiring landscape.</p>
             </div>
         </div>
         <div class="relative overflow-hidden pt-16">

@@ -47,6 +47,12 @@ export default defineNuxtConfig({
                 "availableLanguage": "English",
                 "sameAs": "https://api.whatsapp.com/send?phone=8801625592566"
               },
+              "founder": {
+                "@type": "Person",
+                "name": "Zakir Hossen",
+                "email": "web.zakirbd@gmail.com",
+                "jobTitle": "Founder & CEO"
+              },
               "sameAs": [
                 "https://www.linkedin.com/company/jugglehire",
                 "https://facebook.com/groups/jugglehire"

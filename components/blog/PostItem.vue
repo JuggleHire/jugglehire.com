@@ -11,7 +11,7 @@
           <circle cx="1" cy="1" r="1" />
         </svg>
         <div class="flex gap-x-2.5">
-          <img :src="post.author.imageUrl" :alt="post.title" class="h-6 w-6 flex-none rounded-full bg-white/10" />
+          <img :src="post.author.imageUrl" :alt="post.author.name" class="h-6 w-6 flex-none rounded-full bg-white/10" />
           {{ post.author.name }}
         </div>
       </div>
