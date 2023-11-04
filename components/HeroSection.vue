@@ -97,12 +97,15 @@
 
             axios.post(loopsAPI, formBody)
                 .then(response => {
-                    name.value = '';
-                    email.value = '';
                     success.value = true;
                     error.value = false;
+                    // Construct the dynamic URL with name and email
+                    const dynamicUrl = `https://app.jugglehire.com/register?name=${name.value}&email=${email.value}`;
 
-                    location.href = `https://app.jugglehire.com/register?${formBody}`;
+                    // Redirect the user to the dynamic URL after success
+                    window.location.href = dynamicUrl;
+                    name.value = '';
+                    email.value = '';
                 })
                 .catch(error => {
                     console.error('An error occurred:', error);
