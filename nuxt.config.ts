@@ -12,10 +12,9 @@ export default defineNuxtConfig({
       meta: [
         { charset: "utf-8" },
         { name: "viewport", content: "width=device-width, initial-scale=1" },
-        { hid: "description", name: "description",
-          content: "JuggleHire is a recruitment software solution designed to simplify the hiring process. It's aimed at making the hiring journey easy and efficient for everyone.",
+        { name: "description", content: "JuggleHire is a recruitment software solution designed to simplify the hiring process. It's aimed at making the hiring journey easy and efficient for everyone.",
         },
-        { hid: "og:image", property: "og:image", content: "/jugglehire.com.jpg" },
+        { property: "og:image", content: "/jugglehire.com.jpg" },
       ],
       link: [{ rel: "icon", type: "image/png", href: "/favicon.svg" }],
       script: [
