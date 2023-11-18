@@ -1,11 +1,11 @@
 <template>
-    <div class="bg-white py-24 sm:py-32">
+    <div class="bg-white py-16 sm:py-32">
 
         <!-- Feature section -->
         <div class="mx-auto max-w-7xl px-6 lg:px-8">
             <div class="mx-auto max-w-2xl sm:text-center">
                 <h2 class="text-base font-semibold leading-7 text-blue-600">Recruit faster</h2>
-                <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+                <p class="mt-2 text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl">
                     JuggleHire: Your Ultimate Hiring Solution
                 </p>
                 <p class="mt-6 text-lg leading-8 text-gray-600">JuggleHire simplifies and accelerates your recruitment process, helping you find the right candidates swiftly in today's competitive hiring landscape.</p>

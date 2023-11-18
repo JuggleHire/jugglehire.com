@@ -9,12 +9,12 @@
   <div class="mx-auto max-w-7xl px-6 lg:px-8">
     <div class="mx-auto max-w-xl text-center">
       <h2 class="text-lg font-semibold leading-8 tracking-tight text-indigo-600">Testimonials</h2>
-      <p class="mt-2 text-3xl font-bold tracking-tight leading-loose text-gray-900 sm:text-4xl">
+      <p class="mt-2 text-2xl font-bold text-gray-900 sm:text-4xl">
         Our Impact, Your Success <br> Stories from Thriving Partnerships
       </p>
     </div>
 
-    <div class="mx-auto max-w-7xl pt-32 px-6 lg:px-8">
+    <div class="mx-auto max-w-7xl md:pt-32 pt-16 px-6 lg:px-8">
       <div class="mx-auto grid max-w-2xl grid-cols-1 lg:mx-0 lg:max-w-none lg:grid-cols-2">
         <div class="flex flex-col pb-10 sm:pb-16 lg:pb-0 lg:pr-8 xl:pr-20">
           <img class="h-12 self-start" src="https://tailwindui.com/img/logos/tuple-logo-gray-900.svg" alt="">

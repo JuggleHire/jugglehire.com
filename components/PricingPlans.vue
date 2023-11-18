@@ -13,7 +13,7 @@
       </RadioGroup>
     </div>
     <div class="isolate mx-auto mt-10 grid max-w-md grid-cols-1 gap-8 lg:mx-0 lg:max-w-none lg:grid-cols-3">
-      <div v-for="tier in tiers" :key="tier.id" :class="[tier.mostPopular ? 'bg-white/5 ring-2 ring-blue-500' : 'ring-1 ring-white/10', 'rounded-3xl p-8 xl:p-10']">
+      <div v-for="tier in tiers" :key="tier.id" :class="[tier.mostPopular ? 'bg-white/5 ring-2 ring-blue-500' : 'ring-1 ring-white/10', 'rounded-3xl p-5 sm:p-8 xl:p-10']">
         <div class="flex items-center justify-between gap-x-4">
           <h3 :id="tier.id" class="text-lg font-semibold leading-8 text-white">{{ tier.name }}</h3>
           <p v-if="tier.mostPopular" class="rounded-full bg-blue-500 px-2.5 py-1 text-xs font-semibold leading-5 text-white">Most popular</p>
