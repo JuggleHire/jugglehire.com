@@ -2,7 +2,7 @@
   <div class="bg-gray-900 relative z-50">
     <!-- <header class="absolute inset-x-0 top-0 z-50"> -->
     <header class="">
-      <nav class="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
+      <nav class="flex items-center justify-between p-6 lg:px-8 max-w-7xl mx-auto" aria-label="Global">
         <div class="flex lg:flex-1">
           <nuxt-link href="/" class="-m-1.5 p-1.5">
             <span class="sr-only">JuggleHire</span>
@@ -32,7 +32,7 @@
                         <component :is="item.icon" class="h-6 w-6 text-gray-600 group-hover:text-blue-600" aria-hidden="true" />
                       </div>
                       <div>
-                        <a :href="item.href" class="font-semibold text-gray-900">
+                        <a href="javascript:void()" class="font-semibold text-gray-900">
                           {{ item.name }}
                           <span class="absolute inset-0" />
                         </a>
@@ -53,16 +53,15 @@
           <nuxt-link v-for="item in navigation" :key="item.name" :to="item.href" class="text-sm font-semibold leading-6 text-white">{{ item.name }}</nuxt-link>
         </div>
         <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-          <!-- <a href="https://facebook.com/groups/useJuggleHire" target="_blank" class="text-sm font-semibold leading-6 text-white">
-            Join our Facebook Group
-            <span aria-hidden="true">&rarr;</span>
-          </a> -->
 
-          <a href="https://app.jugglehire.com/register" class="ml-auto flex items-center gap-x-1 rounded-md bg-blue-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600">
+          <a href="https://app.jugglehire.com/register" class="mr-1 flex items-center gap-x-1 rounded-md bg-blue-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600">
             <svg class="-ml-1.5 h-5 w-5" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
               <path d="M10.75 6.75a.75.75 0 00-1.5 0v2.5h-2.5a.75.75 0 000 1.5h2.5v2.5a.75.75 0 001.5 0v-2.5h2.5a.75.75 0 000-1.5h-2.5v-2.5z" />
             </svg>
             Get Beta Access
+          </a>
+          <a href="https://app.jugglehire.com/login" class="flex items-center gap-x-1 rounded-md px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-blue-200 hover:text-black focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600">
+            Login
           </a>
         </div>
       </nav>
@@ -130,8 +129,8 @@
 
   ]
   const callsToAction = [
-    { name: 'Request Access', href: '#', icon: KeyIcon },
-    { name: 'Facebook Group', href: '#', icon: UserGroupIcon },
+    { name: 'Request Beta Access', href: 'https://app.jugglehire.com/register', icon: KeyIcon },
+    { name: 'Facebook Group', href: 'https://fb.com/groups/jugglehire', icon: UserGroupIcon },
   ]
 </script>
 
