@@ -112,6 +112,7 @@
   const navigation = [
     { name: 'Pricing', href: '/pricing' },
     { name: 'Public Roadmap', href: '/roadmap' },
+    { name: 'Wall of Love ❤', href: '/wall-of-love' },
     { name: 'Blog', href: '/blog' },
   ]
 

@@ -35,7 +35,7 @@ const sectionInfo = {
   subtitle: "Seamless Interview",
   title: "Scheduling with JuggleHire",
   description: `Efficiently coordinating interviews is essential for a successful hiring process, and we simplifies this task. We offer you a hassle-free way to set up interviews with candidates, ensuring a smooth and productive experience.`,
-  screenshot: "/candidate-sorting-ui.png",
+  screenshot: "/interview-schedule.png",
   features: [
     {
       name: 'Calendar Integration:',
