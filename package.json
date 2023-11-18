@@ -20,6 +20,7 @@
     "@headlessui/vue": "^1.7.15",
     "@heroicons/vue": "^2.0.18",
     "@nuxtjs/robots": "^3.0.0",
-    "axios": "^1.5.1"
+    "axios": "^1.5.1",
+    "vue-datocms": "^4.0.5"
   }
 }
