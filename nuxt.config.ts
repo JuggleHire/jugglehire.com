@@ -23,6 +23,9 @@ export default defineNuxtConfig({
           posthog.init('phc_mYXsKFlCaX5ED0IiC5pxXRO99u1R5Bqn8V3l9ArXWSj',{api_host:'https://app.posthog.com'})`
         },
         {
+          innerHTML: `function loadCCWidget(){(new window["click-connector-widget"]).mount({})}function loadCCScript(){var t=document.createElement("script");t.id="cc-widget-script",t.setAttribute("data-widget-id","5bcbe0-0231e"),t.type="text/javascript",t.defer=!0,t.addEventListener("load",(function(t){loadCCWidget()})),t.src="https://widget.clickconnector.app/widget.js",document.getElementsByTagName("head")[0].appendChild(t)}loadCCScript();`,
+        },
+        {
           type: 'application/ld+json',
           innerHTML: JSON.stringify(
             {
