@@ -1,6 +1,17 @@
 <template>
   <div class="bg-gray-900">
-    <div id="roadmap" data-productlift-embed="e8d875de-5428-4b70-9469-88e61087c7b1"></div>
+
+    <div class="bg-gray-900 py-24 sm:py-32">
+      <div class="mx-auto max-w-7xl px-6 lg:px-8">
+        <div class="mx-auto max-w-4xl text-center">
+          <p class="text-base font-semibold leading-7 text-blue-400">Roadmap</p>
+          <h1 class="mt-2 text-4xl font-bold tracking-tight text-white sm:text-5xl">
+            Our Vision for Simplified Hiring
+          </h1>
+        </div>
+      </div>
+    </div>
+    <div style="min-height: 500px;" id="roadmap" data-productlift-embed="e8d875de-5428-4b70-9469-88e61087c7b1"></div>
     <!-- ProductLift SDK - Include it only once -->
   </div>
 </template>
