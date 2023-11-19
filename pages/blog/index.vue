@@ -28,4 +28,3 @@ const { data } = await useGraphqlQuery({ query: ALL_BLOG_QUERY });
 const posts = data._rawValue.allPosts;
 </script>
 
-<style></style>
