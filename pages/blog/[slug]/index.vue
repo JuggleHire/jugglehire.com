@@ -26,9 +26,9 @@
                                 <div class="md:w-52 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
                                     <span class="font-semibold title-font text-gray-700"
                                         v-for="(tag, index) in item.tags" :key="index">{{ tag.name }}</span>
-                                    <span class="mt-1 text-gray-500 text-sm">{{
-                                        item.updatedAt
-                                        }}</span>
+                                    <span class="mt-1 text-gray-500 text-sm">
+                                      {{ formateDate(item.updatedAt) }}
+                                    </span>
                                 </div>
                                 <div class="md:flex-grow">
                                     <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">
@@ -60,7 +60,7 @@
 </template>
 
 <script setup>
-    // import dayjs from "dayjs";
+    import dayjs from "dayjs";
     import BLOG_DETAILS from "~/graphql/blog/postDetails";
     const route = useRoute();
     const { slug } = route?.params;
@@ -69,6 +69,9 @@
         query: BLOG_DETAILS,
         variables: { slug },
     });
+    const formateDate = (data) => {
+        return dayjs(data).format("D MMMM, YYYY");
+    };
     const post = ref([]);
     const relatedPosts = ref([]);
     post.value = data._rawValue.post;

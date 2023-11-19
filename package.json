@@ -21,6 +21,7 @@
     "@heroicons/vue": "^2.0.18",
     "@nuxtjs/robots": "^3.0.0",
     "axios": "^1.5.1",
-    "vue-datocms": "^4.0.5"
+    "vue-datocms": "^4.0.5",
+    "dayjs": "^1.11.9"
   }
 }

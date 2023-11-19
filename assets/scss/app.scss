@@ -1,0 +1,36 @@
+@import "./markdown.scss";
+
+// Tailwind css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.markdown-body {
+  .highlight-block,
+  .callout-block {
+    &.info {
+      background: var(--primary-600);
+      color: #fff;
+    }
+
+    &.success {
+      background: #188629;
+      color: #fff;
+    }
+
+    &.warning {
+      background: #9f5413;
+      color: #fff;
+    }
+
+    &.danger {
+      background: #7a2b20;
+      color: #fff;
+    }
+
+    margin: 30px 0;
+    padding: 30px;
+  }
+}
+
