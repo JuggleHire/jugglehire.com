@@ -8,26 +8,26 @@
     <benefit-section-4 />
     <benefit-section-5 />
     <benefit-section-6 />
-    <div class="bg-gray-900 py-24 sm:py-32">
+    <div class="bg-gray-900 py-16 sm:py-32">
       <div class="mx-auto max-w-7xl px-6 lg:px-8">
         <div class="mx-auto max-w-4xl text-center">
           <h2 class="text-base font-semibold leading-7 text-blue-400">Pricing</h2>
-          <p class="mt-2 text-4xl font-bold tracking-tight text-white sm:text-5xl">Pricing plans for teams of&nbsp;all&nbsp;sizes</p>
+          <p class="mt-2 text-3xl font-bold tracking-tight text-white sm:text-5xl">Pricing plans for teams of&nbsp;all&nbsp;sizes</p>
         </div>
-        <p class="mx-auto mt-6 max-w-2xl text-center text-lg leading-8 text-gray-300">Choose an affordable plan that’s packed with the best features for engaging your audience, creating customer loyalty, and driving sales.</p>
+        <p class="mx-auto mt-6 max-w-2xl text-center sm:text-lg text-base sm:leading-8 text-gray-300">Choose an affordable plan that’s packed with the best features for engaging your audience, creating customer loyalty, and driving sales.</p>
         <pricing-plans />
       </div>
     </div>
     <testimonial-section />
     <stats />
 
-    <div class="bg-white py-24 sm:py-32">
+    <div class="bg-white py-16 sm:py-32">
       <div class="mx-auto max-w-7xl px-6 lg:px-8">
         <div class="mx-auto max-w-2xl text-center">
           <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">From the blog</h2>
           <p class="mt-2 text-lg leading-8 text-gray-600">Learn how to grow your business with our expert advice.</p>
         </div>
-        <div class="mx-auto mt-16 grid max-w-2xl auto-rows-fr grid-cols-1 gap-8 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+        <div class="mx-auto mt-10 grid max-w-2xl auto-rows-fr grid-cols-1 gap-8 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
           <blog-post-item v-for="post in posts" :key="post.id" :post="post" />
         </div>
       </div>

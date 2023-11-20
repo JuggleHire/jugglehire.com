@@ -1,5 +1,5 @@
 <template>
-  <article class="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl bg-gray-900 px-8 pb-8 pt-80 sm:pt-48 lg:pt-80">
+  <article class="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl bg-gray-900 sm:px-8 px-5 pb-5 sm:pb-8 pt-80 sm:pt-48 lg:pt-80">
     <img :src="post.imageUrl" :alt="post.title" class="absolute inset-0 -z-10 h-full w-full object-cover" />
     <div class="absolute inset-0 -z-10 bg-gradient-to-t from-gray-900 via-gray-900/40" />
     <div class="absolute inset-0 -z-10 rounded-2xl ring-1 ring-inset ring-gray-900/10" />

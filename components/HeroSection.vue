@@ -1,26 +1,26 @@
 <template>
     <div class="bg-gray-900">
-        <div class="relative isolate pt-14">
+        <div class="relative isolate md:pt-14 pt-0">
             <div class="absolute inset-x-0 -top-30 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
                 aria-hidden="true">
                 <div class="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#80caff] to-[#4f46e5] opacity-20 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
                     style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)" />
             </div>
-            <div class="py-24 sm:py-32 lg:pb-40">
+            <div class="py-12 sm:py-32 lg:pb-40">
                 <div class="mx-auto max-w-7xl px-6 lg:px-8">
                     <div class="mx-auto max-w-3xl text-center">
-                        <h1 class="text-6xl font-bold tracking-tight text-white sm:text-6xl">
+                        <h1 class="text-3xl font-bold tracking-tight text-white sm:text-6xl">
                             Your Go-To Hiring Software
                             <!-- Recruitment Software for Busy Founders & Recruiters -->
                         </h1>
-                        <p class="mt-6 text-xl leading-8 text-gray-300">
+                        <p class="mt-6 sm:text-xl text-base sm:leading-8 text-gray-300">
                             JuggleHire is a recruitment software solution designed to simplify the hiring process for
                             everyone. It's aimed at making the hiring journey easy and efficient, catering to
                             individuals, freelancers, small businesses, and HR professionals.
                         </p>
 
                         <!-- Buttons -->
-                        <div class="mt-8 gap-3 flex justify-center">
+                        <div class="mt-8 gap-3 flex flex-wrap justify-center">
                             <a target="_blank" class="py-3 px-4 inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href="https://app.jugglehire.com/register">
                                 Get Beta Access
                                 <svg class="flex-shrink-0 w-4 h-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
@@ -33,11 +33,11 @@
                     </div>
                 </div>
                 <!-- Logo cloud -->
-                <div class="mx-auto mt-16 max-w-7xl px-6 sm:mt-36 lg:px-8">
-                    <h2 class="text-center text-lg font-semibold leading-8 text-white">The world’s most innovative companies use JuggleHire</h2>
-                    <div class="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-6 lg:mx-0 lg:max-w-none lg:grid-cols-5">
-                        <div class="bg-white/70 rounded-lg py-2" v-for="(client, index) in clients" :key="index">
-                            <img class="col-span-2 max-h-12 w-full object-contain lg:col-span-1" :src="client.logo" :alt="client.name" width="158" height="48">
+                <div class="mx-auto md:mt-16 mt-8 max-w-7xl px-6 sm:mt-36 lg:px-8">
+                    <h2 class="text-center sm:text-lg text-base font-semibold sm:leading-8 text-white">The world’s most innovative companies use JuggleHire</h2>
+                    <div class="mx-auto mt-10 flex justify-center flex-wrap max-w-lg items-center md:gap-8 sm:gap-5 gap-4 sm:max-w-xl sm:grid-cols-6 sm:gap-x-6 lg:mx-0 lg:max-w-none lg:grid-cols-5">
+                        <div class="bg-white/70 rounded-lg px-4 py-2.5" v-for="(client, index) in clients" :key="index">
+                            <img class="sm:h-8 md:h-12 h-6 w-full object-contain" :src="client.logo" :alt="client.name" width="158" height="48">
                         </div>
                     </div>
                 </div>
