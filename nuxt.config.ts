@@ -74,7 +74,7 @@ export default defineNuxtConfig({
   ],
   css: [
     "~/assets/css/tailwind.css",
-    "~/assets/scss/app.scss",
+    "~/assets/scss/app.scss"
   ],
   modules: [
     '@nuxtjs/tailwindcss',
