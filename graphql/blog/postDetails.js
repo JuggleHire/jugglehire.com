@@ -5,28 +5,13 @@ query PostDetails($slug: String) {
   post(filter: {slug: {eq: $slug}}) {
     slug
     title
-    updatedAt
+    _updatedAt
     shortDescription
     image {
       alt
       url
     }
     description {
-      blocks
-      links {
-        ... on TagRecord {
-          id
-          slug
-        }
-        ... on ProductRecord {
-          id
-          slug
-        }
-        ... on PostRecord {
-          id
-          slug
-        }
-      }
       value
     }
     tags {
@@ -39,7 +24,7 @@ query PostDetails($slug: String) {
     title
     slug
     shortDescription
-    updatedAt
+    _updatedAt
     image {
       url
     }

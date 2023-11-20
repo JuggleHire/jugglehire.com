@@ -4,12 +4,12 @@
 
 // export const global = gql`
 export default `
-query BlogPosts {
+query BlogPost {
   allPosts(orderBy: _createdAt_DESC) {
     id
     title
     slug
-    updatedAt
+    _updatedAt
     shortDescription
     image {
       alt

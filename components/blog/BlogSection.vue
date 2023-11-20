@@ -22,6 +22,7 @@
     const description = "Read templatecookie blog. Updated Weekly";
 
     const { data } = await useGraphqlQuery({ query: ALL_BLOG_QUERY });
+    console.log(data)
     const first3Posts = data._rawValue.allPosts.slice(0, 3);
     console.log(first3Posts);
 </script>
