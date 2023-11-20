@@ -55,7 +55,6 @@
                 </section>
             </div>
         </div>
-        <h2>Hello</h2>
     </div>
 </template>
 
@@ -81,5 +80,4 @@
     const title = `${post?._rawValue?.title} | Templatecookie.com`;
     const description = post?._rawValue?.shortDescription;
     const image = post?._rawValue?.image?.url;
-
 </script>
