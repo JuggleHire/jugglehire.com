@@ -73,6 +73,7 @@ export default defineNuxtConfig({
     { src: "@/plugins/datocms.js", mode: "client" },
   ],
   css: [
+    "~/assets/css/tailwind.css",
     "~/assets/scss/app.scss",
   ],
   modules: [
