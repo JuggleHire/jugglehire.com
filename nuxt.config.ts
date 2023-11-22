@@ -4,7 +4,11 @@ export default defineNuxtConfig({
   site: {
     url: 'https://www.jugglehire.com',
   },
-
+  runtimeConfig: {
+    public: {
+      datoCmsToken: process.env.DATO_CMS_TOKEN,
+    },
+  },
   app: {
     head: {
       title: "Simplifying Hiring for Individuals and Small Businesses | useJuggleHire.com",
@@ -59,12 +63,19 @@ export default defineNuxtConfig({
                 "https://www.linkedin.com/company/jugglehire",
                 "https://facebook.com/groups/jugglehire"
               ]
-            } 
+            }
           )
         }
       ],
     },
   },
+  plugins: [
+    { src: "@/plugins/datocms.js", mode: "client" },
+  ],
+  css: [
+    "~/assets/css/tailwind.css",
+    "~/assets/scss/app.scss"
+  ],
   modules: [
     '@nuxtjs/tailwindcss',
     '@nuxtjs/robots',
