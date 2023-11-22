@@ -1,0 +1,170 @@
+.markdown-body {
+  & h1:first-of-type,
+  & h2:first-of-type {
+    margin-top: 0 !important;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    color: #232427;
+    font-weight: 400;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  p {
+    margin-bottom: 15px;
+    padding: 0;
+    margin-top: 20px;
+  }
+
+  b,
+  strong {
+    font-weight: bold;
+  }
+
+  h1 {
+    font-size: 44px;
+    margin: 30px 0 10px;
+  }
+
+  h2 {
+    font-size: 32px;
+    margin: 25px 0 10px;
+  }
+
+  h3 {
+    font-size: 28px;
+    margin: 20px 0 10px;
+  }
+
+  h4 {
+    font-size: 24px;
+    margin: 15px 0 10px;
+  }
+
+  h5 {
+    font-size: 20px;
+    margin: 10px 0 10px;
+  }
+
+  h6 {
+    font-size: 16px;
+    margin: 10px 0 10px;
+  }
+
+  a {
+    color: #0099ff;
+  }
+
+  ul,
+  ol {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 1.5rem;
+  }
+
+  li {
+    line-height: 24px;
+  }
+
+  ul li,
+  ol li {
+    margin-left: 24px;
+    margin-bottom: 5px;
+  }
+
+  p,
+  ul,
+  ol {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  &.docs-details {
+    p,
+    ul,
+    ol {
+      max-width: 600px;
+    }
+  }
+
+  ul {
+    list-style-type: disc;
+  }
+
+  ol {
+    list-style-type: decimal;
+  }
+
+  pre {
+    padding: 10px 24px;
+    max-width: 800px;
+    white-space: pre-wrap;
+    code {
+      background-color: transparent;
+      padding: 0;
+    }
+  }
+
+  code {
+    font-family:
+      Consolas,
+      Monaco,
+      Andale Mono,
+      monospace;
+    line-height: 1.5;
+    font-size: 13px;
+    background-color: rgba(#0099ff, 0.1);
+    padding: 2px 4px;
+  }
+
+  aside {
+    display: block;
+    float: right;
+    width: 390px;
+  }
+
+  blockquote {
+    padding: 1rem 2rem;
+    margin-bottom: 1.5rem;
+    max-width: 500px;
+    border-left: 4px solid #0099ff;
+  }
+
+  blockquote p {
+    color: #666;
+    max-width: 100%;
+  }
+
+  hr {
+    width: 600px;
+    text-align: left;
+    margin: 0 auto 0 0;
+    color: #999;
+    margin-bottom: 20px;
+  }
+
+  table {
+    border-collapse: collapse;
+    margin: 1em 1em;
+    border: 1px solid #ccc;
+  }
+
+  table thead {
+    background-color: #eee;
+  }
+
+  // table thead td {
+  //   color: #666;
+  // }
+
+  table td {
+    padding: 0.5em 1em;
+    border: 1px solid #ccc;
+  }
+}
