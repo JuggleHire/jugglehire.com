@@ -23,7 +23,9 @@
           <span class="text-4xl font-bold tracking-tight text-white">{{ tier.price[frequency.value] }}</span>
           <span class="text-sm font-semibold leading-6 text-gray-300">{{ frequency.priceSuffix }}</span>
         </p>
-        <a :href="tier.href" :aria-describedby="tier.id" :class="[tier.mostPopular ? 'bg-blue-500 text-white shadow-sm hover:bg-blue-400 focus-visible:outline-blue-500' : 'bg-white/10 text-white hover:bg-white/20 focus-visible:outline-white', 'mt-6 block rounded-md py-2 px-3 text-center text-sm font-semibold leading-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2']">Buy plan</a>
+        <a :href="tier.href" :aria-describedby="tier.id" :class="[tier.mostPopular ? 'bg-blue-500 text-white shadow-sm hover:bg-blue-400 focus-visible:outline-blue-500' : 'bg-white/10 text-white hover:bg-white/20 focus-visible:outline-white', 'mt-6 block rounded-md py-2 px-3 text-center text-sm font-semibold leading-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2']">
+        Get Free Beta Access
+        </a>
         <ul role="list" class="mt-8 space-y-3 text-sm leading-6 text-gray-300 xl:mt-10">
           <li v-for="feature in tier.features" :key="feature" class="flex gap-x-3">
             <CheckIcon class="h-6 w-5 flex-none text-white" aria-hidden="true" />
@@ -66,7 +68,8 @@ const tiers = [
     name: 'Startup',
     id: 'tier-startup',
     href: '#',
-    price: { monthly: '$19', annually: '$13.30' },
+    // price: { monthly: '$19', annually: '$13.30' },
+    price: { monthly: 'Free', annually: 'Free' },
     description: 'A plan that scales with your rapidly growing business.',
     features: [
       'All from freelancer plan',
@@ -80,7 +83,8 @@ const tiers = [
     name: 'Elite',
     id: 'tier-enterprise',
     href: '#',
-    price: { monthly: '$39', annually: '$27.30' },
+    // price: { monthly: '$39', annually: '$27.30' },
+    price: { monthly: 'Free', annually: 'Free' },
     description: 'Dedicated support and infrastructure for your company.',
     features: [
       'All from Startup Plan',
