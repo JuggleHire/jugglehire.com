@@ -8,7 +8,7 @@
     <benefit-section-4 />
     <benefit-section-5 />
     <benefit-section-6 />
-    <div class="bg-gray-900 py-16 sm:py-32">
+    <!-- <div class="bg-gray-900 py-16 sm:py-32">
       <div class="mx-auto max-w-7xl px-6 lg:px-8">
         <div class="mx-auto max-w-4xl text-center">
           <h2 class="text-base font-semibold leading-7 text-blue-400">Pricing</h2>
@@ -17,7 +17,7 @@
         <p class="mx-auto mt-6 max-w-2xl text-center sm:text-lg text-base sm:leading-8 text-gray-300">Choose an affordable plan that’s packed with the best features for engaging your audience, creating customer loyalty, and driving sales.</p>
         <pricing-plans />
       </div>
-    </div>
+    </div> -->
     <testimonial-section />
     <stats />
 
