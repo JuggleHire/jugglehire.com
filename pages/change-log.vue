@@ -6,7 +6,7 @@
                 <span class="block mt-0.5">Updates</span>
             </span>
             <h2 class="text-3xl font-bold dark:text-white">Changelog</h2>
-            <p class="mt-2 md:text-lg text-gray-600 dark:text-gray-400">See what's new added, changed, fixed, improved
+            <p class="mt-2 md:text-lg text-gray-800 dark:text-gray-400">See what's new added, changed, fixed, improved
                 or
                 updated.</p>
         </div>
@@ -77,27 +77,27 @@
                         </p>
 
                         <ul class="sm:list-disc text-gray-900 sm:ms-5 mt-3 space-y-1.5 dark:text-gray-200">
-                            <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                            <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                 <span class="inline-flex items-center gap-x-2 text-gray-800 dark:text-gray-200">
                                     Hundreds of new Components
                                 </span>
                             </li>
-                            <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                            <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                 <span class="inline-flex items-center gap-x-2 text-gray-800 dark:text-gray-200">
                                     9 new Plugins
                                 </span>
                             </li>
-                            <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                            <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                 <span class="inline-flex items-center gap-x-2 text-gray-800 dark:text-gray-200">
                                     Third-Party Plugins Integrations
                                 </span>
                             </li>
-                            <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                            <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                 <span class="inline-flex items-center gap-x-2 text-gray-800 dark:text-gray-200">
                                     TypeScript Support
                                 </span>
                             </li>
-                            <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                            <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                 <span class="inline-flex items-center gap-x-2 text-gray-800 dark:text-gray-200">
                                     and many more..
                                 </span>
@@ -135,7 +135,7 @@
                         <!-- New Examples pages -->
                         <div class="mt-5 sm:mt-10">
                             <div
-                                class="inline-flex items-center gap-x-2 bg-gray-100 p-1 pe-3.5 text-sm text-gray-600 rounded-full dark:bg-slate-800 dark:text-gray-400">
+                                class="inline-flex items-center gap-x-2 bg-gray-100 p-1 pe-3.5 text-sm text-gray-800 rounded-full dark:bg-slate-800 dark:text-gray-400">
                                 <span
                                     class="inline-flex justify-center items-center w-7 h-7 rounded-full bg-white shadow-md text-indigo-600 dark:bg-slate-900">
                                     <svg class="w-3.5 h-3.5" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
@@ -149,32 +149,32 @@
                             </div>
 
                             <ul class="sm:list-disc text-gray-900 sm:ms-5 mt-3 space-y-1.5 dark:text-gray-200">
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Examples:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../examples/hero-forms.html">
                                         Hero Forms
                                     </a>
                                 </li>
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Examples:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../examples/galleries.html">
                                         Galleries
                                     </a>
                                 </li>
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Examples:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../examples/application-tables.html">
                                         Application Tables
                                     </a>
@@ -186,7 +186,7 @@
                         <!-- New Plugins -->
                         <div class="mt-5 sm:mt-10">
                             <div
-                                class="inline-flex items-center gap-x-2 bg-gray-100 p-1 pe-3.5 text-sm text-gray-600 rounded-full dark:bg-slate-800 dark:text-gray-400">
+                                class="inline-flex items-center gap-x-2 bg-gray-100 p-1 pe-3.5 text-sm text-gray-800 rounded-full dark:bg-slate-800 dark:text-gray-400">
                                 <span
                                     class="inline-flex justify-center items-center w-7 h-7 rounded-full bg-white shadow-md text-indigo-600 dark:bg-slate-900">
                                     <svg class="w-3.5 h-3.5" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
@@ -200,100 +200,100 @@
                             </div>
 
                             <ul class="sm:list-disc text-gray-900 sm:ms-5 mt-3 space-y-1.5 dark:text-gray-200">
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Plugins:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../plugins/html/advanced-select.html">
                                         Advanced Select
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Plugins:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../plugins/html/input-number.html">
                                         Input Number
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Plugins:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../plugins/html/strong-password.html">
                                         Strong Password
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Plugins:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../plugins/html/toggle-password.html">
                                         Toggle Password
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Plugins:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../plugins/html/toggle-count.html">
                                         Toggle Count
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Plugins:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../plugins/html/copy-markup.html">
                                         Copy Markup
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Plugins:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../plugins/html/pin-input.html">
                                         PIN Input
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Plugins:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../plugins/html/stepper.html">
                                         Stepper
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Plugins:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../plugins/html/carousel.html">
                                         Carousel
                                     </a>
@@ -305,7 +305,7 @@
                         <!-- New Components -->
                         <div class="mt-5 sm:mt-10">
                             <div
-                                class="inline-flex items-center gap-x-2 bg-gray-100 p-1 pe-3.5 text-sm text-gray-600 rounded-full dark:bg-slate-800 dark:text-gray-400">
+                                class="inline-flex items-center gap-x-2 bg-gray-100 p-1 pe-3.5 text-sm text-gray-800 rounded-full dark:bg-slate-800 dark:text-gray-400">
                                 <span
                                     class="inline-flex justify-center items-center w-7 h-7 rounded-full bg-white shadow-md text-indigo-600 dark:bg-slate-900">
                                     <svg class="w-3.5 h-3.5" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
@@ -319,947 +319,947 @@
                             </div>
 
                             <ul class="sm:list-disc text-gray-900 sm:ms-5 mt-3 space-y-1.5 dark:text-gray-200">
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Component Plugin:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/advanced-select.html">
                                         Advanced Select
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Component Plugin:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/strong-password.html">
                                         Strong Password
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Component Plugin:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/toggle-password.html">
                                         Toggle Password
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Component Plugin:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/toggle-count.html">
                                         Toggle Count
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Component Plugin:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/copy-markup.html">
                                         Copy Markup
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Component Plugin:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/charts.html">
                                         Charts
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Component Plugin:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/datamaps.html">
                                         Datamaps
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Component Plugin:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/text-editor.html">
                                         WYSIWYG Editor
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Component Plugin:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/clipboard.html">
                                         Clipboard
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Component Content:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/typography.html">
                                         Typography
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Component Content:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/images.html">
                                         Images
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Component Content:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/links.html">
                                         Links
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Component Content:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/dividers.html">
                                         Dividers and &lt;hr&gt;
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Component Content:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/kbd.html">
                                         KBD
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Component Content:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/custom-scrollbar.html">
                                         Custom scrollbar
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Component Base:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/chat-bubbles.html">
                                         Chat Bubbles
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Component Base:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/carousel.html">
                                         Carousel
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Component Base:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/datepicker.html">
                                         Datepicker
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Component Base:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/file-uploading-progress-form.html">
                                         File Uploading Progress Form
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Component Base:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/ratings.html">
                                         Ratings
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Component Base:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/stepper.html">
                                         Stepper
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Component Base:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/timeline.html">
                                         Timeline
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Header:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/navbar.html#alignment">
                                         Center aligned navbar option
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Mega Meny:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/mega-menu.html#columns">
                                         Columns
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Component Basic Forms:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/input-number.html">
                                         Input Number
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Component Basic Forms:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/range-slider.html">
                                         Range Slider
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Component Basic Forms:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/color-picker.html">
                                         Color Picker
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Accordion:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/accordion.html#active-content-bordered">
                                         Active content bordered
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Alerts:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/alerts.html#bordered-styles">
                                         Bordered styles
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Avatar:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/avatar.html#avatar-examples">
                                         Avatar Examples
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Avatar:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/avatar.html#solid-color-variants">
                                         Solid color variants
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Avatar:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/avatar.html#soft-color-variants">
                                         Soft color variants
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Avatar:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/avatar.html#outline-color-variants">
                                         Outline color variants
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Avatar:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/avatar.html#white-color-variants">
                                         White color variants
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Avatar Group:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/avatar-group.html#with-tooltip">
                                         With Tooltip
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Badge:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/badge.html#outline-color-variants">
                                         Outline color variants
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Badge:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/badge.html#working-with-icons">
                                         Working with icons
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Badge:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/badge.html#badge-with-avatar">
                                         Badge with Avatar
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Badge:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/badge.html#animation">
                                         Animation
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Badge:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/badge.html#button">
                                         Button
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Buttons:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/buttons.html#white-color-variants">
                                         White Color Button Variants
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Buttons:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/buttons.html#link-color-variants">
                                         Link Color Button Variants
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Buttons:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/buttons.html#button-examples">
                                         Button examples
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Button Group:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/button-group.html#toolbar">
                                         Toolbar
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Card:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/card.html#top-bordered-card">
                                         Top bordered card
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Card:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/card.html#panel-actions">
                                         Panel actions
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Lists:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/lists.html#list-marker">
                                         List marker
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         List Group:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/list-group.html#list-group-invoice">
                                         List group invoice
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         List Group:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/list-group.html#list-group-examples">
                                         List group examples
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Progress:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/progress.html#label-at-end">
                                         Label at the end
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Progress:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/progress.html#title-label">
                                         Title label
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Progress:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/progress.html#floating-label">
                                         Floating label
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Progress:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/progress.html#shape">
                                         Shape
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Progress:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/progress.html#steps">
                                         Steps
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Progress:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/progress.html#circular-progress">
                                         Circular Progress
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Toasts:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/toasts.html#avatar">
                                         Avatar
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Toasts:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/toasts.html#progress">
                                         Progress
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Tabs:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/tabs.html#horizontal-scroll">
                                         Horizontal scroll
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Breadcrumb:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/breadcrumb.html#bordered">
                                         Bordered
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Breadcrumb:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/breadcrumb.html#more-static-button">
                                         "More" static button
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Breadcrumb:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/breadcrumb.html#more-button-with-dropdown">
                                         "More" button with Dropdown
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Pagination:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/pagination.html#bordered">
                                         Bordered
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Pagination:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/pagination.html#bordered-group">
                                         Bordered Group
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Pagination:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/pagination.html#stretched">
                                         Stretched
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Pagination:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/pagination.html#mini-size">
                                         Mini size
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Pagination:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/pagination.html#working-with-icons">
                                         Working with tooltip
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Pagination:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/pagination.html#jumper">
                                         Jumper
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Pagination:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/pagination.html#more-with-dropdown">
                                         More with Dropdown
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Pagination:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/pagination.html#sizes">
                                         Sizes
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Pagination:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/pagination.html#shape">
                                         Shape
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Input:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/input.html#gray-input">
                                         Gray input
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Input:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/input.html#underline-input">
                                         Underline input
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Input:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/input.html#floating-label">
                                         Floating label
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Textarea:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/textarea.html#gray-input">
                                         Gray input
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Textarea:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/textarea.html#underline-input">
                                         Underline input
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Textarea:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/textarea.html#floating-label">
                                         Floating label
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Select:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/select.html#gray-input">
                                         Gray input
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Select:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/select.html#floating-label">
                                         Floating label
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Switch:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/switch.html#with-icons">
                                         With Icons
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Switch:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/switch.html#sizes">
                                         Sizes
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Switch:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/switch.html#solid-color-variant">
                                         Solid color
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Switch:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/switch.html#soft-color-variant">
                                         Soft color variant
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Popover:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/popover.html#review-popover-example">
                                         Review popover example
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Popover:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/popover.html#user-popover-example">
                                         User popover example
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Modal:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/modal.html#custom-backdrop-color">
                                         Custom backdrop color
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Offcanvas:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/offcanvas.html#custom-backdrop-color">
                                         Custom backdrop color
                                     </a>
@@ -1270,7 +1270,7 @@
 
                         <div id="v2_0_0-breaking-changes" class="mt-5 sm:mt-10">
                             <div
-                                class="inline-flex items-center gap-x-2 bg-gray-100 p-1 pe-3.5 text-sm text-gray-600 rounded-full dark:bg-slate-800 dark:text-gray-400">
+                                class="inline-flex items-center gap-x-2 bg-gray-100 p-1 pe-3.5 text-sm text-gray-800 rounded-full dark:bg-slate-800 dark:text-gray-400">
                                 <span
                                     class="inline-flex justify-center items-center w-7 h-7 rounded-full bg-white shadow-md text-red-600 dark:bg-slate-900">
                                     <svg class="w-3.5 h-3.5" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
@@ -1284,17 +1284,17 @@
                             </div>
 
                             <ul class="sm:list-disc text-gray-900 sm:ms-5 mt-3 space-y-1.5 dark:text-gray-200">
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Dropped:
                                     </span>
                                     Bootstrap Icons in favor of <a
-                                        class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                        class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="https://lucide.dev/" target="_blank">Lucide</a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Changed:
@@ -1304,79 +1304,79 @@
                                     components
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Renamed:
                                     </span>
                                     Modal in the <a
-                                        class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                        class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../plugins.html">Plugins</a> to <a
-                                        class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                        class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../overlay.html">Overlay</a>.
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Dropped:
                                     </span>
                                     Mega Menu in the <a
-                                        class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                        class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../plugins.html">Plugins</a> page causing confusion due to duplication
                                     with
                                     the <a
-                                        class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                        class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../plugins/html/dropdown.html">Dropdown</a>. However, full examples are in
                                     the
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/mega-menu.html">Component pages.</a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Dropped:
                                     </span>
                                     Offcanvas in the <a
-                                        class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                        class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../plugins.html">Plugins</a> page causing confusion due to duplication
                                     with
                                     the
                                     Modal. However, full examples are in the <a
-                                        class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                        class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/offcanvas.html">Component pages.</a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Dropped:
                                     </span>
                                     Sidebar in the <a
-                                        class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                        class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../plugins.html">Plugins</a> page causing confusion due to duplication
                                     with
                                     the
                                     Modal. However, full examples are in the <a
-                                        class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                        class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/sidebar.html">Component pages.</a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Dropped:
                                     </span>
                                     Popover in the <a
-                                        class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                        class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../plugins.html">Plugins</a> page causing confusion due to duplication
                                     with
                                     the <a
-                                        class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                        class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../plugins/html/tooltip.html">Tooltip</a>. However, full examples are in
                                     the
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/popover.html">Component pages.</a>
                                 </li>
                             </ul>
@@ -1385,7 +1385,7 @@
                         <!-- Code Improved Components -->
                         <div class="mt-5 sm:mt-10">
                             <div
-                                class="inline-flex items-center gap-x-2 bg-gray-100 p-1 pe-3.5 text-sm text-gray-600 rounded-full dark:bg-slate-800 dark:text-gray-400">
+                                class="inline-flex items-center gap-x-2 bg-gray-100 p-1 pe-3.5 text-sm text-gray-800 rounded-full dark:bg-slate-800 dark:text-gray-400">
                                 <span
                                     class="inline-flex justify-center items-center w-7 h-7 rounded-full bg-white shadow-md text-indigo-600 dark:bg-slate-900">
                                     <svg class="w-3.5 h-3.5" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
@@ -1399,134 +1399,134 @@
                             </div>
 
                             <ul class="sm:list-disc text-gray-900 sm:ms-5 mt-3 space-y-1.5 dark:text-gray-200">
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/accordion.html">
                                         Accordion
                                     </a>
                                 </li>
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/alerts.html">
                                         Alerts
                                     </a>
                                 </li>
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/avatar.html">
                                         Avatar
                                     </a>
                                 </li>
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/badge.html">
                                         Badge
                                     </a>
                                 </li>
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/blockquote.html">
                                         Blockquote
                                     </a>
                                 </li>
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/buttons.html">
                                         Buttons
                                     </a>
                                 </li>
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/button-group.html">
                                         Button Group
                                     </a>
                                 </li>
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/card.html">
                                         Card
                                     </a>
                                 </li>
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/collapse.html">
                                         Collapse
                                     </a>
                                 </li>
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/list-group.html">
                                         List Group
                                     </a>
                                 </li>
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/lists.html">
                                         Lists
                                     </a>
                                 </li>
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/static-icons.html">
                                         Static Icons
                                     </a>
                                 </li>
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/toasts.html">
                                         Toasts
                                     </a>
                                 </li>
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/navs.html">
                                         Navs
                                     </a>
                                 </li>
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/tabs.html">
                                         Tabs
                                     </a>
                                 </li>
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/scrollspy.html">
                                         Scrollspy
                                     </a>
                                 </li>
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/mega-menu.html">
                                         Mega Menu
                                     </a>
                                 </li>
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/breadcrumb.html">
                                         Breadcrumb
                                     </a>
                                 </li>
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/pagination.html">
                                         Pagination
                                     </a>
                                 </li>
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/input.html">
                                         Input
                                     </a>
                                     and
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/textarea.html">
                                         Textarea
                                     </a>
                                     are now in sepearate files
                                 </li>
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/dropdown.html">
                                         Dropdown
                                     </a>
@@ -1534,91 +1534,91 @@
 
                                 <!-- :disabled Improved Components -->
                                 <li class="ps-5">
-                                    <div class="text-sm text-gray-600 dark:text-gray-400">
+                                    <div class="text-sm text-gray-800 dark:text-gray-400">
                                         Added <code>:disabled</code> class style by default for components:
                                     </div>
 
                                     <ul class="sm:list-disc text-gray-900 ms-1.5 mt-3 space-y-1.5 dark:text-gray-200">
-                                        <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
-                                            <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                        <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
+                                            <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                                 href="../docs/accordion.html">
                                                 Accordion
                                             </a>
                                         </li>
-                                        <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
-                                            <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                        <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
+                                            <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                                 href="../docs/alerts.html">
                                                 Alerts
                                             </a>
                                         </li>
-                                        <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
-                                            <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                        <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
+                                            <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                                 href="../docs/badge.html">
                                                 Badge
                                             </a>
                                         </li>
-                                        <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
-                                            <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                        <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
+                                            <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                                 href="../docs/buttons.html">
                                                 Buttons
                                             </a>
                                         </li>
-                                        <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
-                                            <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                        <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
+                                            <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                                 href="../docs/toasts.html">
                                                 Toasts
                                             </a>
                                         </li>
-                                        <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
-                                            <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                        <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
+                                            <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                                 href="../docs/navs.html">
                                                 Navs
                                             </a>
                                         </li>
-                                        <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
-                                            <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                        <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
+                                            <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                                 href="../docs/tabs.html">
                                                 Tabs
                                             </a>
                                         </li>
-                                        <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
-                                            <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                        <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
+                                            <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                                 href="../docs/pagination.html">
                                                 Pagination
                                             </a>
                                         </li>
-                                        <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
-                                            <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                        <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
+                                            <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                                 href="../docs/input.html">
                                                 Input
                                             </a>
                                         </li>
-                                        <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
-                                            <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                        <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
+                                            <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                                 href="../docs/input-group.html">
                                                 Input Group
                                             </a>
                                         </li>
-                                        <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
-                                            <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                        <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
+                                            <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                                 href="../docs/file-input.html">
                                                 File Input
                                             </a>
                                         </li>
-                                        <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
-                                            <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                        <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
+                                            <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                                 href="../docs/checkbox.html">
                                                 Checkbox
                                             </a>
                                         </li>
-                                        <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
-                                            <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                        <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
+                                            <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                                 href="../docs/radio.html">
                                                 Radio
                                             </a>
                                         </li>
-                                        <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
-                                            <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                        <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
+                                            <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                                 href="../docs/switch.html">
                                                 Switch
                                             </a>
@@ -1633,7 +1633,7 @@
                         <!-- Fixes and Improvements -->
                         <div class="mt-5 sm:mt-10">
                             <div
-                                class="inline-flex items-center gap-x-2 bg-gray-100 p-1 pe-3.5 text-sm text-gray-600 rounded-full dark:bg-slate-800 dark:text-gray-400">
+                                class="inline-flex items-center gap-x-2 bg-gray-100 p-1 pe-3.5 text-sm text-gray-800 rounded-full dark:bg-slate-800 dark:text-gray-400">
                                 <span
                                     class="inline-flex justify-center items-center w-7 h-7 rounded-full bg-white shadow-md text-teal-600 dark:bg-slate-900">
                                     <svg class="w-3.5 h-3.5" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
@@ -1647,7 +1647,7 @@
                             </div>
 
                             <ul class="sm:list-disc text-gray-900 sm:ms-5 mt-3 space-y-1.5 dark:text-gray-200">
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Fixed:
@@ -1657,7 +1657,7 @@
                                     with
                                     <code>dark:</code> class.
                                 </li>
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Fixed:
@@ -1668,7 +1668,7 @@
                                         target="_blank">[Issue
                                         #107]</a>
                                 </li>
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Fixed:
@@ -1679,7 +1679,7 @@
                                         target="_blank">[Issue
                                         #97]</a>
                                 </li>
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Improvements:
@@ -1690,7 +1690,7 @@
                                     in
                                     Preline.
                                 </li>
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Improvements:
@@ -1698,7 +1698,7 @@
                                     <code>&lt;a href="javascript:;"&gt;...&lt;/a&gt;</code> dropped in favor of
                                     <code>&lt;button&gt;...&lt;/button&gt;</code> tag.
                                 </li>
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Improvements:
@@ -1712,7 +1712,7 @@
                                     outer <code>progress</code> element, leaving the inner bar purely for the visual
                                     presentation of the bar and optional label.
                                 </li>
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     Bunch of other fixes and improvements.
                                 </li>
                             </ul>
@@ -1779,7 +1779,7 @@
                             </a>
                         </h2>
 
-                        <p class="mt-1.5 sm:mt-3 text-sm text-gray-600 dark:text-gray-400">
+                        <p class="mt-1.5 sm:mt-3 text-sm text-gray-800 dark:text-gray-400">
                             Meet Preline UI v1.9.0 - this release features 4 AI Prompt and a new Cover Page <a
                                 class="text-gray-800 decoration-2 hover:underline font-medium dark:text-gray-200"
                                 href="../examples.html">Starter Pages &amp; Examples</a> additions.
@@ -1794,7 +1794,7 @@
                         <!-- New Examples pages -->
                         <div class="mt-5 sm:mt-10">
                             <div
-                                class="inline-flex items-center gap-x-2 bg-gray-100 p-1 pe-3.5 text-sm text-gray-600 rounded-full dark:bg-slate-800 dark:text-gray-400">
+                                class="inline-flex items-center gap-x-2 bg-gray-100 p-1 pe-3.5 text-sm text-gray-800 rounded-full dark:bg-slate-800 dark:text-gray-400">
                                 <span
                                     class="inline-flex justify-center items-center w-7 h-7 rounded-full bg-white shadow-md text-indigo-600 dark:bg-slate-900">
                                     <svg class="w-3.5 h-3.5" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
@@ -1808,67 +1808,67 @@
                             </div>
 
                             <ul class="sm:list-disc text-gray-900 sm:ms-5 mt-3 space-y-1.5 dark:text-gray-200">
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Examples:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../examples/application-ai-prompt.html">
                                         AI Prompt
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Examples:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../examples/layouts-basic.html">
                                         Cover Page
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Framework Guides:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/frameworks-solidjs.html">
                                         SolidJS
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Framework Guides:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/frameworks-qwik.html">
                                         Qwik
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Framework Guides:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/frameworks-svelte.html">
                                         Svelte
                                     </a>
                                 </li>
 
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Framework Guides:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../docs/frameworks-remix.html">
                                         Remix
                                     </a>
@@ -1880,7 +1880,7 @@
                         <!-- Fixes and Improvements -->
                         <div class="mt-5 sm:mt-10">
                             <div
-                                class="inline-flex items-center gap-x-2 bg-gray-100 p-1 pe-3.5 text-sm text-gray-600 rounded-full dark:bg-slate-800 dark:text-gray-400">
+                                class="inline-flex items-center gap-x-2 bg-gray-100 p-1 pe-3.5 text-sm text-gray-800 rounded-full dark:bg-slate-800 dark:text-gray-400">
                                 <span
                                     class="inline-flex justify-center items-center w-7 h-7 rounded-full bg-white shadow-md text-teal-600 dark:bg-slate-900">
                                     <svg class="w-3.5 h-3.5" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
@@ -1894,7 +1894,7 @@
                             </div>
 
                             <ul class="sm:list-disc text-gray-900 sm:ms-5 mt-3 space-y-1.5 dark:text-gray-200">
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Fixed:
@@ -1905,7 +1905,7 @@
                                         target="_blank">[Issue
                                         #71]</a>
                                 </li>
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Fixed:
@@ -1982,7 +1982,7 @@
                             </a>
                         </h2>
 
-                        <p class="mt-1.5 sm:mt-3 text-sm text-gray-600 dark:text-gray-400">
+                        <p class="mt-1.5 sm:mt-3 text-sm text-gray-800 dark:text-gray-400">
                             Meet Preline UI v1.8.0 - this release features 11 new <a
                                 class="text-gray-800 decoration-2 hover:underline font-medium dark:text-gray-200"
                                 href="../examples.html">Starter Pages &amp; Examples</a> additions.
@@ -1997,7 +1997,7 @@
                         <!-- New Examples pages -->
                         <div class="mt-5 sm:mt-10">
                             <div
-                                class="inline-flex items-center gap-x-2 bg-gray-100 p-1 pe-3.5 text-sm text-gray-600 rounded-full dark:bg-slate-800 dark:text-gray-400">
+                                class="inline-flex items-center gap-x-2 bg-gray-100 p-1 pe-3.5 text-sm text-gray-800 rounded-full dark:bg-slate-800 dark:text-gray-400">
                                 <span
                                     class="inline-flex justify-center items-center w-7 h-7 rounded-full bg-white shadow-md text-indigo-600 dark:bg-slate-900">
                                     <svg class="w-3.5 h-3.5" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
@@ -2011,52 +2011,52 @@
                             </div>
 
                             <ul class="sm:list-disc text-gray-900 sm:ms-5 mt-3 space-y-1.5 dark:text-gray-200">
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Examples:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../examples/page-pricing.html">
                                         Pricing Page
                                     </a>
                                 </li>
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Examples:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../examples/application-form-layouts.html">
                                         Application Forms Layouts
                                     </a>
                                 </li>
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Examples:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../examples/clients-sections.html">
                                         Clients Sections
                                     </a>
                                 </li>
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Examples:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../examples/pricing-sections.html">
                                         Pricing Sections
                                     </a>
                                 </li>
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Examples:
                                     </span>
-                                    <a class="text-gray-600 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
+                                    <a class="text-gray-800 decoration-1 hover:decoration-2 hover:text-gray-800 underline font-medium dark:text-gray-200"
                                         href="../examples/testimonials.html">
                                         Testimonials
                                     </a>
@@ -2068,7 +2068,7 @@
                         <!-- Fixes and Improvements -->
                         <div class="mt-5 sm:mt-10">
                             <div
-                                class="inline-flex items-center gap-x-2 bg-gray-100 p-1 pe-3.5 text-sm text-gray-600 rounded-full dark:bg-slate-800 dark:text-gray-400">
+                                class="inline-flex items-center gap-x-2 bg-gray-100 p-1 pe-3.5 text-sm text-gray-800 rounded-full dark:bg-slate-800 dark:text-gray-400">
                                 <span
                                     class="inline-flex justify-center items-center w-7 h-7 rounded-full bg-white shadow-md text-teal-600 dark:bg-slate-900">
                                     <svg class="w-3.5 h-3.5" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
@@ -2082,7 +2082,7 @@
                             </div>
 
                             <ul class="sm:list-disc text-gray-900 sm:ms-5 mt-3 space-y-1.5 dark:text-gray-200">
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Improved:
@@ -2090,7 +2090,7 @@
                                     Framework Guides pages with some updated content and added Stackblitz playground
                                     demos.
                                 </li>
-                                <li class="ps-1 sm:ps-1 text-sm text-gray-600 dark:text-gray-400">
+                                <li class="ps-1 sm:ps-1 text-sm text-gray-800 dark:text-gray-400">
                                     <span
                                         class="inline-flex items-center gap-x-2 text-gray-800 font-semibold dark:text-gray-200">
                                         Fixed:
