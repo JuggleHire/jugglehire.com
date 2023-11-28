@@ -17,7 +17,7 @@
                 <div class="relative z-10 sm:ps-0 sm:pb-20 sm:w-1/4 sm:text-end">
                     <div class="sm:sticky sm:top-12 sm:end-0">
                         <div class="ps-7 sm:pe-[1.6125rem]">
-                            <a class="inline-block py-1 px-2 rounded-lg text-xs font-medium bg-gray-800 text-white dark:bg-gray-700"
+                            <a class="inline-block py-1 px-2 rounded-lg text-xs font-medium bg-blue-600 text-white dark:bg-gray-700"
                                 href="#v2_0_0">
                                 v2.0.0
                             </a>
@@ -25,13 +25,13 @@
                         <div
                             class="flex items-center gap-x-3 py-2 px-3.5 bg-white border border-transparent rounded-full mt-0.5 -ms-7 sm:ms-0 sm:-me-7 dark:bg-slate-900">
                             <div class="grow order-2 sm:order-1">
-                                <span class="text-sm text-gray-500">
+                                <span class="text-sm text-gray-700">
                                     November 06, 2023
                                 </span>
                             </div>
                             <div
                                 class="flex-shrink-0 order-1 sm:order-2 h-7 w-7 flex justify-center items-center bg-white border border-slate-200 rounded-full shadow-sm dark:bg-slate-800 dark:border-slate-700">
-                                <svg class="flex-shrink-0 w-3.5 h-3.5 text-gray-500 dark:text-neutral-500"
+                                <svg class="flex-shrink-0 w-3.5 h-3.5 text-gray-700 dark:text-neutral-500"
                                     xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                     stroke-linejoin="round">
@@ -55,7 +55,7 @@
                 <!-- Right Side -->
                 <div class="relative sm:w-3/4 pb-12 sm:pb-20 ps-8 md:ps-12">
                     <div
-                        class="absolute -top-20 sm:top-0 bottom-0 start-0 sm:end-0 w-px -me-px sm:me-0 sm:-ms-px bg-slate-200 dark:bg-slate-700">
+                        class="absolute -top-20 sm:top-0 bottom-0 start-0 sm:end-0 w-px -me-px sm:me-0 sm:-ms-px bg-blue-200 dark:bg-slate-700">
                     </div>
 
                     <div>
@@ -106,7 +106,7 @@
 
                         <!-- Alert -->
                         <div
-                            class="mt-6 mb-4 bg-blue-50 border border-blue-500 text-sm text-gray-500 rounded-lg p-5 dark:bg-blue-600/[.15]">
+                            class="mt-6 mb-4 bg-blue-50 border border-blue-500 text-sm text-gray-700 rounded-lg p-5 dark:bg-blue-600/[.15]">
                             <div class="flex">
                                 <svg class="flex-shrink-0 h-4 w-4 text-blue-600 mt-0.5 dark:text-white"
                                     xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -1730,7 +1730,7 @@
                 <div class="relative z-10 sm:ps-0 sm:pb-20 sm:w-1/4 sm:text-end">
                     <div class="sm:sticky sm:top-12 sm:end-0">
                         <div class="ps-7 sm:pe-[1.6125rem]">
-                            <a class="inline-block py-1 px-2 rounded-lg text-xs font-medium bg-gray-800 text-white dark:bg-gray-700"
+                            <a class="inline-block py-1 px-2 rounded-lg text-xs font-medium bg-blue-600 text-white dark:bg-gray-700"
                                 href="#v1_9_0">
                                 v1.9.0
                             </a>
@@ -1738,13 +1738,13 @@
                         <div
                             class="flex items-center gap-x-3 py-2 px-3.5 bg-white border border-transparent rounded-full mt-0.5 -ms-7 sm:ms-0 sm:-me-7 dark:bg-slate-900">
                             <div class="grow order-2 sm:order-1">
-                                <span class="text-sm text-gray-500">
+                                <span class="text-sm text-gray-700">
                                     June 09, 2023
                                 </span>
                             </div>
                             <div
                                 class="flex-shrink-0 order-1 sm:order-2 h-7 w-7 flex justify-center items-center bg-white border border-slate-200 rounded-full shadow-sm dark:bg-slate-800 dark:border-slate-700">
-                                <svg class="flex-shrink-0 w-3.5 h-3.5 text-gray-500 dark:text-neutral-500"
+                                <svg class="flex-shrink-0 w-3.5 h-3.5 text-gray-700 dark:text-neutral-500"
                                     xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                     stroke-linejoin="round">
@@ -1768,7 +1768,7 @@
                 <!-- Right Side -->
                 <div class="relative sm:w-3/4 pb-12 sm:pb-20 ps-8 md:ps-12">
                     <div
-                        class="absolute -top-20 sm:top-0 bottom-0 start-0 sm:end-0 w-px -me-px sm:me-0 sm:-ms-px bg-slate-200 dark:bg-slate-700">
+                        class="absolute -top-20 sm:top-0 bottom-0 start-0 sm:end-0 w-px -me-px sm:me-0 sm:-ms-px bg-blue-200 dark:bg-slate-700">
                     </div>
 
                     <div>
@@ -1933,7 +1933,7 @@
                 <div class="relative z-10 sm:ps-0 sm:pb-20 sm:w-1/4 sm:text-end">
                     <div class="sm:sticky sm:top-12 sm:end-0">
                         <div class="ps-7 sm:pe-[1.6125rem]">
-                            <a class="inline-block py-1 px-2 rounded-lg text-xs font-medium bg-gray-800 text-white dark:bg-gray-700"
+                            <a class="inline-block py-1 px-2 rounded-lg text-xs font-medium bg-blue-600 text-white dark:bg-gray-700"
                                 href="#v1_8_0">
                                 v1.8.0
                             </a>
@@ -1941,13 +1941,13 @@
                         <div
                             class="flex items-center gap-x-3 py-2 px-3.5 bg-white border border-transparent rounded-full mt-0.5 -ms-7 sm:ms-0 sm:-me-7 dark:bg-slate-900">
                             <div class="grow order-2 sm:order-1">
-                                <span class="text-sm text-gray-500">
+                                <span class="text-sm text-gray-700">
                                     April 10, 2023
                                 </span>
                             </div>
                             <div
                                 class="flex-shrink-0 order-1 sm:order-2 h-7 w-7 flex justify-center items-center bg-white border border-slate-200 rounded-full shadow-sm dark:bg-slate-800 dark:border-slate-700">
-                                <svg class="flex-shrink-0 w-3.5 h-3.5 text-gray-500 dark:text-neutral-500"
+                                <svg class="flex-shrink-0 w-3.5 h-3.5 text-gray-700 dark:text-neutral-500"
                                     xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                     stroke-linejoin="round">
@@ -1971,7 +1971,7 @@
                 <!-- Right Side -->
                 <div class="relative sm:w-3/4 pb-12 sm:pb-20 ps-8 md:ps-12">
                     <div
-                        class="absolute -top-20 sm:top-0 bottom-0 start-0 sm:end-0 w-px -me-px sm:me-0 sm:-ms-px bg-slate-200 dark:bg-slate-700">
+                        class="absolute -top-20 sm:top-0 bottom-0 start-0 sm:end-0 w-px -me-px sm:me-0 sm:-ms-px bg-blue-200 dark:bg-slate-700">
                     </div>
 
                     <div>
