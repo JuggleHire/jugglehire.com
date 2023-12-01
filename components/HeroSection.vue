@@ -33,10 +33,10 @@
                     </div>
                 </div>
                 <!-- Logo cloud -->
-                <div class="mx-auto md:mt-16 mt-8 max-w-7xl px-6 sm:mt-36 lg:px-8">
+                <div class="mx-auto md:mt-36 mt-8 max-w-7xl px-6 sm:mt-36 lg:px-8">
                     <h2 class="text-center sm:text-lg text-base font-semibold sm:leading-8 text-white">The world’s most innovative companies use JuggleHire</h2>
                     <div class="mx-auto mt-10 flex justify-center flex-wrap max-w-lg items-center md:gap-8 sm:gap-5 gap-4 sm:max-w-xl sm:grid-cols-6 sm:gap-x-6 lg:mx-0 lg:max-w-none lg:grid-cols-5">
-                        <div class="bg-white/70 rounded-lg px-4 py-2.5" v-for="(client, index) in clients" :key="index">
+                        <div class="bg-white rounded-lg px-4 py-2.5" v-for="(client, index) in clients" :key="index">
                             <img class="sm:h-8 md:h-12 h-6 w-full object-contain" :src="client.logo" :alt="client.name" width="158" height="48">
                         </div>
                     </div>
@@ -84,8 +84,16 @@
             logo: '/clients/lomeyo.svg'
         },
         {
-            name: 'Dorik - JuggleHire Client',
-            logo: '/clients/dorik.svg'
+            name: 'Pixency - JuggleHire Client',
+            logo: '/clients/pixency.png'
+        },
+        {
+            name: 'BitByte Technology - JuggleHire Client',
+            logo: '/clients/bitbyte-technology.svg'
+        },
+        {
+            name: 'Microters - JuggleHire Client',
+            logo: '/clients/microters.png'
         },
     ]
 </script>
