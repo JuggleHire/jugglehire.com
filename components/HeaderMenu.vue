@@ -110,7 +110,8 @@
   import { ChevronDownIcon, PhoneIcon, PlayCircleIcon, ArrowPathIcon, BuildingOfficeIcon, ClipboardDocumentCheckIcon, DocumentTextIcon, TrashIcon, AdjustmentsHorizontalIcon, ChatBubbleLeftRightIcon, EnvelopeIcon, CalendarIcon, KeyIcon, UserGroupIcon } from '@heroicons/vue/20/solid'
 
   const navigation = [
-    { name: 'Pricing', href: '/pricing' },
+    // { name: 'Pricing', href: '/pricing' },
+    { name: 'Changelog', href: '/changelog' },
     { name: 'Public Roadmap', href: '/roadmap' },
     // { name: 'Wall of Love ❤', href: '/wall-of-love' },
     { name: 'Blog', href: '/blog' },
