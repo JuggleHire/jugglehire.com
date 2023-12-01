@@ -109,7 +109,7 @@ const changeLogs = [
         description: "Meet JuggleHire v1.0.0 - this is our very first stable release with 5 new features",
         version: "v1.0.0",
         date: '24 November 2023',
-        image: "",
+        image: "screenshots/jugglehire-contact-ss.jpg",
         features: [
             {
                 title: 'Custom Domain',
