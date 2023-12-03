@@ -61,7 +61,7 @@ const changeLogs = [
         description: "Meet JuggleHire v1.1.0 - daily updates making us more confident, we have 4 new features and regular improvements",
         version: "v1.1.0",
         date: '1 December 2023',
-        image: "screenshots/onboarding-ss.jpg",
+        image: "screenshots/onboarding-ss.webp",
         features: [
             {
                 title: 'Multiple Email Invitations',
