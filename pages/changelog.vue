@@ -81,29 +81,6 @@ const changeLogs = [
                 description: 'Implemented reminders for non-signed-up users within the next 3 days.',
             }
         ],
-        // improvements: [
-        //     { type: 'Improved', description: 'Bullet list or numbered list styling in circular details.' },
-        //     { type: 'Resolved', description: 'Unique validation error when creating new teams.' },
-        //     { type: 'Enhanced', description: 'Admin section functionalities.' },
-        //     { type: 'Quick fixes', description: 'For markings, checklist, and notifications.' },
-        //     { type: 'Enhanced', description: 'Inbox functionality.' },
-        //     { type: 'Improved', description: 'Job application bugs.' },
-        //     { type: 'Rearranged', description: 'Side link position for better navigation.' },
-        //     { type: 'Updated', description: 'Candidate listing page texts.' },
-        //     { type: 'Improved', description: 'Contacts page functionalities.' },
-        //     { type: 'Updated', description: 'Email template page text for clarity.' },
-        //     { type: 'Enhanced', description: 'Role description text.' },
-        //     { type: 'Improved', description: 'Job public page layout and button functionality.' },
-        //     { type: 'Resolved', description: 'Login issues and access errors.' },
-        //     { type: 'Fixed', description: 'Contact page redirection issue and added more test cases for settings pages.' },
-        //     { type: 'Resolved', description: 'Team and profile page 500 errors due to file loading issues.' },
-        //     { type: 'Fixed', description: 'Phone number component modifications and other minor issues.' },
-        //     { type: 'Refactored', description: 'Tel input styles for better consistency.' },
-        //     { type: 'Unit tests and refactoring', description: 'For user-related functionalities.' },
-        //     { type: 'Added', description: 'Domain verification tests for stability.' },
-        //     { type: 'Added', description: 'Default CSS to enhance overall styling.' },
-        //     { type: 'Improved', description: 'Overall testing duration and process.' },
-        // ]
         improvements: [
             { type: 'Fixed', description: 'Enhanced job public page layout and button functionality.' },
             { type: 'Fixed', description: 'Resolved issues with the inbox.' },
@@ -148,11 +125,7 @@ const changeLogs = [
         version: "v0.1.0",
         date: '24 November 2023',
         image: "screenshots/jugglehire-contact-ss.jpg",
-        features: [
-            {
-                title: 'Custom Domain',
-                description: 'You can add your own domain from the settings. To do this, you need to verify your domain name following instructions.',
-            },
+        features: [            
             {
                 title: 'Custom Domain',
                 description: 'You can add your own domain from the settings. To do this, you need to verify your domain name following instructions.',
