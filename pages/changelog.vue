@@ -83,9 +83,6 @@ const changeLogs = [
             { type: 'chore', description: 'updated default preselected value from setup steps' },
             { type: 'chore', description: 'added recaptcha activation for welcoming real users' },
             { type: 'chore', description: 'responsiveness update in jobs page' },
-            { type: 'Fixed', description: 'Enhanced job public page layout and button functionality.' },
-            { type: 'Fixed', description: 'Resolved issues with the inbox.' },
-            { type: 'Fixed', description: 'Notification errors & mark as seen.' },
         ]
     },
     {
