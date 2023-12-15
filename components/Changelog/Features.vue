@@ -12,6 +12,7 @@
                 <p v-if="item.description" class="text-gray-600 hover:text-gray-800 font-medium dark:text-gray-400">
                     {{ item.description }}
                 </p>
+                <img v-if="item.image" :src="item.image" :alt="item.title" class="w-full" />
             </li>
         </ul>
     </div>

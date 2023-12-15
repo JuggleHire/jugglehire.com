@@ -57,7 +57,39 @@ useSeoMeta({
 
 const changeLogs = [
     {
-        id: 110,
+        id: 102,
+        title: "Building Momentum, Preparing for the Next Big Leap.",
+        description: "Get JuggleHire v0.9.0 - Stability and Fixes Update: Resolving Bugs for a Smoother Experience",
+        version: "v0.9.0",
+        date: '15 December 2023',
+        features: [
+            {
+                title: 'Remove Draft Job',
+                description: 'Simplify your experience—clean up your job board by easily removing draft jobs with just a click on the three dots.',
+                image: "screenshots/jugglehire-discard-darft.webp",
+            },
+            {
+                title: 'Filter Job based on Status',
+                description: 'In All Jobs Page Now you can save your time filtering OPEN, CLOSED or DRAFT jobs.',
+            }
+        ],
+        improvements: [
+            { type: 'fix', description: 'updated SEO meta tags for company pages' },
+            { type: 'fix', description: 'domain verification error fixed' },
+            { type: 'fix', description: 'profile image upload and save button not working' },
+            { type: 'fix', description: 'domain accepts without https' },
+            { type: 'fix', description: 'apply form not showing status after applied' },
+            { type: 'chore', description: 'email content updated' },
+            { type: 'chore', description: 'updated default preselected value from setup steps' },
+            { type: 'chore', description: 'added recaptcha activation for welcoming real users' },
+            { type: 'chore', description: 'responsiveness update in jobs page' },
+            { type: 'Fixed', description: 'Enhanced job public page layout and button functionality.' },
+            { type: 'Fixed', description: 'Resolved issues with the inbox.' },
+            { type: 'Fixed', description: 'Notification errors & mark as seen.' },
+        ]
+    },
+    {
+        id: 101,
         title: "Continuous improvement for standard & stability",
         description: "Meet JuggleHire v0.7.0 - daily updates making us more confident, we have 4 new features and regular improvements",
         version: "v0.7.0",
@@ -105,12 +137,12 @@ const changeLogs = [
             { type: 'Fixed', description: 'Resolved job application errors.' },
             { type: 'Fixed', description: 'Apply form issues and company profile photo CSS.' },
             { type: 'chore', description: 'Improved role description text.' },
-            { type: 'chore', description: 'Updated job creation email texts.' },            
-            { type: 'chore', description: 'Updated candidate listing page texts.' },            
+            { type: 'chore', description: 'Updated job creation email texts.' },
+            { type: 'chore', description: 'Updated candidate listing page texts.' },
             { type: 'chore', description: 'Improved page titles and text content.' },
             { type: 'chore', description: 'Ordered jobs by status.' },
             { type: 'chore', description: 'Alignment and responsive issues.' },
-            { type: 'chore', description: 'Updated company setting labels.' },            
+            { type: 'chore', description: 'Updated company setting labels.' },
             { type: 'chore', description: 'Made text corrections and left-aligned buttons.' },
             { type: 'chore', description: 'Added job list to the dashboard.' },
             { type: 'chore', description: 'Removed pre-selected options from job create forms.' },
@@ -125,7 +157,7 @@ const changeLogs = [
         version: "v0.1.0",
         date: '24 November 2023',
         image: "screenshots/jugglehire-contact-ss.jpg",
-        features: [            
+        features: [
             {
                 title: 'Custom Domain',
                 description: 'You can add your own domain from the settings. To do this, you need to verify your domain name following instructions.',
