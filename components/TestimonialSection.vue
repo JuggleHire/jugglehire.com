@@ -8,7 +8,7 @@
   </div>
   <div class="mx-auto max-w-7xl px-6 lg:px-8">
     <div class="mx-auto max-w-xl text-center">
-      <h2 class="text-lg font-semibold leading-8 tracking-tight text-indigo-600">Testimonials</h2>
+      <h2 class="text-lg font-semibold leading-8 tracking-tight text-blue-600">Testimonials</h2>
       <p class="mt-2 text-2xl font-bold text-gray-900 sm:text-4xl">
         Our Impact, Your Success <br> Stories from Thriving Partnerships
       </p>

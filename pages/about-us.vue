@@ -24,7 +24,7 @@
         </div>
         <div>
           <div class="text-base leading-7 text-gray-700 lg:max-w-lg">
-            <p class="text-base font-semibold leading-7 text-indigo-600">About Us</p>
+            <p class="text-base font-semibold leading-7 text-blue-600">About Us</p>
             <h1 class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">JuggleHire Story</h1>
             <div class="max-w-xl">
               <p class="mt-6">

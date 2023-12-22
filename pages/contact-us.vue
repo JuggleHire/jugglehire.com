@@ -49,38 +49,38 @@
       <form action="#" method="POST" class="px-6 pb-24 pt-20 sm:pb-32 lg:px-8 lg:py-48">
         <div class="mx-auto max-w-lg space-y-16">
           <div class="flex gap-x-6">
-            <div class="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-indigo-600">
+            <div class="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-blue-600">
               <SparklesIcon class="h-6 w-6 text-white" aria-hidden="true" />
             </div>
             <div>
               <h3 class="text-base font-semibold leading-7 text-gray-900">Feature Spotlight</h3>
               <p class="mt-2 leading-7 text-gray-600">Discover the latest features and enhancements that make JuggleHire your go-to solution for streamlined recruitment.</p>
               <p class="mt-4">
-                <a href="/changelog" class="text-sm font-semibold leading-6 text-indigo-600">Explore Features <span aria-hidden="true">&rarr;</span></a>
+                <a href="/changelog" class="text-sm font-semibold leading-6 text-blue-600">Explore Features <span aria-hidden="true">&rarr;</span></a>
               </p>
             </div>
           </div>
           <div class="flex gap-x-6">
-            <div class="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-indigo-600">
+            <div class="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-blue-600">
               <HeartIcon class="h-6 w-6 text-white" aria-hidden="true" />
             </div>
             <div>
               <h3 class="text-base font-semibold leading-7 text-gray-900">User Success Stories</h3>
               <p class="mt-2 leading-7 text-gray-600">Hear from others who have found success with JuggleHire and learn how it transformed their hiring processes.</p>
               <p class="mt-4">
-                <a href="/wall-of-love" class="text-sm font-semibold leading-6 text-indigo-600">Read Success Stories <span aria-hidden="true">&rarr;</span></a>
+                <a href="/wall-of-love" class="text-sm font-semibold leading-6 text-blue-600">Read Success Stories <span aria-hidden="true">&rarr;</span></a>
               </p>
             </div>
           </div>
           <div class="flex gap-x-6">
-            <div class="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-indigo-600">
+            <div class="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-blue-600">
               <MapIcon class="h-6 w-6 text-white" aria-hidden="true" />
             </div>
             <div>
               <h3 class="text-base font-semibold leading-7 text-gray-900">Product Roadmap</h3>
               <p class="mt-2 leading-7 text-gray-600">Stay ahead of the curve! Explore our product roadmap to see the exciting features and improvements we have in store for JuggleHire</p>
               <p class="mt-4">
-                <a href="/roadmap" class="text-sm font-semibold leading-6 text-indigo-600">View Roadmap <span aria-hidden="true">&rarr;</span></a>
+                <a href="/roadmap" class="text-sm font-semibold leading-6 text-blue-600">View Roadmap <span aria-hidden="true">&rarr;</span></a>
               </p>
             </div>
           </div>

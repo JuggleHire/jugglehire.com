@@ -1,4 +1,5 @@
-# Jugglehire.com - Recruitment software for busy founder and Recruiters
+# Jugglehire.com - Recruitment software for busy professionals.
+JuggleHire is specifically designed for small businesses
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
@@ -7,57 +8,66 @@ Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introdu
 Make sure to install the dependencies:
 
 ```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
 yarn install
 ```
-
-## Development Server
-
 Start the development server on `http://localhost:3000`:
-
 ```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
 yarn dev
 ```
 
-## Production
+## Hero Section Title
+Simple & Powerful
+Recruitment Software for Small Businesses
 
-Build the application for production:
+Simple and easy to Use Recruitment Software
 
-```bash
-# npm
-npm run build
+## Features
+- Job Posting and Management
+- Candidate Application Management
+- Spam Candidate Filter
+- Interview Scheduler
+- Collaborative Hiring Process
+- Applicant Tracking System
+- Two Way Email Communication
+- Company Career Portal
+- Candidate Assessment Tracker
+- Candidate Directory
+- Branded Domains
+- Team Collaboration
 
-# pnpm
-pnpm run build
+## Use Cases
+- All in One Recruitment Software
+- Talent Acquisition Management
+- Remote Hiring Solution
 
-# yarn
-yarn build
-```
+## Solution
+- Technology and IT Teams
+- Remote Workforce Solutions
+- Startup and Entrepreneurial Teams
+- Sales and Marketing
+- Healthcare Professionals
+- Finance and Accounting
+- Engineering and Manufacturing
 
-Locally preview production build:
+## Resources
+- Product Roadmap
+- Changelog
+- The Wall of Love
+- About Us
+- Contact Us
+- Knowledgebase
+- Our Community
 
-```bash
-# npm
-npm run preview
+Pricing
+Blog
 
-# pnpm
-pnpm run preview
 
-# yarn
-yarn preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## Our Competitors
+- Jobscore
+- Recruitee
+- Breezy.hr
+- Jobsoid
+- Betterteam
+- Zoho Recruit
+- Smart Recruiter
+- workable.com

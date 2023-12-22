@@ -60,13 +60,13 @@ const changeLogs = [
         id: 102,
         title: "Building Momentum, Preparing for the Next Big Leap.",
         description: "Get JuggleHire v0.9.0 - Stability and Fixes Update: Resolving Bugs for a Smoother Experience",
+        image: "screenshots/jugglehire-discard-darft.webp",
         version: "v0.9.0",
         date: '15 December 2023',
         features: [
             {
-                title: 'Remove Draft Job',
+                title: 'Delete Draft Job',
                 description: 'Simplify your experience—clean up your job board by easily removing draft jobs with just a click on the three dots.',
-                image: "screenshots/jugglehire-discard-darft.webp",
             },
             {
                 title: 'Filter Job based on Status',
