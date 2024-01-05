@@ -67,6 +67,32 @@
       >
         🚀 Start In A Minute. Cancel Anytime
       </div>
+      <div class="md:mt-16">
+        <h2
+          class="text-center sm:text-xl text-base font-semibold sm:leading-8 text-gray-800"
+        >
+          Powering Global Visionary Leaders
+        </h2>
+        <div
+          class="mx-auto mt-10 flex justify-center flex-wrap max-w-lg items-center md:gap-8 sm:gap-5 gap-4 sm:max-w-xl sm:grid-cols-6 sm:gap-x-6 lg:mx-0 lg:max-w-none lg:grid-cols-5"
+        >
+          <div
+            class="bg-white rounded-lg px-4 py-2.5"
+            v-for="(client, index) in clients"
+            :key="index"
+            data-aos="zoom-in"
+            :data-aos-delay="100 * index"
+          >
+            <img
+              class="sm:h-8 md:h-12 h-6 w-full object-contain"
+              :src="client.logo"
+              :alt="client.name"
+              width="158"
+              height="48"
+            />
+          </div>
+        </div>
+      </div>
     </div>
   </div>
   <!-- End Hero -->
