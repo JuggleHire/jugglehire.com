@@ -2,3 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities{
+    .sticky-nav{
+        @apply relative  lg:sticky top-0 lg:top-5 max-w-7xl rounded-lg border border-gray-100
+    }
+    
+}

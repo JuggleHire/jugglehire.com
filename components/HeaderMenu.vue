@@ -1,18 +1,21 @@
 <template>
-  <header class="sticky top-0 left-0 w-full mx-auto">
+  <header
+    ref="headerRef"
+    class="bg-white top-0 left-0 w-full mx-auto border-b border-b-gray-100 z-[99] transition-all duration-200 ease-linear"
+  >
     <nav
       class="flex items-center justify-between p-6 lg:px-8 max-w-7xl mx-auto"
       aria-label="Global"
     >
       <div class="flex lg:flex-1">
         <nuxt-link href="/" class="-m-1.5 p-1.5">
-          <span class="sr-only">JuggleHire</span>
+          <h1 class="text-gray-900 font-bold text-lg">
+            Juggle
+            <span class="bg-blue-500 p-1 text-white font-bold rounded-md"
+              >Hire</span
+            >
+          </h1>
           <!-- <span class="text-xl text-white font-bold">JuggleHire</span> -->
-          <img
-            class="h-8 w-auto"
-            src="/logo-light.svg"
-            alt="Jugglehire Logo - Light theme"
-          />
         </nuxt-link>
       </div>
       <div class="flex lg:hidden">
@@ -29,7 +32,7 @@
         <template v-for="(nav, index) in navigation" :key="index">
           <Popover v-if="nav.items" class="relative z-50">
             <PopoverButton
-              class="inline-flex items-center gap-x-1 text-sm font-semibold leading-6 text-white"
+              class="inline-flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-900"
             >
               <span>{{ nav.name }}</span>
               <ChevronDownIcon class="h-5 w-5" aria-hidden="true" />
@@ -44,7 +47,7 @@
               leave-to-class="opacity-0 translate-y-1"
             >
               <PopoverPanel
-                class="absolute left-1/2 z-10 mt-5 flex w-screen max-w-max -translate-x-1/2 px-4"
+                class="absolute left-1/2 z-[999] mt-5 flex w-screen max-w-max -translate-x-1/2 px-4"
               >
                 <div
                   class="w-screen max-w-md flex-auto overflow-hidden rounded-3xl bg-white text-sm leading-6 shadow-lg ring-1 ring-gray-900/5"
@@ -109,7 +112,7 @@
           <nuxt-link
             v-else
             :to="nav.href"
-            class="text-sm font-semibold leading-6 text-white"
+            class="text-sm font-semibold leading-6 text-gray-900"
             >{{ nav.name }}</nuxt-link
           >
         </template>
@@ -120,7 +123,7 @@
           </a> -->
         <a
           href="https://app.jugglehire.com/login"
-          class="flex items-center gap-x-1 rounded-md px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-blue-200 hover:text-black focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
+          class="flex items-center gap-x-1 rounded-md px-3 py-2 text-sm font-semibold text-gray-900 border border-blue-400 hover:bg-blue-600 hover:text-white"
         >
           Login
         </a>
@@ -370,6 +373,7 @@ const navigation = [
 ];
 
 const mobileMenuOpen = ref(false);
+const headerRef = ref(null);
 
 const callsToAction = [
   {
@@ -383,5 +387,17 @@ const callsToAction = [
     icon: UserGroupIcon,
   },
 ];
+
+onMounted(() => {
+  window.addEventListener("scroll", (e) => {
+    console.log({ scrollY });
+    if (window.scrollY > 10) {
+      console.log({ scrollY });
+      headerRef.value.classList.add("sticky-nav");
+    } else {
+      headerRef.value.classList.remove("sticky-nav");
+    }
+  });
+});
 </script>
 
