@@ -1,6 +1,7 @@
 <template>
   <div>
     <hero-section />
+    <recruitment-puzzle />
     <feature-section />
     <benefit-section />
     <benefit-section2 />
