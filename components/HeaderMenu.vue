@@ -123,9 +123,23 @@
           </a> -->
         <a
           href="https://app.jugglehire.com/login"
-          class="flex items-center gap-x-1 rounded-md px-3 py-2 text-sm font-semibold text-gray-900 border border-blue-400 hover:bg-blue-600 hover:text-white"
+          class="flex items-center gap-x-1 rounded-md px-3 py-2 text-sm font-semibold text-gray-900 border border-gray-200 hover:border-blue-600 hover:bg-blue-600 hover:text-white"
         >
           Login
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-6 h-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M8.25 9V5.25A2.25 2.25 0 0 1 10.5 3h6a2.25 2.25 0 0 1 2.25 2.25v13.5A2.25 2.25 0 0 1 16.5 21h-6a2.25 2.25 0 0 1-2.25-2.25V15M12 9l3 3m0 0-3 3m3-3H2.25"
+            />
+          </svg>
         </a>
       </div>
     </nav>
