@@ -6,6 +6,7 @@
     <can-i-try-section />
     <easiest-job-section />
     <career-portal />
+    <candidate-sorting />
     <testimonial-section />
 
     <stats />
