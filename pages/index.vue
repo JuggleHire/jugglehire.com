@@ -10,7 +10,7 @@
     <authority-communication />
     <interview-scheduling />
     <testimonial-section />
-
+    <why-choose />
     <stats />
 
     <blog-section />
