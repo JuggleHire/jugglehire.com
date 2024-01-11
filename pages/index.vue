@@ -7,6 +7,7 @@
     <easiest-job-section />
     <career-portal />
     <candidate-sorting />
+    <authority-communication />
     <testimonial-section />
 
     <stats />
