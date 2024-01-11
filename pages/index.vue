@@ -8,6 +8,7 @@
     <career-portal />
     <candidate-sorting />
     <authority-communication />
+    <interview-scheduling />
     <testimonial-section />
 
     <stats />
