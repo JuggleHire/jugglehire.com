@@ -3,6 +3,7 @@
     <hero-section />
     <recruitment-puzzle />
     <feature-section />
+    <can-i-try-section />
     <!-- <benefit-section />
     <benefit-section2 />
     <benefit-section-3 />
