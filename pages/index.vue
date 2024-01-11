@@ -5,7 +5,9 @@
     <feature-section />
     <can-i-try-section />
     <easiest-job-section />
+    <career-portal />
     <testimonial-section />
+
     <stats />
 
     <blog-section />

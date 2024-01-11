@@ -404,9 +404,7 @@ const callsToAction = [
 
 onMounted(() => {
   window.addEventListener("scroll", (e) => {
-    console.log({ scrollY });
     if (window.scrollY > 10) {
-      console.log({ scrollY });
       headerRef.value.classList.add("sticky-nav");
     } else {
       headerRef.value.classList.remove("sticky-nav");
