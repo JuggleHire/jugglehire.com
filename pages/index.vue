@@ -14,6 +14,7 @@
     <starting-today />
     <social-media />
     <discount />
+    <faq />
     <stats />
 
     <blog-section />
