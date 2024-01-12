@@ -11,6 +11,7 @@
     <interview-scheduling />
     <testimonial-section />
     <why-choose />
+    <starting-today />
     <stats />
 
     <blog-section />
