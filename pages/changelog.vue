@@ -48,12 +48,14 @@
 const title = "JuggleHire Changelog | Stay Updated with Our Latest Features and Improvements";
 const description = "Explore the JuggleHire changelog to discover our latest updates, features, and improvements. Stay informed about the advancements we've made to enhance your experience on our platform. Keep track of our commitment to continuous improvement.";
 
+const url = 'https://www.jugglehire.com';
+
 useSeoMeta({
     title,
     description,
     ogTitle: title,
     ogDescription: description,
-    ogImage: 'screenshots/jugglehire-social-ss.webp'
+    ogImage: `${url}/screenshots/jugglehire-social-ss.webp`
 });
 
 const changeLogs = [
