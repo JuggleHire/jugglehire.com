@@ -49,13 +49,40 @@ const title = "JuggleHire Changelog | Stay Updated with Our Latest Features and 
 const description = "Explore the JuggleHire changelog to discover our latest updates, features, and improvements. Stay informed about the advancements we've made to enhance your experience on our platform. Keep track of our commitment to continuous improvement.";
 
 useSeoMeta({
-    title: title,
+    title,
+    description,
     ogTitle: title,
-    description: description,
     ogDescription: description,
+    ogImage: 'screenshots/jugglehire-social-ss.webp'
 });
 
 const changeLogs = [
+    {
+        id: 103,
+        title: "Embracing Challenges, Igniting Potential, Soaring Towards Success.",
+        description: "Get v0.10.1 - Unveiling Stunning Auto-Generated Open Graph Images for Profiles and Jobs.",
+        image: "screenshots/jugglehire-social-share.webp",
+        version: "v0.10.1",
+        date: '12 January 2024',
+        features: [
+            {
+                title: 'Auto-Generated Social Preview for Profiles and Jobs',
+                description: 'Receive new social preview images for your company profile and each job.',
+            },
+            {
+                title: 'Add Benefits to Your Company Profile',
+                description: 'Easily share and organize your company benefits in a clean and efficient manner.',
+            }
+        ],
+        "improvements": [
+            { type: "fix", description: "Updated SEO meta tags for company pages" },
+            { type: "fix", description: "Improved users filter by date in admin panel" },
+            { type: "chore", description: "Enhanced job SEO opengraph image" },
+            { type: "fix", description: "Added replyTo email as company email & cleaned up job apply success page" },
+            { type: "chore", description: "Updated company public profile design" },
+            { type: "style", description: "Improved company profile description" },
+        ],
+    },
     {
         id: 102,
         title: "Building Momentum, Preparing for the Next Big Leap.",
