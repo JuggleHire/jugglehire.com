@@ -1,51 +1,99 @@
-<template>
-  <div class="bg-gray-900">
-    <!-- Stats -->
-    <!-- <div class="mx-auto pt-32 max-w-7xl px-6 sm:pt-56 lg:px-8">
-      <div class="mx-auto max-w-2xl lg:mx-0 lg:max-w-xl">
-        <h2 class="text-base font-semibold leading-8 text-blue-400">Our track record</h2>
-        <p class="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">Trusted by thousands of developers&nbsp;worldwide</p>
-        <p class="mt-6 text-lg leading-8 text-gray-300">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.</p>
-      </div>
-      <dl class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-10 text-white sm:mt-20 sm:grid-cols-2 sm:gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-4">
-        <div v-for="stat in stats" :key="stat.id" class="flex flex-col gap-y-3 border-l border-white/10 pl-6">
-          <dt class="text-sm leading-6">{{ stat.name }}</dt>
-          <dd class="order-first text-3xl font-semibold tracking-tight">{{ stat.value }}</dd>
+  <template>
+  <div class="bg-white py-24">
+    <div class="mx-auto max-w-7xl sm:px-6 lg:px-8">
+      <div
+        class="relative isolate overflow-hidden bg-gray-900 px-6 py-20 sm:rounded-3xl sm:px-10 sm:py-24 lg:py-24 xl:px-24"
+      >
+        <div
+          class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-center lg:gap-y-0"
+        >
+          <div class="lg:row-start-2 lg:max-w-md">
+            <h2
+              class="text-3xl font-bold tracking-tight text-white sm:text-4xl !leading-[60px]"
+            >
+              Meet Juggle Hire Technologies.
+            </h2>
+            <p class="mt-6 text-lg leading-8 text-gray-300">
+              Ac euismod vel sit maecenas id pellentesque eu sed consectetur.
+              Malesuada adipiscing sagittis vel nulla. Ac euismod vel sit
+              maecenas.
+            </p>
+          </div>
+          <img
+            src="https://tailwindui.com/img/component-images/dark-project-app-screenshot.png"
+            alt="Product screenshot"
+            class="relative -z-20 min-w-full max-w-xl rounded-xl shadow-xl ring-1 ring-white/10 lg:row-span-4 lg:w-[64rem] lg:max-w-none"
+            width="2432"
+            height="1442"
+          />
+          <div
+            class="max-w-xl lg:row-start-3 lg:mt-10 lg:max-w-md lg:border-t lg:border-white/10 lg:pt-10"
+          >
+            <dl
+              class="max-w-xl space-y-8 text-base leading-7 text-gray-300 lg:max-w-none"
+            >
+              <div
+                v-for="(feature, index) in features"
+                :key="feature.name"
+                class="relative group"
+                data-aos="zoom-in"
+                :data-aos-delay="50 * index"
+              >
+                <dt class="ml-9 inline-block font-semibold text-white">
+                  <span
+                    class="absolute left-1 top-1 h-5 w-5 text-indigo-500 group-hover:text-white"
+                    aria-hidden="true"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="w-6 h-6"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M12 18v-5.25m0 0a6.01 6.01 0 0 0 1.5-.189m-1.5.189a6.01 6.01 0 0 1-1.5-.189m3.75 7.478a12.06 12.06 0 0 1-4.5 0m3.75 2.383a14.406 14.406 0 0 1-3 0M14.25 18v-.192c0-.983.658-1.823 1.508-2.316a7.5 7.5 0 1 0-7.517 0c.85.493 1.509 1.333 1.509 2.316V18"
+                      />
+                    </svg>
+                  </span>
+                  {{ feature.name }}
+                </dt>
+                {{ " " }}
+                <dd class="inline">{{ feature.description }}</dd>
+              </div>
+            </dl>
+          </div>
         </div>
-      </dl>
-    </div> -->
-
-    <!-- CTA section -->
-    <!-- <div class="overflow-hidden relative isolate mt-32 px-6 py-32 sm:mt-56 sm:py-40 lg:px-8"> -->
-    <div class="overflow-hidden relative isolate px-6 py-16 sm:py-40 lg:px-8">
-      <svg class="absolute inset-0 -z-10 h-full w-full stroke-white/10 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]" aria-hidden="true">
-        <defs>
-          <pattern id="1d4240dd-898f-445f-932d-e2872fd12de3" width="200" height="200" x="50%" y="0" patternUnits="userSpaceOnUse">
-            <path d="M.5 200V.5H200" fill="none" />
-          </pattern>
-        </defs>
-        <svg x="50%" y="0" class="overflow-visible fill-gray-800/20">
-          <path d="M-200 0h201v201h-201Z M600 0h201v201h-201Z M-400 600h201v201h-201Z M200 800h201v201h-201Z" stroke-width="0" />
-        </svg>
-        <rect width="100%" height="100%" stroke-width="0" fill="url(#1d4240dd-898f-445f-932d-e2872fd12de3)" />
-      </svg>
-      <div class="absolute inset-x-0 top-10 -z-10 flex transform-gpu justify-center overflow-hidden blur-3xl" aria-hidden="true">
-        <div class="aspect-[1108/632] w-[69.25rem] flex-none bg-gradient-to-r from-[#80caff] to-[#4f46e5] opacity-20" style="clip-path: polygon(73.6% 51.7%, 91.7% 11.8%, 100% 46.4%, 97.4% 82.2%, 92.5% 84.9%, 75.7% 64%, 55.3% 47.5%, 46.5% 49.4%, 45% 62.9%, 50.3% 87.2%, 21.3% 64.1%, 0.1% 100%, 5.4% 51.1%, 21.4% 63.9%, 58.9% 0.2%, 73.6% 51.7%)" />
-      </div>
-      <div class="mx-auto max-w-2xl text-center">
-        <h2 class="text-2xl font-bold tracking-tight text-white sm:text-4xl">Boost your productivity.<br />
-          Start using JuggleHire app today.
-        </h2>
-        <p class="mx-auto mt-6 max-w-xl sm:text-lg text-sm sm:leading-8 text-gray-300">
-          Experience the future of hiring with JuggleHire. Connect with like-minded professionals and stay updated on the latest in recruitment. Boost your productivity and career growth. Join our Facebook group today!
-        </p>
-        <div class="mt-10 flex flex-wrap items-center justify-center gap-6">
-          <a href="https://app.jugglehire.com/register" class="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">
-            Get Beta Access
-          </a>
-          <a href="https://fb.com/groups/jugglehire" class="text-sm font-semibold leading-6 text-white">
-            Join our community <span aria-hidden="true">→</span>
-          </a>
+        <div
+          class="pointer-events-none absolute left-12 top-1/2 -z-10 -translate-y-1/2 transform-gpu blur-3xl lg:bottom-[-12rem] lg:top-auto lg:translate-y-0 lg:transform-gpu"
+          aria-hidden="true"
+        >
+          <div
+            class="aspect-[1155/678] w-[72.1875rem] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-25"
+            style="
+              clip-path: polygon(
+                74.1% 44.1%,
+                100% 61.6%,
+                97.5% 26.9%,
+                85.5% 0.1%,
+                80.7% 2%,
+                72.5% 32.5%,
+                60.2% 62.4%,
+                52.4% 68.1%,
+                47.5% 58.3%,
+                45.2% 34.5%,
+                27.5% 76.7%,
+                0.1% 64.9%,
+                17.9% 100%,
+                27.6% 76.8%,
+                76.1% 97.7%,
+                74.1% 44.1%
+              );
+            "
+          ></div>
         </div>
       </div>
     </div>
@@ -53,12 +101,20 @@
 </template>
 
 <script setup>
-import { CheckCircleIcon } from '@heroicons/vue/24/outline'
-
-const stats = [
-  { id: 1, name: 'Developers on the platform', value: '8,000+' },
-  { id: 2, name: 'Daily requests', value: '900m+' },
-  { id: 3, name: 'Uptime guarantee', value: '99.9%' },
-  { id: 4, name: 'Projects deployed', value: '12m' },
-]
+const features = [
+  {
+    name: "Recruitment Software for SMB",
+    description: "Stop small business requirements nightmare",
+  },
+  {
+    name: "Remote Hiring Solution",
+    description: "Virtually get your team members to keep coming",
+  },
+  {
+    name: "Talent Acquisition Management",
+    description: "Hire talent like the snap of a finger",
+  },
+];
 </script>
+
+

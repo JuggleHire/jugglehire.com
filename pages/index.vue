@@ -16,8 +16,7 @@
     <discount />
     <faq />
     <stats />
-
-    <blog-section />
+    <contact />
   </div>
 </template>
 
