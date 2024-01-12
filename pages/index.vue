@@ -12,6 +12,8 @@
     <testimonial-section />
     <why-choose />
     <starting-today />
+    <social-media />
+    <discount />
     <stats />
 
     <blog-section />
