@@ -55,7 +55,7 @@ useSeoMeta({
     description,
     ogTitle: title,
     ogDescription: description,
-    ogImage: `${url}/screenshots/jugglehire-social-ss.webp`
+    ogImage: `${url}/screenshots/jugglehire-ss-share.webp`
 });
 
 const changeLogs = [
@@ -63,7 +63,7 @@ const changeLogs = [
         id: 103,
         title: "Embracing Challenges, Igniting Potential, Soaring Towards Success.",
         description: "Get v0.10.1 - Unveiling Stunning Auto-Generated Open Graph Images for Profiles and Jobs.",
-        image: "screenshots/jugglehire-social-share.webp",
+        image: "/screenshots/jugglehire-ss-share.webp",
         version: "v0.10.1",
         date: '12 January 2024',
         features: [
@@ -73,6 +73,7 @@ const changeLogs = [
             },
             {
                 title: 'Add Benefits to Your Company Profile',
+                image: "/screenshots/jugglehire-profile-page.webp",
                 description: 'Easily share and organize your company benefits in a clean and efficient manner.',
             }
         ],
