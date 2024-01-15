@@ -38,9 +38,9 @@
       </div>
 
       <!-- Buttons -->
-      <div class="mt-8 gap-3 flex justify-center">
+      <div class="mt-4 gap-3 flex justify-center">
         <a
-          class="inline-flex justify-center items-center gap-x-3 text-center bg-gradient-to-tl from-blue-600 to-violet-600 hover:from-violet-600 hover:to-blue-600 border border-transparent text-white text-sm font-medium rounded-md focus:outline-none focus:ring-1 focus:ring-gray-600 py-3 px-4"
+          class="inline-flex justify-center items-center gap-x-3 text-center bg-gradient-to-tl from-blue-600 to-violet-600 hover:from-violet-600 hover:to-blue-600 border border-transparent text-white text-sm md:text-xl font-medium rounded-md focus:outline-none focus:ring-1 focus:ring-gray-600 py-3 px-4"
           href="#"
         >
           14 Days Free Trial Start Here
@@ -63,18 +63,18 @@
       <!-- End Buttons -->
 
       <div
-        class="mt-5 flex justify-center items-center gap-x-1 sm:gap-x-3 text-gray-800"
+        class="mt-3 flex justify-center items-center gap-x-1 sm:gap-x-3 text-gray-800"
       >
         🚀 Start In A Minute. Cancel Anytime
       </div>
-      <div class="md:mt-16">
+      <div class="mt-8 group">
         <h2
-          class="text-center sm:text-xl text-base font-semibold sm:leading-8 text-gray-800"
+          class="text-center sm:text-xl text-base font-semibold sm:leading-8 text-gray-800 opacity-75 group-hover:opacity-100"
         >
           Powering Global Visionary Leaders
         </h2>
         <div
-          class="mx-auto mt-10 flex justify-center flex-wrap max-w-lg items-center md:gap-8 sm:gap-5 gap-4 sm:max-w-xl sm:grid-cols-6 sm:gap-x-6 lg:mx-0 lg:max-w-none lg:grid-cols-5"
+          class="mx-auto mt-6 flex justify-center flex-wrap max-w-lg items-center md:gap-8 sm:gap-5 gap-4 sm:max-w-xl sm:grid-cols-6 sm:gap-x-6 lg:mx-0 lg:max-w-none lg:grid-cols-5"
         >
           <div
             class="bg-white rounded-lg px-4 py-2.5"
@@ -84,7 +84,7 @@
             :data-aos-delay="100 * index"
           >
             <img
-              class="sm:h-8 md:h-12 h-6 w-full object-contain"
+              class="h-6 opacity-75 w-full object-contain hover:opacity-100"
               :src="client.logo"
               :alt="client.name"
               width="158"
