@@ -2,11 +2,12 @@
   <div>
     <hero-section />
     <recruitment-puzzle />
-    <feature-section />
+    <single-dashboard />
+    <features-tab />
     <!-- <can-i-try-section /> -->
-    <easiest-job-section />
-    <career-portal />
-    <candidate-sorting />
+    <!-- <easiest-job-section /> -->
+    <!-- <career-portal /> -->
+    <!-- <candidate-sorting /> -->
     <authority-communication />
     <interview-scheduling />
     <testimonial-section />
