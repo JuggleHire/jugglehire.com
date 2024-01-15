@@ -10,11 +10,11 @@
     <!-- <candidate-sorting /> -->
     <authority-communication />
     <interview-scheduling />
-    <why-choose />
-    <testimonial-section />
     <starting-today />
+    <why-choose />
     <social-media />
     <discount />
+    <testimonial-section />
     <faq />
     <stats />
     <contact />
