@@ -10,8 +10,8 @@
     <!-- <candidate-sorting /> -->
     <authority-communication />
     <interview-scheduling />
-    <testimonial-section />
     <why-choose />
+    <testimonial-section />
     <starting-today />
     <social-media />
     <discount />
