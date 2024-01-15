@@ -1,35 +1,32 @@
+
 <template>
   <div class="bg-white">
-    <div class="mx-auto max-w-7xl py-24 sm:px-6 sm:py-32 lg:px-8">
-      <div
-        class="relative isolate overflow-hidden bg-gray-900 px-6 py-24 text-center shadow-2xl sm:rounded-3xl sm:px-16 space-y-20"
-      >
-        <h2
-          class="mx-auto max-w-2xl text-3xl font-bold tracking-tight text-white sm:text-4xl"
-          data-aos="fade-up"
-          data-aos-delay="100*1"
-        >
-          CAN I TRY THE
+    <div class="px-6 py-24 sm:px-6 sm:py-32 lg:px-8">
+      <div class="mx-auto max-w-2xl text-center space-y-12">
+        <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+          Can I Try
           <span
             class="bg-clip-text bg-gradient-to-tl from-blue-600 to-violet-600 text-transparent"
             >JUGGLE HIRE</span
           >
-          FOR FREE?
+          For Free?
         </h2>
-        <div class="flex items-center justify-center flex-wrap gap-12">
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-12">
           <div class="space-y-4">
-            <h4 class="text-white font-bold text-xl text-left">
+            <h4 class="text-gray-900 font-bold text-xl text-left">
               Without Juggle Hire
             </h4>
             <ul class="space-y-4">
               <li
                 v-for="(item, index) in without"
                 :key="item"
-                class="text-white text-left flex items-center gap-2"
+                class="text-gray-900 font-medium text-left flex items-center gap-2"
                 data-aos="fade-in"
                 :data-aos-delay="100 * index"
               >
-                <span class="text-red-500">
+                <span
+                  class="text-red-500 bg-red-50 h-8 w-8 rounded-full shrink-0 inline-flex items-center justify-center text-sm"
+                >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -41,7 +38,7 @@
                     <path
                       stroke-linecap="round"
                       stroke-linejoin="round"
-                      d="M18.364 18.364A9 9 0 0 0 5.636 5.636m12.728 12.728A9 9 0 0 1 5.636 5.636m12.728 12.728L5.636 5.636"
+                      d="M6 18 18 6M6 6l12 12"
                     />
                   </svg>
                 </span>
@@ -51,18 +48,20 @@
             </ul>
           </div>
           <div class="space-y-4">
-            <h4 class="text-white font-bold text-xl text-left">
+            <h4 class="text-gray-900 font-bold text-xl text-left">
               With Juggle Hire
             </h4>
             <ul class="space-y-4">
               <li
                 v-for="(item, index) in withx"
                 :key="item"
-                class="text-white text-left flex items-center gap-2"
+                class="text-gray-900 font-medium text-left flex items-center gap-2"
                 data-aos="fade-in"
                 :data-aos-delay="100 * index"
               >
-                <span class="text-green-500">
+                <span
+                  class="text-green-500 bg-green-50 inline-flex items-center justify-center h-8 w-8 rounded-full shrink-0"
+                >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -74,7 +73,7 @@
                     <path
                       stroke-linecap="round"
                       stroke-linejoin="round"
-                      d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+                      d="m4.5 12.75 6 6 9-13.5"
                     />
                   </svg>
                 </span>
@@ -84,44 +83,31 @@
             </ul>
           </div>
         </div>
-        <div
-          class="flex items-center justify-center gap-x-6"
-          data-aos="fade-up"
-          data-aos-delay="100*3"
-        >
-          <a
-            href="#"
-            class="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
-            >Get started</a
+        <a
+          href="#"
+          class="inline-flex justify-center items-center gap-x-3 text-center bg-gradient-to-tl from-blue-600 to-violet-600 hover:from-violet-600 hover:to-blue-600 border border-transparent text-white text-sm md:text-xl font-medium rounded-md focus:outline-none focus:ring-1 focus:ring-gray-600 py-3 px-4"
+          >Get started
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-6 h-6"
           >
-          <a href="#" class="text-sm font-semibold leading-6 text-white"
-            >Learn more <span aria-hidden="true">→</span></a
-          >
-        </div>
-
-        <svg
-          viewBox="0 0 1024 1024"
-          class="absolute left-1/2 top-1/2 -z-10 h-[64rem] w-[64rem] -translate-x-1/2 [mask-image:radial-gradient(closest-side,white,transparent)]"
-          aria-hidden="true"
-        >
-          <circle
-            cx="512"
-            cy="512"
-            r="512"
-            fill="url(#827591b1-ce8c-4110-b064-7cb85a0b1217)"
-            fill-opacity="0.7"
-          />
-          <defs>
-            <radialGradient id="827591b1-ce8c-4110-b064-7cb85a0b1217">
-              <stop stop-color="#7775D6" />
-              <stop offset="1" stop-color="#E935C1" />
-            </radialGradient>
-          </defs>
-        </svg>
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+            />
+          </svg>
+        </a>
       </div>
     </div>
   </div>
 </template>
+
+
   
 
 <script setup>
