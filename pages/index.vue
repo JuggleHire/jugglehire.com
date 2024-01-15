@@ -3,7 +3,7 @@
     <hero-section />
     <recruitment-puzzle />
     <feature-section />
-    <can-i-try-section />
+    <!-- <can-i-try-section /> -->
     <easiest-job-section />
     <career-portal />
     <candidate-sorting />

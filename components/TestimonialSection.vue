@@ -1,7 +1,5 @@
 <template>
-  <section
-    class="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:px-8"
-  >
+  <section class="relative isolate overflow-hidden bg-white px-6 py-24 lg:px-8">
     <div class="text-center">
       <h2
         class="text-base font-semibold leading-8 tracking-tight text-blue-600"
