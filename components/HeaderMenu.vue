@@ -9,7 +9,7 @@
     >
       <div class="flex lg:flex-1">
         <nuxt-link href="/" class="-m-1.5 p-1.5">
-          <h1 class="text-gray-900 font-bold text-lg">
+          <h1 class="text-gray-900 font-bold text-xl md:text-2xl lg:text-3xl">
             Juggle
             <span class="bg-blue-500 p-1 text-white font-bold rounded-md"
               >Hire</span
