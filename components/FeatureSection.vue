@@ -6,15 +6,7 @@
         <p
           class="mt-2 text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl"
         >
-          Single
-          <span
-            class="bg-clip-text bg-gradient-to-tl from-blue-600 to-violet-600 text-transparent"
-            >Dashboard</span
-          >. Manage
-          <span
-            class="bg-clip-text bg-gradient-to-tl from-blue-600 to-violet-600 text-transparent"
-            >Everything</span
-          >.
+          Single Dashboard. Manage Everything.
         </p>
         <p class="mt-6 text-lg leading-8 text-gray-600">
           🚀 Skillfully Hire The Right Candidate Using World-Class Recruitment
