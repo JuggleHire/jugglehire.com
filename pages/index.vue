@@ -4,10 +4,7 @@
     <recruitment-puzzle />
     <single-dashboard />
     <features-tab />
-    <!-- <can-i-try-section /> -->
-    <!-- <easiest-job-section /> -->
-    <!-- <career-portal /> -->
-    <!-- <candidate-sorting /> -->
+
     <authority-communication />
     <interview-scheduling />
     <starting-today />
