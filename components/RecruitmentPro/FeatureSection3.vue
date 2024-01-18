@@ -4,33 +4,33 @@
         <!-- Feature section -->
         <div class="mx-auto max-w-7xl px-6 lg:px-8">
             <div class="mx-auto max-w-2xl sm:text-center">
-                <h2 class="text-2xl font-bold text-gray-900 sm:text-[40px] sm:leading-[48px]">
-                    Single Solution
-                </h2>
-                <h3 class="mt-6 text-lg text-gray-600">For all recruitment systemization</h3>
-                <a class="mt-4 inline-flex items-center gap-x-2 bg-blue-600 border border-blue-100 hover:bg-blue-500 text-base text-white p-2 px-5 rounded-full transition hover:border-gray-300 dark:bg-gray-800 dark:border-gray-700 dark:hover:border-gray-600 dark:text-gray-400"
-                    href="#">
-                    Let Me In
-                    <svg class="flex-shrink-0 w-4 h-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <path d="m9 18 6-6-6-6" />
-                    </svg>
-                </a>
-                <p class="text-sm mt-2 text-gray-600">Would you like to try?</p>
+                <h2 class="mt-2 text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl">Single Solution</h2>
+                <p class="mt-6 sm:text-lg text-base sm:leading-8 text-gray-600">For all recruitment systemization</p>
+                <div class="mt-6 text-center flex flex-col gap-2 items-center justify-center">
+                    <a target="_blank"
+                        class="py-3 px-4 inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
+                        href="https://app.jugglehire.com/register">
+                        Let Me In
+                        <svg class="flex-shrink-0 w-4 h-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="m9 18 6-6-6-6" />
+                        </svg>
+                    </a>
+                    <p class="text-base text-gray-600">Would you like to try?</p>
+                </div>
             </div>
         </div>
         <div class="mx-auto max-w-7xl px-6 lg:px-8 my-16">
             <div class="flex flex-col gap-16">
                 <div class="flex flex-col md:flex-row gap-x-20 gap-y-8 md:items-center">
                     <div class="w-full">
-                        <h4 class="text-xl">Simple. Clean. Attractive.</h4>
-                        <h2 class="text-2xl sm:text-[32px] font-semibold mt-2">Job Post.</h2>
+                        <h3 class="text-base font-semibold leading-7 text-blue-600">Simple. Clean. Attractive.</h3>
+                        <h2 class="mt-2 text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl">Job Post.</h2>
                         <ul role="list" class="space-y-2 sm:space-y-4 mt-8">
                             <li class="flex space-x-3">
                                 <!-- Solid Check -->
                                 <span
-                                    class="mt-0.5 h-5 w-5 flex justify-center items-center rounded-full bg-blue-600 text-white dark:bg-blue-800/30 dark:text-blue-500">
+                                    class="mt-0.5 h-5 w-5 flex justify-center items-center rounded-full bg-blue-600 text-white">
                                     <svg class="flex-shrink-0 h-3.5 w-3.5" xmlns="http://www.w3.org/2000/svg" width="24"
                                         height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                         stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -47,7 +47,7 @@
                             <li class="flex space-x-3">
                                 <!-- Solid Check -->
                                 <span
-                                    class="mt-0.5 h-5 w-5 flex justify-center items-center rounded-full bg-blue-600 text-white dark:bg-blue-800/30 dark:text-blue-500">
+                                    class="mt-0.5 h-5 w-5 flex justify-center items-center rounded-full bg-blue-600 text-white">
                                     <svg class="flex-shrink-0 h-3.5 w-3.5" xmlns="http://www.w3.org/2000/svg" width="24"
                                         height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                         stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -64,7 +64,7 @@
                             <li class="flex space-x-3">
                                 <!-- Solid Check -->
                                 <span
-                                    class="mt-0.5 h-5 w-5 flex justify-center items-center rounded-full bg-blue-600 text-white dark:bg-blue-800/30 dark:text-blue-500">
+                                    class="mt-0.5 h-5 w-5 flex justify-center items-center rounded-full bg-blue-600 text-white">
                                     <svg class="flex-shrink-0 h-3.5 w-3.5" xmlns="http://www.w3.org/2000/svg" width="24"
                                         height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                         stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -88,13 +88,13 @@
                         <img class="rounded-lg shadow-md max-w-full" src="/company-portal.png" alt="">
                     </div>
                     <div class="w-full">
-                        <h4 class="text-xl">Top-notch. Professional.</h4>
-                        <h2 class="text-2xl sm:text-[32px] font-semibold mt-2">Company Profile.</h2>
+                        <h3 class="text-base font-semibold leading-7 text-blue-600">Top-notch. Professional.</h3>
+                        <h2 class="mt-2 text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl">Company Profile.</h2>
                         <ul role="list" class="space-y-2 sm:space-y-4 mt-8">
                             <li class="flex space-x-3">
                                 <!-- Solid Check -->
                                 <span
-                                    class="mt-0.5 h-5 w-5 flex justify-center items-center rounded-full bg-blue-600 text-white dark:bg-blue-800/30 dark:text-blue-500">
+                                    class="mt-0.5 h-5 w-5 flex justify-center items-center rounded-full bg-blue-600 text-white">
                                     <svg class="flex-shrink-0 h-3.5 w-3.5" xmlns="http://www.w3.org/2000/svg" width="24"
                                         height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                         stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -111,7 +111,7 @@
                             <li class="flex space-x-3">
                                 <!-- Solid Check -->
                                 <span
-                                    class="mt-0.5 h-5 w-5 flex justify-center items-center rounded-full bg-blue-600 text-white dark:bg-blue-800/30 dark:text-blue-500">
+                                    class="mt-0.5 h-5 w-5 flex justify-center items-center rounded-full bg-blue-600 text-white">
                                     <svg class="flex-shrink-0 h-3.5 w-3.5" xmlns="http://www.w3.org/2000/svg" width="24"
                                         height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                         stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -128,7 +128,7 @@
                             <li class="flex space-x-3">
                                 <!-- Solid Check -->
                                 <span
-                                    class="mt-0.5 h-5 w-5 flex justify-center items-center rounded-full bg-blue-600 text-white dark:bg-blue-800/30 dark:text-blue-500">
+                                    class="mt-0.5 h-5 w-5 flex justify-center items-center rounded-full bg-blue-600 text-white">
                                     <svg class="flex-shrink-0 h-3.5 w-3.5" xmlns="http://www.w3.org/2000/svg" width="24"
                                         height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                         stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -146,13 +146,13 @@
                 </div>
                 <div class="flex flex-col md:flex-row gap-x-20 gap-y-8 md:items-center">
                     <div class="w-full">
-                        <h4 class="text-xl">Effortless. Data-driven.</h4>
-                        <h2 class="text-2xl sm:text-[32px] font-semibold mt-2">Candidate Sorting.</h2>
+                        <h3 class="text-base font-semibold leading-7 text-blue-600">Effortless. Data-driven.</h3>
+                        <h2 class="mt-2 text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl">Candidate Sorting.</h2>
                         <ul role="list" class="space-y-2 sm:space-y-4 mt-8">
                             <li class="flex space-x-3">
                                 <!-- Solid Check -->
                                 <span
-                                    class="mt-0.5 h-5 w-5 flex justify-center items-center rounded-full bg-blue-600 text-white dark:bg-blue-800/30 dark:text-blue-500">
+                                    class="mt-0.5 h-5 w-5 flex justify-center items-center rounded-full bg-blue-600 text-white">
                                     <svg class="flex-shrink-0 h-3.5 w-3.5" xmlns="http://www.w3.org/2000/svg" width="24"
                                         height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                         stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -169,7 +169,7 @@
                             <li class="flex space-x-3">
                                 <!-- Solid Check -->
                                 <span
-                                    class="mt-0.5 h-5 w-5 flex justify-center items-center rounded-full bg-blue-600 text-white dark:bg-blue-800/30 dark:text-blue-500">
+                                    class="mt-0.5 h-5 w-5 flex justify-center items-center rounded-full bg-blue-600 text-white">
                                     <svg class="flex-shrink-0 h-3.5 w-3.5" xmlns="http://www.w3.org/2000/svg" width="24"
                                         height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                         stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -186,7 +186,7 @@
                             <li class="flex space-x-3">
                                 <!-- Solid Check -->
                                 <span
-                                    class="mt-0.5 h-5 w-5 flex justify-center items-center rounded-full bg-blue-600 text-white dark:bg-blue-800/30 dark:text-blue-500">
+                                    class="mt-0.5 h-5 w-5 flex justify-center items-center rounded-full bg-blue-600 text-white">
                                     <svg class="flex-shrink-0 h-3.5 w-3.5" xmlns="http://www.w3.org/2000/svg" width="24"
                                         height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                         stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -210,13 +210,13 @@
                         <img class="rounded-lg shadow-md max-w-full" src="/authority-communication.png" alt="">
                     </div>
                     <div class="w-full">
-                        <h4 class="text-xl">Centralize. Compelling. Caring.</h4>
-                        <h2 class="text-2xl sm:text-[32px] font-semibold mt-2">Communication.</h2>
+                        <h3 class="text-base font-semibold leading-7 text-blue-600">Centralize. Compelling. Caring.</h3>
+                        <h2 class="mt-2 text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl">Communication.</h2>
                         <ul role="list" class="space-y-2 sm:space-y-4 mt-8">
                             <li class="flex space-x-3">
                                 <!-- Solid Check -->
                                 <span
-                                    class="mt-0.5 h-5 w-5 flex justify-center items-center rounded-full bg-blue-600 text-white dark:bg-blue-800/30 dark:text-blue-500">
+                                    class="mt-0.5 h-5 w-5 flex justify-center items-center rounded-full bg-blue-600 text-white">
                                     <svg class="flex-shrink-0 h-3.5 w-3.5" xmlns="http://www.w3.org/2000/svg" width="24"
                                         height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                         stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -233,7 +233,7 @@
                             <li class="flex space-x-3">
                                 <!-- Solid Check -->
                                 <span
-                                    class="mt-0.5 h-5 w-5 flex justify-center items-center rounded-full bg-blue-600 text-white dark:bg-blue-800/30 dark:text-blue-500">
+                                    class="mt-0.5 h-5 w-5 flex justify-center items-center rounded-full bg-blue-600 text-white">
                                     <svg class="flex-shrink-0 h-3.5 w-3.5" xmlns="http://www.w3.org/2000/svg" width="24"
                                         height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                         stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -250,7 +250,7 @@
                             <li class="flex space-x-3">
                                 <!-- Solid Check -->
                                 <span
-                                    class="mt-0.5 h-5 w-5 flex justify-center items-center rounded-full bg-blue-600 text-white dark:bg-blue-800/30 dark:text-blue-500">
+                                    class="mt-0.5 h-5 w-5 flex justify-center items-center rounded-full bg-blue-600 text-white">
                                     <svg class="flex-shrink-0 h-3.5 w-3.5" xmlns="http://www.w3.org/2000/svg" width="24"
                                         height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                         stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -268,13 +268,13 @@
                 </div>
                 <div class="flex flex-col md:flex-row gap-x-20 gap-y-8 md:items-center">
                     <div class="w-full">
-                        <h4 class="text-xl">Skyrocket. Integrated.</h4>
-                        <h2 class="text-2xl sm:text-[32px] font-semibold mt-2">Interview Scheduling.</h2>
+                        <h3 class="text-base font-semibold leading-7 text-blue-600">Skyrocket. Integrated.</h3>
+                        <h2 class="mt-2 text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl">Interview Scheduling.</h2>
                         <ul role="list" class="space-y-2 sm:space-y-4 mt-8">
                             <li class="flex space-x-3">
                                 <!-- Solid Check -->
                                 <span
-                                    class="mt-0.5 h-5 w-5 flex justify-center items-center rounded-full bg-blue-600 text-white dark:bg-blue-800/30 dark:text-blue-500">
+                                    class="mt-0.5 h-5 w-5 flex justify-center items-center rounded-full bg-blue-600 text-white">
                                     <svg class="flex-shrink-0 h-3.5 w-3.5" xmlns="http://www.w3.org/2000/svg" width="24"
                                         height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                         stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -291,7 +291,7 @@
                             <li class="flex space-x-3">
                                 <!-- Solid Check -->
                                 <span
-                                    class="mt-0.5 h-5 w-5 flex justify-center items-center rounded-full bg-blue-600 text-white dark:bg-blue-800/30 dark:text-blue-500">
+                                    class="mt-0.5 h-5 w-5 flex justify-center items-center rounded-full bg-blue-600 text-white">
                                     <svg class="flex-shrink-0 h-3.5 w-3.5" xmlns="http://www.w3.org/2000/svg" width="24"
                                         height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                         stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -308,7 +308,7 @@
                             <li class="flex space-x-3">
                                 <!-- Solid Check -->
                                 <span
-                                    class="mt-0.5 h-5 w-5 flex justify-center items-center rounded-full bg-blue-600 text-white dark:bg-blue-800/30 dark:text-blue-500">
+                                    class="mt-0.5 h-5 w-5 flex justify-center items-center rounded-full bg-blue-600 text-white">
                                     <svg class="flex-shrink-0 h-3.5 w-3.5" xmlns="http://www.w3.org/2000/svg" width="24"
                                         height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                         stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
