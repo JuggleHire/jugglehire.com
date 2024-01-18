@@ -67,13 +67,13 @@
           </div>
         </li>
       </ul>
-      <div v-if="tab === 1" class="p-4 flex items-center">
+      <div v-if="tab === 1">
         <easiest-job />
       </div>
-      <div v-if="tab === 2" class="p-4 flex items-center">
+      <div v-if="tab === 2">
         <career-portal />
       </div>
-      <div v-if="tab === 3" class="p-4 flex items-center">
+      <div v-if="tab === 3">
         <candidate-sorting />
       </div>
     </div>
