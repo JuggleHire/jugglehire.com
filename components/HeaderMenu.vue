@@ -42,10 +42,10 @@
                             aria-hidden="true" />
                         </div>
                         <div>
-                          <a :href="subitem?.href" class="font-semibold text-gray-900">
+                          <nuxt-link :to="subitem?.href" class="font-semibold text-gray-900">
                             {{ subitem?.name }}
                             <span class="absolute inset-0" />
-                          </a>
+                          </nuxt-link>
                           <p class="mt-1 text-gray-600">{{ subitem?.description }}</p>
                         </div>
                       </div>
@@ -168,33 +168,33 @@
   import { ref } from 'vue'
   import { Dialog, DialogPanel, Popover, PopoverButton, PopoverPanel } from '@headlessui/vue'
   import { Bars3Icon, XMarkIcon, CheckCircleIcon } from '@heroicons/vue/24/outline'
-  import { ChevronDownIcon, PhoneIcon, PlayCircleIcon, ArrowPathIcon, BuildingOfficeIcon, ClipboardDocumentCheckIcon, DocumentTextIcon, TrashIcon, AdjustmentsHorizontalIcon, ChatBubbleLeftRightIcon, EnvelopeIcon, CalendarIcon, KeyIcon, UserGroupIcon } from '@heroicons/vue/20/solid'
+  import { ChevronDownIcon, PhoneIcon, PlayCircleIcon, ArrowPathIcon, BuildingOfficeIcon, LockClosedIcon, UserGroupIcon, ClockIcon, ClipboardDocumentCheckIcon, AcademicCapIcon, DocumentTextIcon, HeartIcon, TrashIcon, AdjustmentsHorizontalIcon, ChatBubbleLeftRightIcon, EnvelopeIcon, CalendarIcon, KeyIcon } from '@heroicons/vue/20/solid'
 
   const navigation = [
     {
       name: 'Features', href: '#',
       megaMenu: true,
       items: [
-        { name: 'Job Posting and Management', description: 'Your Gateway to Exceptional Talent', href: '#', icon: BuildingOfficeIcon },
-        { name: 'Candidate Application Management', description: 'Effortless Job Posts, Swift Hiring', href: '#', icon: ClipboardDocumentCheckIcon },
-        { name: 'Spam Candidate Filter', description: "Custom Forms for Seamless Hiring", href: '#', icon: DocumentTextIcon },
-        { name: 'Interview Scheduler', description: "Filter Noise, Focus on Quality", href: '#', icon: TrashIcon },
-        { name: 'Collaborative Hiring Process', description: "Efficient Candidate Sorting Simplified", href: '#', icon: AdjustmentsHorizontalIcon },
-        { name: 'Applicant Tracking System', description: 'Stay Connected, Even on Autopilot', href: '#', icon: ChatBubbleLeftRightIcon },
-        { name: 'Two Way Email Communication', description: 'Email, Meet Hiring in One Place', href: '#', icon: EnvelopeIcon },
-        { name: 'Company Career Portal', description: 'Effortless Interview Coordination', href: '#', icon: CalendarIcon },
-        { name: 'Candidate Assessment Tracker', description: 'Stay Connected, Even on Autopilot', href: '#', icon: ChatBubbleLeftRightIcon },
-        { name: 'Candidate Directory', description: 'Email, Meet Hiring in One Place', href: '#', icon: EnvelopeIcon },
-        { name: 'Branded Domains', description: 'Effortless Interview Coordination', href: '#', icon: CalendarIcon },
-        { name: 'Team Collaboration', description: 'Effortless Interview Coordination', href: '#', icon: CalendarIcon },
+        { name: 'Job Posting and Management', description: 'Your Gateway to Exceptional Talent', href: '', icon: BuildingOfficeIcon },
+        { name: 'Candidate Application Management', description: 'Effortless Job Posts, Swift Hiring', href: '', icon: ClipboardDocumentCheckIcon },
+        { name: 'Spam Candidate Filter', description: "Custom Forms for Seamless Hiring", href: '', icon: DocumentTextIcon },
+        { name: 'Interview Scheduler', description: "Filter Noise, Focus on Quality", href: '', icon: LockClosedIcon },
+        { name: 'Collaborative Hiring Process', description: "Efficient Candidate Sorting Simplified", href: '', icon: AdjustmentsHorizontalIcon },
+        { name: 'Applicant Tracking System', description: 'Stay Connected, Even on Autopilot', href: '', icon: ClockIcon },
+        { name: 'Two Way Email Communication', description: 'Email, Meet Hiring in One Place', href: '', icon: EnvelopeIcon },
+        { name: 'Company Career Portal', description: 'Effortless Interview Coordination', href: '', icon: CalendarIcon },
+        { name: 'Candidate Assessment Tracker', description: 'Stay Connected, Even on Autopilot', href: '', icon: ChatBubbleLeftRightIcon },
+        { name: 'Candidate Directory', description: 'Email, Meet Hiring in One Place', href: '', icon: EnvelopeIcon },
+        { name: 'Branded Domains', description: 'Effortless Interview Coordination', href: '', icon: ClipboardDocumentCheckIcon },
+        { name: 'Team Collaboration', description: 'Effortless Interview Coordination', href: '', icon: UserGroupIcon },
       ],
     },
     {
-      name: 'Use Cases', href: '#',
+      name: 'Use Cases', href: '',
       items: [
-        { name: 'Recruitment Software for SMB', description: 'Your Gateway to Exceptional Talent', href: '#', icon: BuildingOfficeIcon },
-        { name: 'Talent Acquisition Management', description: 'Effortless Job Posts, Swift Hiring', href: '#', icon: ClipboardDocumentCheckIcon },
-        { name: 'Remote Hiring Solution', description: "Custom Forms for Seamless Hiring", href: '#', icon: DocumentTextIcon },
+        { name: 'Recruitment Software for SMB', description: 'Your Gateway to Exceptional Talent', href: '', icon: BuildingOfficeIcon },
+        { name: 'Talent Acquisition Management', description: 'Effortless Job Posts, Swift Hiring', href: '', icon: ClipboardDocumentCheckIcon },
+        { name: 'Remote Hiring Solution', description: "Custom Forms for Seamless Hiring", href: '', icon: DocumentTextIcon },
       ],
     },
     {
@@ -202,9 +202,10 @@
       items: [
         { name: 'Product Roadmap', description: 'Your Gateway to Exceptional Talent', href: '/roadmap', icon: BuildingOfficeIcon },
         { name: 'Changelog', description: 'Effortless Job Posts, Swift Hiring', href: '/changelog', icon: ClipboardDocumentCheckIcon },
-        { name: 'The Wall of Love', description: "Custom Forms for Seamless Hiring", href: '/the-wall-of-love', icon: DocumentTextIcon },
-        { name: 'About Us', description: "Filter Noise, Focus on Quality", href: '/about-us', icon: TrashIcon },
-        { name: 'Knowledgebase', description: 'Stay Connected, Even on Autopilot', href: 'https://jugglehire.helpcenter.guide/', icon: ChatBubbleLeftRightIcon },
+        { name: 'The Wall of Love', description: "Custom Forms for Seamless Hiring", href: '/the-wall-of-love', icon: HeartIcon },
+        { name: 'About Us', description: "Filter Noise, Focus on Quality", href: '/about-us', icon: UserGroupIcon },
+        { name: 'Contact Us', description: "Feel free to connect us!", href: '/contact-us', icon: PhoneIcon },
+        { name: 'Knowledgebase', description: 'Stay Connected, Even on Autopilot', href: 'https://jugglehire.helpcenter.guide/', icon: AcademicCapIcon },
       ],
     },
     { name: 'Pricing', href: '/pricing' },
