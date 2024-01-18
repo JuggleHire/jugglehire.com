@@ -1,35 +1,24 @@
 <template>
   <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
     <div class="text-center" data-aos="fade-up">
-      <h2
-        class="font-bold text-2xl md:text-3xl lg:text-4xl text-gray-900 !leading-[3.5rem]"
-      >
-        Gain Control Over Your <br />Recruitment Puzzle
+      <h2 class="mt-2 text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl !leading-[3.4rem]">
+        Gain Control Over Your <br /> Recruitment Puzzle
       </h2>
-      <p class="mt-2 md:mt-4 text-gray-700 font-medium">
+      <p class="mt-2 md:mt-4 text-lg leading-8 text-gray-600">
         🚀 One-Stop Solution for All Your Hiring Operations
       </p>
     </div>
 
     <!-- Icon Blocks -->
     <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-12 mt-16">
-      <div
-        class="flex group"
-        v-for="(item, index) in cardData"
-        :key="item.title"
-        data-aos="zoom-in"
-        :data-aos-delay="100 * index"
-      >
-        <div
-          v-html="item.icon"
-          class="flex justify-center items-center w-12 h-12 bg-gray-50 border border-gray-200 rounded-full shrink-0 group-hover:border-gray-800 transition duration-200 ease-linear"
-        ></div>
-        <div class="ms-5 sm:ms-8">
-          <h3
-            class="text-base sm:text-lg font-semibold text-gray-800"
-            v-text="item.title"
-          />
-          <p class="mt-1 text-gray-600" v-text="item.description" />
+      <div class="flex group" v-for="(item, index) in cardData" :key="item.title" data-aos="zoom-in"
+        :data-aos-delay="100 * index">
+        <div v-html="item.icon"
+          class="mb-6 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600 text-white shrink-0">
+        </div>
+        <div class="ms-5 sm:ms-6">
+          <h3 class="text-base font-semibold leading-7 text-gray-900" v-text="item.title" />
+          <p class="mt-1  text-base leading-7 text-gray-600" v-text="item.description" />
         </div>
       </div>
     </div>
