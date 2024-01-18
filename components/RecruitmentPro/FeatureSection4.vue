@@ -4,10 +4,10 @@
         <!-- Feature section -->
         <div class="mx-auto max-w-7xl px-6 lg:px-8">
             <div class="mx-auto max-w-2xl sm:text-center">
-                <h2 class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-5xl">
+                <h2 class="text-2xl font-bold text-gray-900 sm:text-[40px] sm:leading-[48px]">
                     Go Beyond The Traditional Root
                 </h2>
-                <p class="mt-6 text-lg leading-8 text-gray-600">Maximizing Effectiveness by Doing Less</p>
+                <p class="mt-6 text-lg text-gray-600">Maximizing Effectiveness by Doing Less</p>
             </div>
         </div>
         <div class="max-w-7xl px-6 lg:px-8 mx-auto">
@@ -22,7 +22,7 @@
                                     class="text-xl group-hover:text-blue-600 font-semibold text-gray-800 dark:group-hover:text-gray-400 dark:text-gray-200">
                                     10X Time Saver
                                 </h3>
-                                <p class="text-base text-gray-500">
+                                <p class="text-base text-gray-600">
                                     Automate various tasks, including candidate evaluation, sorting, and scheduling
                                 </p>
                             </div>
@@ -40,7 +40,7 @@
                                     class="text-xl group-hover:text-blue-600 font-semibold text-gray-800 dark:group-hover:text-gray-400 dark:text-gray-200">
                                     Hybrid HR System
                                 </h3>
-                                <p class="text-base text-gray-500">
+                                <p class="text-base text-gray-600">
                                     Seamlessly integrate with other HR systems, including payroll and onboarding
                                     platforms.
                                 </p>
@@ -59,7 +59,7 @@
                                     class="text-xl group-hover:text-blue-600 font-semibold text-gray-800 dark:group-hover:text-gray-400 dark:text-gray-200">
                                     Centralized Management
                                 </h3>
-                                <p class="text-base text-gray-500">
+                                <p class="text-base text-gray-600">
                                     Enjoy a one-stop platform for managing resumes, cover letters, notes, and history.
                                 </p>
                             </div>
@@ -78,7 +78,7 @@
                                     class="text-xl group-hover:text-blue-600 font-semibold text-gray-800 dark:group-hover:text-gray-400 dark:text-gray-200">
                                     Scientific Screening
                                 </h3>
-                                <p class="text-base text-gray-500">
+                                <p class="text-base text-gray-600">
                                     Automated screening and filtering based on predefined criteria to get a closely
                                     matched candidate.
                                 </p>
@@ -98,7 +98,7 @@
                                     class="text-xl group-hover:text-blue-600 font-semibold text-gray-800 dark:group-hover:text-gray-400 dark:text-gray-200">
                                     Data-based Decision
                                 </h3>
-                                <p class="text-base text-gray-500">
+                                <p class="text-base text-gray-600">
                                     See analytics and reports to track key metrics related to your recruiting process.
                                 </p>
                             </div>
@@ -116,7 +116,7 @@
                                     class="text-xl group-hover:text-blue-600 font-semibold text-gray-800 dark:group-hover:text-gray-400 dark:text-gray-200">
                                     Customized Workflows
                                 </h3>
-                                <p class="text-base text-gray-500">
+                                <p class="text-base text-gray-600">
                                     Tailor the recruitment process to match your organization's flows for maximum
                                     potentials.
                                 </p>
@@ -135,7 +135,7 @@
                                     class="text-xl group-hover:text-blue-600 font-semibold text-gray-800 dark:group-hover:text-gray-400 dark:text-gray-200">
                                     Simplest Job Posting
                                 </h3>
-                                <p class="text-base text-gray-500">
+                                <p class="text-base text-gray-600">
                                     Automate the job posting process. Post multiple jobs at a time for extended hiring.
                                 </p>
                             </div>
@@ -153,7 +153,7 @@
                                     class="text-xl group-hover:text-blue-600 font-semibold text-gray-800 dark:group-hover:text-gray-400 dark:text-gray-200">
                                     Reflective Experience
                                 </h3>
-                                <p class="text-base text-gray-500">
+                                <p class="text-base text-gray-600">
                                     Create a positive candidate experience by providing updates and application status.
                                 </p>
                             </div>
@@ -171,7 +171,7 @@
                                     class="text-xl group-hover:text-blue-600 font-semibold text-gray-800 dark:group-hover:text-gray-400 dark:text-gray-200">
                                     Progressive Collaboration
                                 </h3>
-                                <p class="text-base text-gray-500">
+                                <p class="text-base text-gray-600">
                                     Add team members, candidates, and stakeholders in the same spot to stay on the same
                                     page
                                 </p>
@@ -185,16 +185,14 @@
         <div class="mt-12 text-center">
             <a class="inline-flex items-center gap-x-2 bg-blue-600 border border-blue-100 hover:bg-blue-500 text-base text-white p-2 px-5 rounded-full transition hover:border-gray-300 dark:bg-gray-800 dark:border-gray-700 dark:hover:border-gray-600 dark:text-gray-400"
                 href="#">
-                I Want To Get Started Now
-                <span class="flex items-center gap-x-1">
-                    <span class="border-s ps-2 border-blue-200 text-white">Let Me In</span>
-                    <svg class="flex-shrink-0 w-4 h-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <path d="m9 18 6-6-6-6" />
-                    </svg>
-                </span>
+                Let Me In
+                <svg class="flex-shrink-0 w-4 h-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <path d="m9 18 6-6-6-6" />
+                </svg>
             </a>
+            <p class="text-sm text-gray-600 mt-2">I Want To Get Started Now</p>
         </div>
     </div>
 </template>

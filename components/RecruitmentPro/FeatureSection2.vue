@@ -4,10 +4,10 @@
         <!-- Feature section -->
         <div class="mx-auto max-w-7xl px-6 lg:px-8">
             <div class="mx-auto max-w-2xl sm:text-center">
-                <h2 class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-5xl">
+                <h2 class="text-2xl font-bold text-gray-900 sm:text-[40px] sm:leading-[48px]">
                     Simplified Recruitment
                 </h2>
-                <p class="mt-6 text-lg leading-8 text-gray-600">Ultimate Recruitment Software For Small to Medium
+                <p class="mt-6 text-lg text-gray-600">Ultimate Recruitment Software For Small to Medium
                     Business Hiring</p>
             </div>
         </div>
@@ -124,7 +124,8 @@
                     </div>
                     <div class="ms-5 sm:ms-8">
                         <h3 class="text-lg sm:text-xl font-semibold text-gray-800">Rich In Resources</h3>
-                        <p class="mt-1 text-gray-600">Enjoy all the tools, templates, and latest technology you need in one place.</p>
+                        <p class="mt-1 text-gray-600">Enjoy all the tools, templates, and latest technology you need in
+                            one place.</p>
                     </div>
                 </div>
                 <div class="flex group aos-init aos-animate" data-aos="zoom-in" data-aos-delay="700">
@@ -139,7 +140,8 @@
                     </div>
                     <div class="ms-5 sm:ms-8">
                         <h3 class="text-lg sm:text-xl font-semibold text-gray-800">Social Integration</h3>
-                        <p class="mt-1 text-gray-600">Meet the right talents using social media where they’re invested.</p>
+                        <p class="mt-1 text-gray-600">Meet the right talents using social media where they’re invested.
+                        </p>
                     </div>
                 </div>
                 <div class="flex group aos-init aos-animate" data-aos="zoom-in" data-aos-delay="800">
@@ -154,24 +156,23 @@
                     </div>
                     <div class="ms-5 sm:ms-8">
                         <h3 class="text-lg sm:text-xl font-semibold text-gray-800">Expert Screening</h3>
-                        <p class="mt-1 text-gray-600">Meet the organizational goal of finding a competent candidate who deserves</p>
+                        <p class="mt-1 text-gray-600">Meet the organizational goal of finding a competent candidate who
+                            deserves</p>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="mt-8 text-center">
-            <a class="inline-flex items-center gap-x-2 bg-blue-600 border border-blue-100 hover:bg-blue-500 text-xs text-white p-2 px-3 rounded-full transition hover:border-gray-300 dark:bg-gray-800 dark:border-gray-700 dark:hover:border-gray-600 dark:text-gray-400"
+        <div class="mt-12 text-center">
+            <a class="inline-flex items-center gap-x-2 bg-blue-600 border border-blue-100 hover:bg-blue-500 text-base text-white p-2 px-5 rounded-full transition hover:border-gray-300 dark:bg-gray-800 dark:border-gray-700 dark:hover:border-gray-600 dark:text-gray-400"
                 href="#">
-                I Want To Get Started Now
-                <span class="flex items-center gap-x-1">
-                    <span class="border-s ps-2 border-blue-200 text-white">Let Me In</span>
-                    <svg class="flex-shrink-0 w-4 h-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <path d="m9 18 6-6-6-6" />
-                    </svg>
-                </span>
+                Let Me In
+                <svg class="flex-shrink-0 w-4 h-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <path d="m9 18 6-6-6-6" />
+                </svg>
             </a>
+            <p class="text-sm text-gray-600 mt-2">I Want To Get Started Now</p>
         </div>
     </div>
 </template>

@@ -4,10 +4,10 @@
         <!-- Feature section -->
         <div class="mx-auto max-w-7xl px-6 lg:px-8">
             <div class="mx-auto max-w-2xl sm:text-center">
-                <h2 class="mt-6 text-3xl font-bold tracking-tight text-gray-900 sm:text-5xl">
+                <h2 class="text-2xl font-bold text-gray-900 sm:text-[40px] sm:leading-[48px]">
                     Master At Hiring Talents
                 </h2>
-                <p class="mt-6 text-xl text-gray-600">Become More Fluent Starting From Scratch</p>
+                <p class="mt-6 text-lg text-gray-600">Become More Fluent Starting From Scratch</p>
             </div>
         </div>
         <div class="max-w-7xl px-6 lg:px-8 mx-auto">
@@ -24,7 +24,7 @@
                             Stop small business requirements nightmare
                         </p>
                         <a href="#"
-                            class="inline-block mt-4 bg-blue-600 text-white hover:bg-blue-500 px-3 py-1.5 rounded-md">Learn
+                            class="inline-block mt-4 text-blue-600 hover:text-blue-500 font-semibold">Learn
                             More</a>
                     </div>
                 </div>
@@ -40,7 +40,7 @@
                             Virtually get your team members to keep coming
                         </p>
                         <a href="#"
-                            class="inline-block mt-4 bg-blue-600 text-white hover:bg-blue-500 px-3 py-1.5 rounded-md">Learn
+                            class="inline-block mt-4 text-blue-600 hover:text-blue-500 font-semibold">Learn
                             More</a>
                     </div>
                 </div>
@@ -56,7 +56,7 @@
                             Hire talent like the snap of a finger
                         </p>
                         <a href="#"
-                            class="inline-block mt-4 bg-blue-600 text-white hover:bg-blue-500 px-3 py-1.5 rounded-md">Learn
+                            class="inline-block mt-4 text-blue-600 hover:text-blue-500 font-semibold">Learn
                             More</a>
                     </div>
                 </div>
