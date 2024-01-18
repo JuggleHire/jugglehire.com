@@ -14,10 +14,10 @@
             <dl class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-2">
                 <div class="flex flex-col justify-center items-center text-center p-5" v-for="feature in features" :key="feature.name">
                     <component :is="feature.icon" class="h-5 w-5 flex-none text-blue-600" aria-hidden="true" />
-                    <div class="flex items-center gap-x-3 text-base font-semibold leading-7 text-gray-900">
+                    <div class="mt-2 flex items-center gap-x-3 text-base font-semibold leading-7 text-gray-900">
                         {{ feature.name }}
                     </div>
-                    <div class="mt-4 flex flex-auto flex-col text-base leading-7 text-gray-600">
+                    <div class="mt-2 flex flex-auto flex-col text-base leading-7 text-gray-600">
                         <p class="flex-auto">{{ feature.description }}</p>
                     </div>
                 </div>
