@@ -45,7 +45,7 @@
       <div class="mt-3 flex justify-center items-center gap-x-1 sm:gap-x-3 text-gray-800 text-base">
         🚀 Start In A Minute. Cancel Anytime
       </div>
-      <div class="mt-8 group">
+      <div class="mt-10 group">
         <h2 class="text-center sm:text-xl text-base font-semibold sm:leading-8 text-gray-800 opacity-75">
           Powering Global Visionary Leaders
         </h2>
