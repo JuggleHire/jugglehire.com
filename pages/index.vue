@@ -1,8 +1,8 @@
 <template>
   <div>
     <hero-section />
-    <recruitment-puzzle />
     <single-dashboard />
+    <recruitment-puzzle />
     <features-tab />
 
     <authority-communication />
