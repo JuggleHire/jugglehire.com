@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-blue-50 py-10 sm:py-16">
+    <div class="bg-white dark:bg-gray-900 py-10 sm:py-16">
 
         <!-- Feature section -->
         <div class="mx-auto max-w-7xl px-6 lg:px-8">
