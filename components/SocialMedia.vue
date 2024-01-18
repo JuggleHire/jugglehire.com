@@ -4,30 +4,18 @@
     <!-- Grid -->
     <div class="flex flex-wrap gap-16">
       <div class="lg:min-w-fit py-10" data-aos="fade-in">
-        <h2 class="text-3xl text-gray-800 font-bold lg:text-4xl">
+        <h2 class="text-3xl text-gray-900 font-bold lg:text-4xl">
           Social Media Integration
         </h2>
-        <p class="mt-3 text-gray-800">
+        <p class="mt-3  md:mt-4 text-lg leading-8 text-gray-600">
           Get the social media to shorten your recruitment ride
         </p>
         <p class="mt-5">
-          <a
-            class="inline-flex items-center gap-x-1 font-medium text-blue-600"
-            href="#"
-          >
+          <a class="inline-flex items-center gap-x-1 font-medium text-blue-600" href="#">
             Contact to learn more
-            <svg
-              class="flex-shrink-0 w-4 h-4 transition ease-in-out group-hover:translate-x-1"
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            >
+            <svg class="flex-shrink-0 w-4 h-4 transition ease-in-out group-hover:translate-x-1"
+              xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
               <path d="m9 18 6-6-6-6" />
             </svg>
           </a>
@@ -37,17 +25,10 @@
 
       <div class="grid sm:grid-cols-2 items-center gap-6 flex-1">
         <!-- Card -->
-        <a
-          class="group flex gap-6 w-full h-full hover:bg-gray-100 rounded-lg p-5 transition-all"
-          href="#"
-          data-aos="zoom-in"
-          data-aos-delay="50"
-        >
+        <a class="group flex gap-6 w-full h-full hover:bg-gray-100 rounded-lg p-5 transition-all" href="#"
+          data-aos="zoom-in" data-aos-delay="50">
           <div>
-            <img
-              src="~/assets/images/icons8-facebook-100.png"
-              alt="facebook logo"
-            />
+            <img src="~/assets/images/icons8-facebook-100.png" alt="facebook logo" />
           </div>
 
           <div>
@@ -60,22 +41,11 @@
               </p>
             </div>
 
-            <p
-              class="mt-3 inline-flex items-center gap-x-1 text-sm font-semibold text-gray-800"
-            >
+            <p class="mt-3 inline-flex items-center gap-x-1 text-sm font-semibold text-gray-800">
               Learn more
-              <svg
-                class="flex-shrink-0 w-4 h-4 transition ease-in-out group-hover:translate-x-1"
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
+              <svg class="flex-shrink-0 w-4 h-4 transition ease-in-out group-hover:translate-x-1"
+                xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                 <path d="m9 18 6-6-6-6" />
               </svg>
             </p>
@@ -84,17 +54,10 @@
         <!-- End Card -->
 
         <!-- Card -->
-        <a
-          class="group flex gap-6 w-full h-full hover:bg-gray-100 rounded-lg p-5 transition-all"
-          href="#"
-          data-aos="zoom-in"
-          data-aos-delay="50*2"
-        >
+        <a class="group flex gap-6 w-full h-full hover:bg-gray-100 rounded-lg p-5 transition-all" href="#"
+          data-aos="zoom-in" data-aos-delay="50*2">
           <div>
-            <img
-              src="~/assets/images/icons8-twitter-100.png"
-              alt="facebook logo"
-            />
+            <img src="~/assets/images/icons8-twitter-100.png" alt="facebook logo" />
           </div>
           <div>
             <div>
@@ -104,22 +67,11 @@
               </p>
             </div>
 
-            <p
-              class="mt-3 inline-flex items-center gap-x-1 text-sm font-semibold text-gray-800"
-            >
+            <p class="mt-3 inline-flex items-center gap-x-1 text-sm font-semibold text-gray-800">
               Learn more
-              <svg
-                class="flex-shrink-0 w-4 h-4 transition ease-in-out group-hover:translate-x-1"
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
+              <svg class="flex-shrink-0 w-4 h-4 transition ease-in-out group-hover:translate-x-1"
+                xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                 <path d="m9 18 6-6-6-6" />
               </svg>
             </p>
@@ -128,17 +80,10 @@
         <!-- End Card -->
 
         <!-- Card -->
-        <a
-          class="group flex gap-6 w-full h-full hover:bg-gray-100 rounded-lg p-5 transition-all"
-          href="#"
-          data-aos="zoom-in"
-          data-aos-delay="50*3"
-        >
+        <a class="group flex gap-6 w-full h-full hover:bg-gray-100 rounded-lg p-5 transition-all" href="#"
+          data-aos="zoom-in" data-aos-delay="50*3">
           <div>
-            <img
-              src="~/assets/images/icons8-instagram-100.png"
-              alt="facebook logo"
-            />
+            <img src="~/assets/images/icons8-instagram-100.png" alt="facebook logo" />
           </div>
 
           <div>
@@ -150,22 +95,11 @@
               </p>
             </div>
 
-            <p
-              class="mt-3 inline-flex items-center gap-x-1 text-sm font-semibold text-gray-800"
-            >
+            <p class="mt-3 inline-flex items-center gap-x-1 text-sm font-semibold text-gray-800">
               Learn more
-              <svg
-                class="flex-shrink-0 w-4 h-4 transition ease-in-out group-hover:translate-x-1"
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
+              <svg class="flex-shrink-0 w-4 h-4 transition ease-in-out group-hover:translate-x-1"
+                xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                 <path d="m9 18 6-6-6-6" />
               </svg>
             </p>
