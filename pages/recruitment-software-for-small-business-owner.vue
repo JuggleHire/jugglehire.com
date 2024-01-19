@@ -1,6 +1,7 @@
 <template>
     <div>
         <recruitment-pro-hero-section />
+        <recruitment-pro-logo-clouds />
         <recruitment-pro-feature-section />
         <recruitment-pro-feature-section-2 />
         <recruitment-pro-feature-section-3 />
