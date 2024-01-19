@@ -7,13 +7,13 @@
 
     <authority-communication />
     <interview-scheduling />
+    <stats />
     <starting-today />
     <why-choose />
     <social-media />
     <discount />
     <testimonial-section />
     <faq />
-    <stats />
     <contact />
   </div>
 </template>
