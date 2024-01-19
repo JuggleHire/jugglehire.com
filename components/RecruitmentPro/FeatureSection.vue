@@ -32,7 +32,7 @@
                         <path d="m9 18 6-6-6-6" />
                     </svg>
                 </a>
-                <p class="text-base text-gray-600">Start free, Play later</p>
+                <p class="text-base text-gray-600">Start free, Pay later</p>
             </div>
         </div>
     </div>
