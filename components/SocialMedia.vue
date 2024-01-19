@@ -2,8 +2,8 @@
   <!-- Icon Blocks -->
   <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-20 mx-auto">
     <!-- Grid -->
-    <div class="flex flex-wrap gap-16">
-      <div class="lg:min-w-fit py-10" data-aos="fade-in">
+    <div class="flex flex-col xl:flex-row gap-16">
+      <div class="lg:min-w-fit py-10 flex-1 text-center xl:text-left" data-aos="fade-in">
         <h2 class="text-3xl text-gray-900 font-bold lg:text-4xl">
           Social Media Integration
         </h2>
@@ -23,7 +23,7 @@
       </div>
       <!-- End Col -->
 
-      <div class="grid sm:grid-cols-2 items-center gap-6 flex-1">
+      <div class="grid grid-cols-1 sm:grid-cols-2 items-center gap-6 flex-1">
         <!-- Card -->
         <a class="group flex gap-6 w-full h-full hover:bg-gray-100 rounded-lg p-5 transition-all" href="#"
           data-aos="zoom-in" data-aos-delay="50">
