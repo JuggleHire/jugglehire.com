@@ -6,9 +6,9 @@
         <div class="lg:ml-auto lg:pl-4 lg:pt-4 relative">
 
           <div class="lg:max-w-lg">
-            <p class="mt-2  text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+            <h2 class="mt-2  text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl">
               Authority Communication.
-            </p>
+            </h2>
             <p class="mt-6 text-lg leading-8 text-gray-600">
               Build a positive, memorable experience with every candidate. Keep
               them informed every step ahead. Let every talent feel like they're
@@ -44,7 +44,7 @@
             <component :is="item.icon" class="h-6 w-6" />
           </div>
           <div class="ms-5 sm:ms-6">
-            <h3 class="text-base font-semibold leading-7 text-gray-900" v-text="item.title" />
+            <p class="text-lg font-semibold leading-7 text-gray-900" v-text="item.title" />
             <p class="mt-1  text-base leading-7 text-gray-600" v-text="item.description" />
           </div>
         </div>

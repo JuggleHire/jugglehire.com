@@ -16,10 +16,10 @@
     </div>
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
       <div class="mx-auto max-w-xl text-center">
-        <h2 class="text-lg font-semibold leading-8 tracking-tight text-blue-600">A Symphony of Satisfaction</h2>
-        <p class="mt-2 text-2xl  text-gray-900 sm:text-4xl !leading-[3rem]">
+        <p class="text-lg font-semibold leading-8 tracking-tight text-blue-600">A Symphony of Satisfaction</p>
+        <h2 class="mt-2 text-2xl  text-gray-900 sm:text-4xl !leading-[3rem]">
           Stories That Push Us <br><b> Beyond Boundary</b>
-        </p>
+        </h2>
       </div>
 
       <div class="mx-auto max-w-7xl md:pt-32 pt-16 px-6 lg:px-8">

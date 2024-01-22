@@ -4,7 +4,7 @@
       <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
         <div class="lg:pr-8 lg:pt-4">
           <div class="lg:max-w-lg">
-            <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Advanced Candidate Sorting.</p>
+            <h2 class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Advanced Candidate Sorting.</h2>
             <p class="mt-6 text-lg leading-8 text-gray-600">Sort, analyze, and finalize the candidates, measuring the core
               competency based on your expectations. Stop overpromising, and
               never hire an incompetent candidate whatsoever.</p>
@@ -36,7 +36,7 @@
             <component :is="item.icon" class="h-6 w-6" />
           </div>
           <div class="ms-5 sm:ms-6">
-            <h3 class="text-base font-semibold leading-7 text-gray-900" v-text="item.title" />
+            <p class="text-lg font-semibold leading-7 text-gray-900" v-text="item.title" />
             <p class="mt-1  text-base leading-7 text-gray-600" v-text="item.description" />
           </div>
         </div>

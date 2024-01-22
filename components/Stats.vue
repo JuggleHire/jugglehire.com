@@ -6,9 +6,9 @@
         <div class="lg:ml-auto lg:pl-4 lg:pt-4 relative">
 
           <div class="lg:max-w-lg space-y-10">
-            <p class="mt-2  text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+            <h2 class="mt-2  text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl">
               Meet Juggle Hire Technologies
-            </p>
+            </h2>
 
             <div class="space-y-4">
               <div v-for="item in cardData" :key="item.title">
@@ -22,7 +22,7 @@
 
                   </div>
                   <div class="ms-3">
-                    <h3 class="text-base font-semibold leading-7 text-gray-900" v-text="item.title" />
+                    <p class="text-lg font-semibold leading-7 text-gray-900" v-text="item.title" />
                     <p class="mt-1  text-base leading-7 text-gray-600" v-text="item.description" />
                   </div>
                 </div>

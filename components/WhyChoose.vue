@@ -3,12 +3,12 @@
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
       <div class="mx-auto flex flex-col sm:flex-row gap-24">
         <div class="lg:max-w-max ">
-          <p class="mt-2 text-4xl font-bold tracking-tight text-gray-900  leading-[4rem]">
+          <h2 class="mt-2 text-4xl font-bold tracking-tight text-gray-900  leading-[4rem]">
             <span class="text-[4.45rem]">Why</span> <br>
             <span> Businesses Like</span> <br>
             <span class="text-5xl"> <strong>You</strong></span> <em>Choose</em> <br>
             <span class="text-blue-600 text-5xl">Juggle Hire</span>
-          </p>
+          </h2>
           <dl class="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
             <div v-for="feature in features" :key="feature.name" class="relative ">
               <dt class="flex items-center gap-2 font-semibold text-gray-900">
@@ -32,7 +32,7 @@
               <component :is="item.icon" class="h-6 w-6" />
             </div>
             <div class="ms-5 sm:ms-6">
-              <h3 class="text-base font-semibold leading-7 text-gray-900" v-text="item.title" />
+              <p class="text-lg font-semibold leading-7 text-gray-900" v-text="item.title" />
               <p class="mt-1  text-base leading-7 text-gray-600" v-text="item.description" />
             </div>
           </div>

@@ -4,8 +4,8 @@
       <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
         <div class="lg:pr-8 lg:pt-4">
           <div class="lg:max-w-lg">
-            <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Simplest
-              Interview Scheduling.</p>
+            <h2 class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Simplest
+              Interview Scheduling.</h2>
             <p class="mt-6 text-lg leading-8 text-gray-600">Effortlessly coordinate interviews whenever you need.
               Shorten the hiring process when getting the best to
               boost your bottom-line productivity.</p>
@@ -37,7 +37,7 @@
             <component :is="item.icon" class="h-6 w-6" />
           </div>
           <div class="ms-5 sm:ms-6">
-            <h3 class="text-base font-semibold leading-7 text-gray-900" v-text="item.title" />
+            <p class="text-lg font-semibold leading-7 text-gray-900" v-text="item.title" />
             <p class="mt-1  text-base leading-7 text-gray-600" v-text="item.description" />
           </div>
         </div>
