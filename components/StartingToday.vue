@@ -19,10 +19,10 @@
     </div>
     <div class="relative mx-auto max-w-7xl py-24 sm:py-28 lg:px-4 lg:py-30" data-aos="fade-up">
       <div class="pl-6 pr-6 md:ml-auto md:w-2/3 md:pl-16 lg:w-1/2 lg:pl-24 lg:pr-0 xl:pl-32">
-        <h2 class="text-base font-semibold leading-7 text-indigo-400">
+        <h2 class=" text-3xl font-bold tracking-tight text-white sm:text-5xl !leading-[4rem]">
           Want Stress-free Hiring Starting Today?
         </h2>
-        <p class="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl !leading-[3rem]">
+        <p class="text-base font-semibold leading-7 text-indigo-400 mt-2">
           Bring Harmony To Your Current Hiring By Centralizing The Latest Tools
           In One Place.
         </p>

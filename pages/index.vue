@@ -12,9 +12,9 @@
     <authority-communication />
     <interview-scheduling />
     <testimonial-section />
-    <stats />
-    <starting-today />
     <why-choose />
+    <starting-today />
+    <stats />
     <social-media />
     <discount />
     <pricing-faq-section title="Any Question On Mind?" subtitle="Get your answer before you begin" :center-title="true"
