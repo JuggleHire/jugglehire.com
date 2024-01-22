@@ -4,10 +4,7 @@
     <nav class="flex items-center justify-between p-6 lg:px-8 max-w-7xl mx-auto" aria-label="Global">
       <div class="flex lg:flex-1">
         <nuxt-link href="/" class="-m-1.5 p-1.5">
-          <h1 class="text-black font-bold text-xl md:text-2xl lg:text-3xl">
-            Juggle
-            <span class="bg-blue-600 p-1 text-white font-bold rounded-md">Hire</span>
-          </h1>
+          <img src="/jugglehire.png" alt="company logo" width="130">
           <!-- <span class="text-xl text-white font-bold">JuggleHire</span> -->
         </nuxt-link>
       </div>
