@@ -5,7 +5,7 @@
     <recruitment-puzzle />
     <single-dashboard />
     <can-i-try-section />
-    <features-tab />
+    <easiest-job />
 
     <authority-communication />
     <interview-scheduling />
@@ -15,7 +15,7 @@
     <social-media />
     <discount />
     <testimonial-section />
-    <pricing-faq-section title="Any Question On Mind?" subtitle="Get your answer before you begin" center-title="true"
+    <pricing-faq-section title="Any Question On Mind?" subtitle="Get your answer before you begin" :center-title="true"
       :faqs="faqs" />
     <!-- <contact /> -->
   </div>
