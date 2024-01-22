@@ -1,8 +1,10 @@
 <template>
   <div>
     <hero-section />
-    <single-dashboard />
+    <logo-cloud title="Powering Global Visionary Leaders" />
     <recruitment-puzzle />
+    <single-dashboard />
+    <can-i-try-section />
     <features-tab />
 
     <authority-communication />
@@ -13,8 +15,9 @@
     <social-media />
     <discount />
     <testimonial-section />
-    <faq />
-    <contact />
+    <pricing-faq-section title="Any Question On Mind?" subtitle="Get your answer before you begin" center-title="true"
+      :faqs="faqs" />
+    <!-- <contact /> -->
   </div>
 </template>
 
@@ -25,6 +28,45 @@ const title = "JuggleHire | Simplifying Hiring for Busy Founders & Recruiters";
 const description =
   "Welcome to JuggleHire, your trusted partner in streamlining the hiring process. Discover how our recruitment software can make hiring easy for busy founders, entrepreneurs, and small business owners.";
 
+const faqs = [
+  {
+    question: "Do I Need To Pay For Future Updates?",
+    answer:
+      `<b>Ans:</b> Never! Every update we make will automatically adjust your current plan. You
+just enjoy the latest version, yet the price will remain the same.`,
+  },
+  {
+    question: "How Can You Guarantee My Data Security?",
+    answer:
+      `<b>Ans:</b> Juggle Hire constructs the most creative coding structure that secures the data
+itself. As you start using our requirement software, you'll get a totally personalized
+system where only you have access and who you'll approve. Even we can't access your data without your approval. Anytime you want to cancel the plan, delete it
+with a single click. Otherwise, it will automatically delete after 30 days.`,
+  },
+  {
+    question: "Can I Manage All The Hiring Process Using Only Juggle Hire?",
+    answer:
+      `<b>Ans:</b> Yes. We bring the most updated requirements technology on the planet earth
+exits before. We're also open to taking our customers' suggestions if there is any
+way we can improve your hassle-free hiring journey.`,
+  },
+  {
+    question: "Can One Single Person Manage The Software?",
+    answer:
+      `<b>Ans:</b> 100%! Whether you are a tech guy or have no clue about technology, you can
+still manage it. Because it's as simple as school kids can use. If you still have any
+challenges with using the software, see the guideline videos or ask to the support to
+become a master at it within an
+hour or less.`,
+  },
+  {
+    question: "What If I Want To Cancel The Juggle Hire?",
+    answer:
+      `<b>Ans:</b> Simply go to the dashboard. Click the setting under the category list. See
+"Cancel My Plan". It will automatically stop your account. You don't need to talk to
+anyone about this at all.`,
+  },
+]
 onMounted(() => {
   AOS.init();
 });

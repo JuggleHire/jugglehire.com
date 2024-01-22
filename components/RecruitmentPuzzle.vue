@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-[85rem] px-4 sm:px-6 lg:px-8 py-16 sm:py-32 mt-20 mx-auto">
+  <div class="max-w-[85rem] px-4 sm:px-6 lg:px-8 py-16 sm:py-20  mx-auto">
     <div class="text-center" data-aos="fade-up">
       <h2 class="mt-2 text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl !leading-[3.4rem]">
         Gain Control Over Your <br /> Recruitment Puzzle
@@ -14,7 +14,7 @@
       <div class="flex group" v-for="(item, index) in cardData" :key="item.title" data-aos="zoom-in"
         :data-aos-delay="100 * index">
         <div v-html="item.icon"
-          class="mb-6 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600 text-white shrink-0">
+          class="mb-6 flex h-10 w-10 items-center justify-center rounded-lg bg-blue-600 text-white shrink-0">
         </div>
         <div class="ms-5 sm:ms-6">
           <h3 class="text-base font-semibold leading-7 text-gray-900" v-text="item.title" />
