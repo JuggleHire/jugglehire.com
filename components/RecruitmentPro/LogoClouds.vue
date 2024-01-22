@@ -1,8 +1,7 @@
 <template>
     <div class="bg-black py-24 sm:py-32">
         <div class="mx-auto max-w-7xl px-6 lg:px-8">
-            <h2 class="text-center text-lg font-semibold leading-8 text-white">Trusted by the world’s most innovative
-                teams</h2>
+            <h2 class="text-center text-lg font-semibold leading-8 text-white">Powering Global Visionary Leaders</h2>
             <div
                 class="mx-auto mt-10 flex flex-wrap justify-center items-center gap-x-4 gap-y-3">
                 <img v-for="client in clients" class="h-12 w-auto bg-white px-3 py-2 rounded object-contain"
