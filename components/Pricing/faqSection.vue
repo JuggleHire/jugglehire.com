@@ -2,8 +2,11 @@
   <div class="bg-white">
     <div class="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:px-8 lg:py-40">
       <div class="mx-auto max-w-4xl divide-y divide-gray-900/10">
-        <h2 class="text-2xl font-bold leading-10 tracking-tight text-gray-900" :class="centerTitle ? 'text-center' : ''"
-          v-text="title" />
+        <div>
+          <h2 class="mt-2 text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl"
+            :class="centerTitle ? 'text-center' : ''" v-text="title" />
+          <p class="mt-6 text-lg leading-8 text-gray-600 text-center">Get your answer before you begin</p>
+        </div>
         <dl class="mt-10 space-y-6 divide-y divide-gray-900/10">
           <Disclosure as="div" v-for="faq in faqs" :key="faq.question" class="pt-6" v-slot="{ open }">
             <dt>
