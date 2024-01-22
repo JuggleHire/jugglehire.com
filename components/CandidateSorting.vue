@@ -25,7 +25,7 @@
             </dl>
           </div>
         </div>
-        <img src="candidate-sorting-ui.png" alt="Product screenshot"
+        <img src="/candidate-sorting-ui.png" alt="Product screenshot"
           class="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
           width="2432" height="1442" />
       </div>
