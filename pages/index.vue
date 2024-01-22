@@ -11,12 +11,12 @@
 
     <authority-communication />
     <interview-scheduling />
+    <testimonial-section />
     <stats />
     <starting-today />
     <why-choose />
     <social-media />
     <discount />
-    <testimonial-section />
     <pricing-faq-section title="Any Question On Mind?" subtitle="Get your answer before you begin" :center-title="true"
       :faqs="faqs" />
     <!-- <contact /> -->

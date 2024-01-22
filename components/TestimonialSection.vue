@@ -16,112 +16,59 @@
     </div>
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
       <div class="mx-auto max-w-xl text-center">
-        <h2 class="text-lg font-semibold leading-8 tracking-tight text-indigo-600">A Symphony of Satisfaction</h2>
-        <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Stories That Push Us
-          Beyond Boundary</p>
+        <h2 class="text-lg font-semibold leading-8 tracking-tight text-blue-600">A Symphony of Satisfaction</h2>
+        <p class="mt-2 text-2xl  text-gray-900 sm:text-4xl !leading-[3rem]">
+          Stories That Push Us <br><b> Beyond Boundary</b>
+        </p>
       </div>
-      <div
-        class="mx-auto mt-16 grid max-w-2xl grid-cols-1 grid-rows-1 gap-8 text-sm leading-6 text-gray-900 sm:mt-20 sm:grid-cols-2 xl:mx-0 xl:max-w-none xl:grid-flow-col xl:grid-cols-4">
-        <figure class="rounded-2xl bg-white shadow-lg ring-1 ring-gray-900/5 sm:col-span-2 xl:col-start-2 xl:row-end-1">
-          <blockquote
-            class="p-6 text-lg font-semibold leading-7 tracking-tight text-gray-900 sm:p-12 sm:text-xl sm:leading-8">
-            <p>“Integer id nunc sit semper purus. Bibendum at lacus ut arcu blandit montes vitae auctor libero. Hac
-              condimentum dignissim nibh vulputate ut nunc. Amet nibh orci mi venenatis blandit vel et proin. Non
-              hendrerit in vel ac diam.”</p>
-          </blockquote>
-          <figcaption
-            class="flex flex-wrap items-center gap-x-4 gap-y-4 border-t border-gray-900/10 px-6 py-4 sm:flex-nowrap">
-            <img class="h-10 w-10 flex-none rounded-full bg-gray-50"
-              src="https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=1024&h=1024&q=80"
-              alt="">
-            <div class="flex-auto">
-              <div class="font-semibold">Brenna Goyette</div>
-              <div class="text-gray-600">@brennagoyette</div>
-            </div>
-            <img class="h-10 w-auto flex-none" src="https://tailwindui.com/img/logos/savvycal-logo-gray-900.svg" alt="">
-          </figcaption>
-        </figure>
-        <div class="space-y-8 xl:contents xl:space-y-0">
-          <div class="space-y-8 xl:row-span-2">
-            <figure class="rounded-2xl bg-white p-6 shadow-lg ring-1 ring-gray-900/5">
-              <blockquote class="text-gray-900">
-                <p>“Laborum quis quam. Dolorum et ut quod quia. Voluptas numquam delectus nihil. Aut enim doloremque et
-                  ipsam.”</p>
+
+      <div class="mx-auto max-w-7xl md:pt-32 pt-16 px-6 lg:px-8">
+        <div class="mx-auto grid max-w-2xl grid-cols-1 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+          <div class="flex flex-col pb-10 sm:pb-16 lg:pb-0 lg:pr-8 xl:pr-20">
+            <img class="h-12 self-start" src="https://tailwindui.com/img/logos/tuple-logo-gray-900.svg" alt="">
+            <figure class="mt-10 flex flex-auto flex-col justify-between">
+              <blockquote class="text-lg leading-8 text-gray-900">
+                <p>“Amet amet eget scelerisque tellus sit neque faucibus non eleifend. Integer eu praesent at a. Ornare
+                  arcu gravida natoque erat et cursus tortor consequat at. Vulputate gravida sociis enim nullam ultricies
+                  habitant malesuada lorem ac. Tincidunt urna dui pellentesque sagittis.”</p>
               </blockquote>
-              <figcaption class="mt-6 flex items-center gap-x-4">
-                <img class="h-10 w-10 rounded-full bg-gray-50"
+              <figcaption class="mt-10 flex items-center gap-x-6">
+                <img class="h-14 w-14 rounded-full bg-gray-50"
                   src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
                   alt="">
-                <div>
-                  <div class="font-semibold">Leslie Alexander</div>
-                  <div class="text-gray-600">@lesliealexander</div>
+                <div class="text-base">
+                  <div class="font-semibold text-gray-900">Judith Black</div>
+                  <div class="mt-1 text-gray-500">CEO of Tuple</div>
                 </div>
               </figcaption>
             </figure>
-
-            <!-- More testimonials... -->
           </div>
-          <div class="space-y-8 xl:row-start-1">
-            <figure class="rounded-2xl bg-white p-6 shadow-lg ring-1 ring-gray-900/5">
-              <blockquote class="text-gray-900">
-                <p>“Aut reprehenderit voluptatem eum asperiores beatae id. Iure molestiae ipsam ut officia rem nulla
-                  blanditiis.”</p>
+          <div
+            class="flex flex-col border-t border-gray-900/10 pt-10 sm:pt-16 lg:border-l lg:border-t-0 lg:pl-8 lg:pt-0 xl:pl-20">
+            <img class="h-12 self-start" src="https://tailwindui.com/img/logos/reform-logo-gray-900.svg" alt="">
+            <figure class="mt-10 flex flex-auto flex-col justify-between">
+              <blockquote class="text-lg leading-8 text-gray-900">
+                <p>“Excepteur veniam labore ullamco eiusmod. Pariatur consequat proident duis dolore nulla veniam
+                  reprehenderit nisi officia voluptate incididunt exercitation exercitation elit. Nostrud veniam sint
+                  dolor nisi ullamco.”</p>
               </blockquote>
-              <figcaption class="mt-6 flex items-center gap-x-4">
-                <img class="h-10 w-10 rounded-full bg-gray-50"
-                  src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+              <figcaption class="mt-10 flex items-center gap-x-6">
+                <img class="h-14 w-14 rounded-full bg-gray-50"
+                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
                   alt="">
-                <div>
-                  <div class="font-semibold">Lindsay Walton</div>
-                  <div class="text-gray-600">@lindsaywalton</div>
+                <div class="text-base">
+                  <div class="font-semibold text-gray-900">Joseph Rodriguez</div>
+                  <div class="mt-1 text-gray-500">CEO of Reform</div>
                 </div>
               </figcaption>
             </figure>
-
-            <!-- More testimonials... -->
-          </div>
-        </div>
-        <div class="space-y-8 xl:contents xl:space-y-0">
-          <div class="space-y-8 xl:row-start-1">
-            <figure class="rounded-2xl bg-white p-6 shadow-lg ring-1 ring-gray-900/5">
-              <blockquote class="text-gray-900">
-                <p>“Voluptas quos itaque ipsam in voluptatem est. Iste eos blanditiis repudiandae. Earum deserunt enim
-                  molestiae ipsum perferendis recusandae saepe corrupti.”</p>
-              </blockquote>
-              <figcaption class="mt-6 flex items-center gap-x-4">
-                <img class="h-10 w-10 rounded-full bg-gray-50"
-                  src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-                  alt="">
-                <div>
-                  <div class="font-semibold">Tom Cook</div>
-                  <div class="text-gray-600">@tomcook</div>
-                </div>
-              </figcaption>
-            </figure>
-
-            <!-- More testimonials... -->
-          </div>
-          <div class="space-y-8 xl:row-span-2">
-            <figure class="rounded-2xl bg-white p-6 shadow-lg ring-1 ring-gray-900/5">
-              <blockquote class="text-gray-900">
-                <p>“Molestias ea earum quos nostrum doloremque sed. Quaerat quasi aut velit incidunt excepturi rerum
-                  voluptatem minus harum.”</p>
-              </blockquote>
-              <figcaption class="mt-6 flex items-center gap-x-4">
-                <img class="h-10 w-10 rounded-full bg-gray-50"
-                  src="https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-                  alt="">
-                <div>
-                  <div class="font-semibold">Leonard Krasner</div>
-                  <div class="text-gray-600">@leonardkrasner</div>
-                </div>
-              </figcaption>
-            </figure>
-
-            <!-- More testimonials... -->
           </div>
         </div>
       </div>
     </div>
   </div>
 </template>
+
+<script>
+</script>
+  
