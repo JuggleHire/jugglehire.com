@@ -37,7 +37,7 @@
             <component :is="item.icon" class="h-6 w-6" />
           </div>
           <div class="ms-5 sm:ms-6">
-            <h3 class="text-base font-semibold leading-7 text-gray-900" v-text="item.title" />
+            <p class="text-lg font-semibold leading-7 text-gray-900" v-text="item.title" />
             <p class="mt-1  text-base leading-7 text-gray-600" v-text="item.description" />
           </div>
         </div>
