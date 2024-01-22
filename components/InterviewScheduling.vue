@@ -6,8 +6,9 @@
           <div class="lg:max-w-lg">
             <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Simplest
               Interview Scheduling.</p>
-            <p class="mt-6 text-lg leading-8 text-gray-600">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.</p>
+            <p class="mt-6 text-lg leading-8 text-gray-600">Effortlessly coordinate interviews whenever you need.
+              Shorten the hiring process when getting the best to
+              boost your bottom-line productivity.</p>
             <dl class="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
               <div v-for="feature in features" :key="feature.name" class="relative">
                 <dt class="flex items-center gap-2 font-semibold text-gray-900">

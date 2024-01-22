@@ -10,16 +10,7 @@
         <p class="mt-3  md:mt-4 text-lg leading-8 text-gray-600">
           Get the social media to shorten your recruitment ride
         </p>
-        <p class="mt-5">
-          <a class="inline-flex items-center gap-x-1 font-medium text-blue-600" href="#">
-            Contact to learn more
-            <svg class="flex-shrink-0 w-4 h-4 transition ease-in-out group-hover:translate-x-1"
-              xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <path d="m9 18 6-6-6-6" />
-            </svg>
-          </a>
-        </p>
+
       </div>
       <!-- End Col -->
 

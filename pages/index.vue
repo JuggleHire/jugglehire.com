@@ -14,11 +14,11 @@
     <testimonial-section />
     <why-choose />
     <starting-today />
-    <stats />
     <social-media />
     <discount />
     <pricing-faq-section title="Any Question On Mind?" subtitle="Get your answer before you begin" :center-title="true"
       :faqs="faqs" />
+    <stats />
     <!-- <contact /> -->
   </div>
 </template>

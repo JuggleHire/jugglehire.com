@@ -37,7 +37,7 @@
 
         <!-- Buttons -->
         <div class="text-center">
-          <a class="inline-flex justify-center items-center gap-x-3 text-center bg-gradient-to-tl from-blue-600 to-violet-600 shadow-lg shadow-transparent hover:shadow-blue-700/50 border border-transparent text-white text-sm font-medium rounded-full focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white py-3 px-6 "
+          <a class="inline-flex justify-center items-center gap-x-3 text-center bg-gradient-to-tl bg-blue-600 text-base shadow-lg shadow-transparent hover:bg-blue-700 border border-transparent text-white  font-medium rounded-full focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white py-3 px-6 "
             href="#">
             Save My Access
             <svg class="flex-shrink-0 w-4 h-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
