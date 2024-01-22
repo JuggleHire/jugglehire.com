@@ -7,6 +7,7 @@
     <can-i-try-section />
     <easiest-job />
     <identical-career-portal />
+    <candidate-sorting />
 
     <authority-communication />
     <interview-scheduling />
