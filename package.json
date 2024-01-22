@@ -21,6 +21,7 @@
     "@heroicons/vue": "^2.0.18",
     "@nuxtjs/robots": "^3.0.0",
     "@tailwindcss/forms": "^0.5.7",
+    "aos": "^3.0.0-beta.6",
     "axios": "^1.5.1",
     "dayjs": "^1.11.9",
     "sass": "^1.63.5",

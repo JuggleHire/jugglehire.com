@@ -1,4 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+@layer base{
+    html, body{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    button,a,h1,h2,h3,h4,h5,h6{
+        font-family: 'Playfair Display', serif;
+    }
+}
+
+@layer utilities{
+    .sticky-nav{
+        @apply relative  lg:sticky top-0 lg:top-5 max-w-7xl rounded-lg border border-gray-100
+    }
+    
+}

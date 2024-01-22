@@ -1,7 +1,7 @@
 <template>
     <div>
         <recruitment-pro-hero-section />
-        <recruitment-pro-logo-clouds />
+        <logo-cloud title="Powering Global Visionary Leaders" />
         <recruitment-pro-feature-section />
         <recruitment-pro-feature-section-2 />
         <recruitment-pro-feature-section-3 />
