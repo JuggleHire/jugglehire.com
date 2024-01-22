@@ -1,25 +1,18 @@
 <template>
-    <div class="bg-gray-900 py-10 sm:py-16">
-
-        <!-- Feature section -->
-        <div class="mx-auto max-w-7xl px-6 lg:px-8">
-            <div class="mx-auto max-w-2xl sm:text-center">
-                <h2 class="mt-2 text-2xl font-bold tracking-tight text-white sm:text-4xl">Simplified Recruitment</h2>
-                <p class="mt-6 sm:text-lg text-base sm:leading-8 text-gray-300">Ultimate Recruitment Software For Small to Medium
-                Business Hiring</p>
-            </div>
-        </div>
+    <div class="bg-black py-10 sm:py-16">
+        <SectionHeader title="Simplified Recruitment" text="Ultimate Recruitment Software For Small to Medium Business Hiring"
+            titleClass="!text-white" textClass="!text-gray-200" />
         <div class="mt-12">
             <div class="mx-auto max-w-7xl px-6 lg:px-8">
-                <img src="/jugglehire-app.png" alt="App screenshot" class="max-h-[400px] mx-auto rounded-lg w-auto" />
+                <img src="/jugglehire-app.png" alt="App screenshot" class="max-h-[700px] mx-auto rounded-lg w-auto" />
             </div>
         </div>
         <div class="mx-auto mt-16 max-w-7xl px-6 sm:mt-20 md:mt-24 lg:px-8">
             <dl
                 class="mx-auto grid max-w-2xl grid-cols-1 gap-x-6 gap-y-10 text-base leading-7 text-gray-600 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-x-8 lg:gap-y-16">
                 <div v-for="feature in features" :key="feature.name" class="relative pl-16">
-                    <dt class="text-base font-semibold leading-7 text-white">
-                        <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-blue-600">
+                    <dt class="text-xl font-semibold leading-7 text-white">
+                        <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-blue-500">
                             <component :is="feature.icon" class="h-6 w-6 text-white" aria-hidden="true" />
                         </div>
                         {{ feature.name }}

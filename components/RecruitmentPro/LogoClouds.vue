@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-gray-900 py-24 sm:py-32">
+    <div class="bg-black py-24 sm:py-32">
         <div class="mx-auto max-w-7xl px-6 lg:px-8">
             <h2 class="text-center text-lg font-semibold leading-8 text-white">Trusted by the world’s most innovative
                 teams</h2>
