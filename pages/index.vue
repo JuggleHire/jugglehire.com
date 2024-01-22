@@ -6,6 +6,7 @@
     <single-dashboard />
     <can-i-try-section />
     <easiest-job />
+    <identical-career-portal />
 
     <authority-communication />
     <interview-scheduling />
