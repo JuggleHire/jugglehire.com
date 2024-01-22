@@ -6,7 +6,7 @@
         <div class="lg:ml-auto lg:pl-4 lg:pt-4 relative">
 
           <div class="lg:max-w-lg">
-            <h2 class="mt-2  text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+            <h2 class="mt-2  text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl !leading-[3.8rem]">
               Authority Communication.
             </h2>
             <p class="mt-6 text-lg leading-8 text-gray-600">

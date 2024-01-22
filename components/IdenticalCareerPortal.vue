@@ -4,7 +4,8 @@
       <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
         <div class="lg:ml-auto lg:pl-4">
           <div class="lg:max-w-lg">
-            <h2 class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Identical Company
+            <h2 class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl !leading-[3.8rem]">Identical
+              Company
               Career Portal.</h2>
             <p class="mt-6 text-lg leading-8 text-gray-600">Want to make an unforgettable first impression by creating
               a professional signature? Separate your brand image that
