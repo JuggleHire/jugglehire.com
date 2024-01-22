@@ -42,7 +42,7 @@
                           aria-hidden="true" />
                       </div>
                       <div>
-                        <a href="javascript:void()" class="font-semibold text-gray-900">
+                        <a :href="subitem.href" class="font-semibold text-gray-900">
                           {{ subitem.name }}
                           <span class="absolute inset-0" />
                         </a>
@@ -164,7 +164,7 @@ const navigation = [
       {
         name: "Job Posting and Management",
         description: "Your Gateway to Exceptional Talent",
-        href: "#",
+        href: "#easiest-job-posting",
         icon: BuildingOfficeIcon,
       },
       {
@@ -242,7 +242,7 @@ const navigation = [
       {
         name: "Recruitment Software for SMB",
         description: "Your Gateway to Exceptional Talent",
-        href: "#",
+        href: "/recruitment-software-for-small-business-owner",
         icon: BuildingOfficeIcon,
       },
       {
