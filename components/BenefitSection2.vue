@@ -20,7 +20,9 @@
           </div>
         </div>
         <div class="flex items-start justify-end lg:order-first">
-          <img :src="sectionInfo.screenshot" alt="JuggleHire App screenshot" class="w-full max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 lg:w-[57rem]" width="2432" height="1442" />
+          <img :src="sectionInfo.screenshot" alt="JuggleHire App screenshot"
+            class="w-full max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 lg:w-[57rem]" width="2432"
+            height="1442" />
         </div>
       </div>
     </div>
@@ -34,12 +36,12 @@ import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from '@heroicons/vue/20/
 const sectionInfo = {
   subtitle: "Look professional",
   title: "Company Career Portal",
-  description: `First impressions matter, and now you'll always make a professional one. Juggle Hire is a polished and comprehensive platform that not only simplifies your hiring but also enhances your brand's image.`,
+  description: `First impressions matter, and now you'll always make a professional one. JuggleHire is a polished and comprehensive platform that not only simplifies your hiring but also enhances your brand's image.`,
   screenshot: "/company-profile-ui.png",
   features: [
     {
       name: 'Everything in one place:',
-      description:`Post jobs, collect candidate data, schedule interviews, and manage your hiring pipeline with ease, all within a clean and professional environment.`,
+      description: `Post jobs, collect candidate data, schedule interviews, and manage your hiring pipeline with ease, all within a clean and professional environment.`,
       icon: CloudArrowUpIcon,
     },
     {
