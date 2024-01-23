@@ -1,6 +1,5 @@
 <template>
-  <header ref="headerRef"
-    class="bg-white top-0 left-0 w-full mx-auto border-b border-b-gray-100 z-[99] transition-all duration-200 ease-linear">
+  <header ref="headerRef" class="w-full mx-auto   transition-all duration-200 ease-linear absolute inset-x-0 top-0 z-50">
     <nav class="flex items-center justify-between p-6 lg:px-8 max-w-7xl mx-auto" aria-label="Global">
       <div class="flex lg:flex-1">
         <nuxt-link href="/" class="-m-1.5 p-1.5">
@@ -18,7 +17,8 @@
       <div class="hidden lg:flex lg:gap-x-8">
         <template v-for="(nav, index) in navigation" :key="index">
           <Popover v-if="nav.items" class="relative z-50">
-            <PopoverButton class="inline-flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-900">
+            <PopoverButton
+              class="inline-flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-900 focus-visible:outline-none">
               <span>{{ nav.name }}</span>
               <ChevronDownIcon class="h-5 w-5" aria-hidden="true" />
             </PopoverButton>
@@ -140,19 +140,28 @@ import {
 } from "@heroicons/vue/24/outline";
 import {
   ChevronDownIcon,
-  PhoneIcon,
-  PlayCircleIcon,
   ArrowPathIcon,
   BuildingOfficeIcon,
   ClipboardDocumentCheckIcon,
   DocumentTextIcon,
-  TrashIcon,
-  AdjustmentsHorizontalIcon,
   ChatBubbleLeftRightIcon,
   EnvelopeIcon,
-  CalendarIcon,
   KeyIcon,
   UserGroupIcon,
+  BriefcaseIcon,
+  DocumentMagnifyingGlassIcon,
+  MagnifyingGlassIcon,
+  CalendarDaysIcon,
+  FunnelIcon,
+  GlobeAltIcon,
+  DocumentCheckIcon,
+  FolderIcon,
+  ArchiveBoxIcon,
+  MapIcon,
+  ForwardIcon,
+  HeartIcon,
+  AcademicCapIcon,
+  PhoneIcon,
 } from "@heroicons/vue/20/solid";
 
 const navigation = [
@@ -164,38 +173,38 @@ const navigation = [
       {
         name: "Job Posting and Management",
         description: "Your Gateway to Exceptional Talent",
-        href: "#easiest-job-posting",
-        icon: BuildingOfficeIcon,
+        href: "#",
+        icon: BriefcaseIcon,
       },
       {
         name: "Candidate Application Management",
         description: "Effortless Job Posts, Swift Hiring",
         href: "#",
-        icon: ClipboardDocumentCheckIcon,
+        icon: DocumentMagnifyingGlassIcon,
       },
       {
         name: "Spam Candidate Filter",
         description: "Custom Forms for Seamless Hiring",
         href: "#",
-        icon: DocumentTextIcon,
+        icon: MagnifyingGlassIcon,
       },
       {
         name: "Interview Scheduler",
         description: "Filter Noise, Focus on Quality",
         href: "#",
-        icon: TrashIcon,
+        icon: CalendarDaysIcon,
       },
       {
         name: "Collaborative Hiring Process",
         description: "Efficient Candidate Sorting Simplified",
         href: "#",
-        icon: AdjustmentsHorizontalIcon,
+        icon: ArrowPathIcon,
       },
       {
         name: "Applicant Tracking System",
         description: "Stay Connected, Even on Autopilot",
         href: "#",
-        icon: ChatBubbleLeftRightIcon,
+        icon: FunnelIcon,
       },
       {
         name: "Two Way Email Communication",
@@ -207,31 +216,31 @@ const navigation = [
         name: "Company Career Portal",
         description: "Effortless Interview Coordination",
         href: "#",
-        icon: CalendarIcon,
+        icon: GlobeAltIcon,
       },
       {
         name: "Candidate Assessment Tracker",
         description: "Stay Connected, Even on Autopilot",
         href: "#",
-        icon: ChatBubbleLeftRightIcon,
+        icon: DocumentCheckIcon,
       },
       {
         name: "Candidate Directory",
         description: "Email, Meet Hiring in One Place",
         href: "#",
-        icon: EnvelopeIcon,
+        icon: FolderIcon,
       },
       {
         name: "Branded Domains",
         description: "Effortless Interview Coordination",
         href: "#",
-        icon: CalendarIcon,
+        icon: ArchiveBoxIcon,
       },
       {
         name: "Team Collaboration",
         description: "Effortless Interview Coordination",
         href: "#",
-        icon: CalendarIcon,
+        icon: ChatBubbleLeftRightIcon,
       },
     ],
   },
@@ -266,31 +275,37 @@ const navigation = [
         name: "Product Roadmap",
         description: "Your Gateway to Exceptional Talent",
         href: "/roadmap",
-        icon: BuildingOfficeIcon,
+        icon: MapIcon,
       },
       {
         name: "Changelog",
         description: "Effortless Job Posts, Swift Hiring",
         href: "/changelog",
-        icon: ClipboardDocumentCheckIcon,
+        icon: ForwardIcon,
       },
       {
         name: "The Wall of Love",
         description: "Custom Forms for Seamless Hiring",
         href: "/the-wall-of-love",
-        icon: DocumentTextIcon,
+        icon: HeartIcon,
       },
       {
         name: "About Us",
         description: "Filter Noise, Focus on Quality",
         href: "/about-us",
-        icon: TrashIcon,
+        icon: UserGroupIcon,
+      },
+      {
+        name: "Contact Us",
+        description: "Feel free to connect us!",
+        href: "/contact-us",
+        icon: PhoneIcon,
       },
       {
         name: "Knowledgebase",
         description: "Stay Connected, Even on Autopilot",
         href: "https://jugglehire.helpcenter.guide/",
-        icon: ChatBubbleLeftRightIcon,
+        icon: AcademicCapIcon,
       },
     ],
   },
@@ -314,14 +329,6 @@ const callsToAction = [
   },
 ];
 
-onMounted(() => {
-  window.addEventListener("scroll", (e) => {
-    if (window.scrollY > 10) {
-      headerRef.value.classList.add("sticky-nav");
-    } else {
-      headerRef.value.classList.remove("sticky-nav");
-    }
-  });
-});
+
 </script>
 
