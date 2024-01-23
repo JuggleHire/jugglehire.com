@@ -5,7 +5,7 @@
       <div class="mx-auto px-6 lg:px-8">
         <div class="mx-auto max-w-2xl sm:text-center" data-aos="fade-in">
           <h2 class="mt-2 text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl !leading-[3.8rem]">
-            Single Dashboard. Manage Everything.
+            Single Dashboard. <br> <span class="text-blue-600">Manage Everything.</span>
           </h2>
           <p class="mt-6 text-lg leading-8 text-gray-600">
             🚀 Skillfully Hire The Right Candidate Using World-Class Recruitment

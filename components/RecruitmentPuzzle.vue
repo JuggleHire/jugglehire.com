@@ -11,10 +11,10 @@
 
     <!-- Icon Blocks -->
     <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-12 mt-16">
-      <div class="flex group" v-for="(item, index) in cardData" :key="item.title" data-aos="zoom-in"
-        :data-aos-delay="100 * index">
+      <div class="flex group transition duration-200 ease-linear hover:scale-110" v-for="(item) in cardData"
+        :key="item.title">
         <div v-html="item.icon"
-          class="mb-6 flex h-10 w-10 items-center justify-center rounded-lg bg-blue-600 text-white shrink-0">
+          class="flex h-10 w-10 items-center justify-center rounded-lg bg-blue-600 text-white shrink-0">
         </div>
         <div class="ms-5 sm:ms-6">
           <p class="text-lg font-semibold leading-7 text-gray-900" v-text="item.title" />
