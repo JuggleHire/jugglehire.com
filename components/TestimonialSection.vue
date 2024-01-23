@@ -32,7 +32,7 @@
                   to hire swiftly, making it my top choice”</p>
               </blockquote>
               <figcaption class="mt-10 flex items-center gap-x-6">
-                <img class="h-14 w-14 rounded-full bg-gray-50" src="/abdul-mannan.png" alt="user img">
+                <img class="h-14 w-14 rounded-full " src="/ab-mannan.png" alt="user img">
                 <div class="text-base">
                   <div class="font-semibold text-gray-900">Abdul Mannan</div>
                   <div class="mt-1 text-gray-500">CEO, SpaGreen Creative</div>
@@ -49,7 +49,7 @@
                   tripled our recruiting efficiency. Highly recommend for streamlined hiring!”</p>
               </blockquote>
               <figcaption class="mt-10 flex items-center gap-x-6">
-                <img class="h-14 w-14 rounded-full bg-gray-50" src="/nabil.png" alt="user img">
+                <img class="h-14 w-14 rounded-full " src="/nabil.png" alt="user img">
                 <div class="text-base">
                   <div class="font-semibold text-gray-900">Nabil Choudhury</div>
                   <div class="mt-1 text-gray-500">COO @ Dorik</div>
