@@ -1,6 +1,6 @@
 <template>
   <header ref="headerRef"
-    class="bg-transparent static top-0  inset-x-0 w-full mx-auto border-b border-b-gray-100 z-[99999999] transition-all duration-200 ease-linear ">
+    class="bg-transparent relative z-[999] top-0  inset-x-0 w-full mx-auto border-b border-b-gray-100  transition-all duration-200 ease-linear ">
     <nav class="flex items-center justify-between p-6 lg:px-8 max-w-7xl mx-auto" aria-label="Global">
       <div class="flex lg:flex-1">
         <nuxt-link href="/" class="-m-1.5 p-1.5">
@@ -168,86 +168,86 @@ import {
 const navigation = [
   {
     name: "Features",
-    href: "#",
+    href: "",
     megaMenu: true,
     items: [
       {
         name: "Job Posting and Management",
         description: "Your Gateway to Exceptional Talent",
-        href: "#",
+        href: "",
         icon: BriefcaseIcon,
       },
       {
         name: "Candidate Application Management",
         description: "Effortless Job Posts, Swift Hiring",
-        href: "#",
+        href: "",
         icon: DocumentMagnifyingGlassIcon,
       },
       {
         name: "Spam Candidate Filter",
         description: "Custom Forms for Seamless Hiring",
-        href: "#",
+        href: "",
         icon: MagnifyingGlassIcon,
       },
       {
         name: "Interview Scheduler",
         description: "Filter Noise, Focus on Quality",
-        href: "#",
+        href: "",
         icon: CalendarDaysIcon,
       },
       {
         name: "Collaborative Hiring Process",
         description: "Efficient Candidate Sorting Simplified",
-        href: "#",
+        href: "",
         icon: ArrowPathIcon,
       },
       {
         name: "Applicant Tracking System",
         description: "Stay Connected, Even on Autopilot",
-        href: "#",
+        href: "",
         icon: FunnelIcon,
       },
       {
         name: "Two Way Email Communication",
         description: "Email, Meet Hiring in One Place",
-        href: "#",
+        href: "",
         icon: EnvelopeIcon,
       },
       {
         name: "Company Career Portal",
         description: "Effortless Interview Coordination",
-        href: "#",
+        href: "",
         icon: GlobeAltIcon,
       },
       {
         name: "Candidate Assessment Tracker",
         description: "Stay Connected, Even on Autopilot",
-        href: "#",
+        href: "",
         icon: DocumentCheckIcon,
       },
       {
         name: "Candidate Directory",
         description: "Email, Meet Hiring in One Place",
-        href: "#",
+        href: "",
         icon: FolderIcon,
       },
       {
         name: "Branded Domains",
         description: "Effortless Interview Coordination",
-        href: "#",
+        href: "",
         icon: ArchiveBoxIcon,
       },
       {
         name: "Team Collaboration",
         description: "Effortless Interview Coordination",
-        href: "#",
+        href: "",
         icon: ChatBubbleLeftRightIcon,
       },
     ],
   },
   {
     name: "Use Cases",
-    href: "#",
+    href: "",
     items: [
       {
         name: "Recruitment Software for SMB",
@@ -258,13 +258,13 @@ const navigation = [
       {
         name: "Talent Acquisition Management",
         description: "Effortless Job Posts, Swift Hiring",
-        href: "#",
+        href: "",
         icon: ClipboardDocumentCheckIcon,
       },
       {
         name: "Remote Hiring Solution",
         description: "Custom Forms for Seamless Hiring",
-        href: "#",
+        href: "",
         icon: DocumentTextIcon,
       },
     ],
