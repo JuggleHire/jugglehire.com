@@ -20,7 +20,7 @@
                             <dl class="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
                                 <div v-for="feature in featuresChecks" :key="feature.name" class="relative ">
                                     <dt class="text-xl font-semibold text-gray-900 flex items-center gap-2">
-                                        <span class="text-blue-600">
+                                        <span class="text-green-600">
                                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
                                                 fill="currentColor" class="w-6 h-6">
                                                 <path fill-rule="evenodd"

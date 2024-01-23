@@ -6,11 +6,13 @@
                 <div class="lg:ml-12 lg:pl-4">
                     <div class="lg:max-w-lg">
                         <p class="mt-2 text-lg md:text-2xl leading-8 text-gray-600">Top-notch. Professional.</p>
-                        <p class="mt-6 text-3xl font-bold tracking-tight text-gray-900 !leading-[120%] sm:text-5xl md:text-7xl">Company Profile.</p>
+                        <p
+                            class="mt-6 text-3xl font-bold tracking-tight text-gray-900 !leading-[120%] sm:text-5xl md:text-7xl">
+                            Company Profile.</p>
                         <dl class="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
                             <div v-for="feature in features" :key="feature.name" class="relative ">
                                 <dt class="font-semibold text-xl text-gray-900 flex items-center gap-2">
-                                    <span class="text-blue-600">
+                                    <span class="text-green-600">
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
                                             class="w-6 h-6">
                                             <path fill-rule="evenodd"
@@ -25,7 +27,7 @@
                     </div>
                 </div>
                 <div class="flex items-start justify-end lg:order-first">
-                    <img src="/company-portal.png" alt="Product screenshot"
+                    <img src="/company-portal.jpg" alt="Product screenshot"
                         class="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
                         width="2432" height="1442" />
                 </div>

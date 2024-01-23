@@ -7,10 +7,10 @@
             :class="centerTitle ? 'text-center' : ''" v-text="title" />
           <p class="mt-6 text-lg leading-8 text-gray-600 text-center" v-text="subtitle" />
         </div>
-        <dl class="mt-10 space-y-6 divide-y divide-gray-900/10">
-          <Disclosure as="div" v-for="faq in faqs" :key="faq.question" class="pt-6" v-slot="{ open }">
+        <dl class="mt-10 divide-y divide-gray-900/10">
+          <Disclosure as="div" v-for="faq in faqs" :key="faq.question" v-slot="{ open }">
             <dt>
-              <DisclosureButton class="flex w-full items-start justify-between text-left text-gray-900">
+              <DisclosureButton class="flex w-full items-start justify-between text-left text-gray-900" :class="open ? 'pt-6':'py-6'">
                 <span class="text-base font-semibold leading-7" v-text="faq.question" />
                 <span class="ml-6 flex h-7 items-center">
                   <PlusSmallIcon v-if="!open" class="h-6 w-6" aria-hidden="true" />
@@ -18,7 +18,7 @@
                 </span>
               </DisclosureButton>
             </dt>
-            <DisclosurePanel as="dd" class="mt-2 pr-12">
+            <DisclosurePanel as="dd" class="py-6 pr-12">
               <p class="text-base leading-7 text-gray-600" v-html="faq.answer" />
             </DisclosurePanel>
           </Disclosure>
