@@ -1,7 +1,6 @@
 <template>
-    <div class="bg-black py-10 sm:py-16">
-        <SectionHeader title="Simplified Recruitment" text="Ultimate Recruitment Software For Small to Medium Business Hiring"
-            titleClass="!text-white" textClass="!text-gray-200" />
+    <div class="relative py-10 sm:py-16">
+        <SectionHeader title="Simplified Recruitment" text="Ultimate Recruitment Software For Small to Medium Business Hiring" />
         <div class="mt-12">
             <div class="mx-auto max-w-7xl px-6 lg:px-8">
                 <img src="/jugglehire-app.png" alt="App screenshot" class="max-h-[700px] mx-auto rounded-lg w-auto" />
@@ -11,13 +10,13 @@
             <dl
                 class="mx-auto grid max-w-2xl grid-cols-1 gap-x-6 gap-y-10 text-base leading-7 text-gray-600 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-x-8 lg:gap-y-16">
                 <div v-for="feature in features" :key="feature.name" class="relative pl-16">
-                    <dt class="text-xl font-semibold leading-7 text-white">
+                    <dt class="text-lg font-semibold leading-7 text-gray-900">
                         <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-blue-500">
                             <component :is="feature.icon" class="h-6 w-6 text-white" aria-hidden="true" />
                         </div>
                         {{ feature.name }}
                     </dt>
-                    <dd class="mt-2 text-base leading-7 text-gray-300">{{ feature.description }}</dd>
+                    <dd class="mt-1 text-base leading-7 text-gray-600">{{ feature.description }}</dd>
                 </div>
             </dl>
         </div>
@@ -31,7 +30,16 @@
                     <path d="m9 18 6-6-6-6" />
                 </svg>
             </a>
-            <p class="text-base text-gray-300">I Want To Get Started Now</p>
+            <p class="text-sm text-gray-600">I Want To Get Started Now</p>
+        </div>
+        <div class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80" aria-hidden="true">
+            <div class="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
+                style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)" />
+        </div>
+        <div class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
+            aria-hidden="true">
+            <div class="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]"
+                style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)" />
         </div>
     </div>
 </template>

@@ -12,8 +12,8 @@
                     <div class="lg:pr-8 ">
                         <div class="lg:max-w-lg">
                             <h2
-                                class="mt-4 lg:mt-16 text-3xl font-bold tracking-tight text-gray-900 !leading-[120%] sm:text-5xl md:text-7xl">
-                                Recruitment Pro</h2>
+                                class="mt-4 lg:mt-16 text-3xl font-bold tracking-tight text-gray-900 !leading-[130%] sm:text-4xl md:text-6xl">
+                                <span class="text-blue-600">Recruitment</span> Software for <span class="text-blue-600">Small Business</span> Owner</h2>
                             <p class="mt-6 text-lg md:text-2xl leading-8 text-gray-600">Confidently Hire The Right
                                 Talents without
                                 Manual Labor</p>

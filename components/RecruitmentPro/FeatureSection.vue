@@ -3,12 +3,12 @@
 
         <!-- Feature section -->
         <SectionHeader title="Tired Of Manual Recruitment?"
-            text="<span class='font-bold'>It’s <i>NOT</i> your fault</span>, even if you’re saying yourself" />
+            text="<span class='font-bold text-red-500'>It’s <i>NOT</i> your fault</span>, even if you’re saying yourself" />
         <div class="mx-auto mt-8 max-w-7xl px-6 lg:px-8">
             <dl class="grid justify-center grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none sm:grid-cols-2">
                 <div class="flex flex-col justify-center items-center text-center sm:p-5">
-                    <div class="flex justify-center items-center w-12 h-12 bg-blue-600 rounded-xl">
-                        <svg class="flex-shrink-0 w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" width="24"
+                    <div class="flex justify-center items-center w-12 h-12 bg-red-50 rounded-xl">
+                        <svg class="flex-shrink-0 w-6 h-6 text-red-500" xmlns="http://www.w3.org/2000/svg" width="24"
                             height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                             stroke-linecap="round" stroke-linejoin="round">
                             <rect width="10" height="14" x="3" y="8" rx="2" />
@@ -16,8 +16,8 @@
                             <path d="M8 18h.01" />
                         </svg>
                     </div>
-                    <h3 class="mt-2 text-2xl font-medium text-gray-900">
-                        I’m still <br /> <span class="font-bold text-blue-600">poor at hiring</span>
+                    <h3 class="mt-2 text-2xl font-normal text-gray-900">
+                        I’m still <br /> <span class="font-bold text-red-500">poor at hiring</span>
                     </h3>
                     <div class="mt-6 flex flex-auto flex-col text-base leading-7 text-gray-600">
                         <p class="flex-auto">That’s why my productivity goes below the average. I can’t pay attention to
@@ -26,8 +26,8 @@
                     </div>
                 </div>
                 <div class="flex flex-col justify-center items-center text-center sm:p-5">
-                    <div class="flex justify-center items-center w-12 h-12 bg-blue-600 rounded-xl">
-                        <svg class="flex-shrink-0 w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" width="24"
+                    <div class="flex justify-center items-center w-12 h-12 bg-red-50 rounded-xl">
+                        <svg class="flex-shrink-0 w-6 h-6 text-red-500" xmlns="http://www.w3.org/2000/svg" width="24"
                             height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                             stroke-linecap="round" stroke-linejoin="round">
                             <rect width="10" height="14" x="3" y="8" rx="2" />
@@ -35,8 +35,8 @@
                             <path d="M8 18h.01" />
                         </svg>
                     </div>
-                    <h3 class="mt-2 text-2xl font-medium text-gray-900">
-                        Getting right talent <br /> <span class="font-bold text-blue-600">is overwhelming</span>
+                    <h3 class="mt-2 text-2xl font-normal text-gray-900">
+                        Getting right talent <br /> <span class="font-bold text-red-500">is overwhelming</span>
                     </h3>
                     <div class="mt-6 flex flex-auto flex-col text-base leading-7 text-gray-600">
                         <p class="flex-auto">Because I’ve to go through all my tasks manually myself, that increases my
@@ -45,8 +45,8 @@
                     </div>
                 </div>
                 <div class="flex flex-col justify-center items-center text-center sm:p-5">
-                    <div class="flex justify-center items-center w-12 h-12 bg-blue-600 rounded-xl">
-                        <svg class="flex-shrink-0 w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" width="24"
+                    <div class="flex justify-center items-center w-12 h-12 bg-red-50 rounded-xl">
+                        <svg class="flex-shrink-0 w-6 h-6 text-red-500" xmlns="http://www.w3.org/2000/svg" width="24"
                             height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                             stroke-linecap="round" stroke-linejoin="round">
                             <rect width="10" height="14" x="3" y="8" rx="2" />
@@ -54,8 +54,8 @@
                             <path d="M8 18h.01" />
                         </svg>
                     </div>
-                    <h3 class="mt-2 text-2xl font-medium text-gray-900">
-                        The market is <br> <span class="font-bold text-blue-600">too Competitive</span>
+                    <h3 class="mt-2 text-2xl font-normal text-gray-900">
+                        The market is <br> <span class="font-bold text-red-500">too Competitive</span>
                     </h3>
                     <div class="mt-6 flex flex-auto flex-col text-base leading-7 text-gray-600">
                         <p class="flex-auto">It naturally causes salary pressure, talent shortage, and extended hiring
@@ -64,8 +64,8 @@
                     </div>
                 </div>
                 <div class="flex flex-col justify-center items-center text-center sm:p-5">
-                    <div class="flex justify-center items-center w-12 h-12 bg-blue-600 rounded-xl">
-                        <svg class="flex-shrink-0 w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" width="24"
+                    <div class="flex justify-center items-center w-12 h-12 bg-red-50 rounded-xl">
+                        <svg class="flex-shrink-0 w-6 h-6 text-red-500" xmlns="http://www.w3.org/2000/svg" width="24"
                             height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                             stroke-linecap="round" stroke-linejoin="round">
                             <rect width="10" height="14" x="3" y="8" rx="2" />
@@ -73,8 +73,8 @@
                             <path d="M8 18h.01" />
                         </svg>
                     </div>
-                    <h3 class="mt-2 text-2xl font-medium text-gray-900">
-                        Finding <br> <span class="font-bold text-blue-600">experts kills my time</span>
+                    <h3 class="mt-2 text-2xl font-normal text-gray-900">
+                        Finding <br> <span class="font-bold text-red-500">experts kills my time</span>
                     </h3>
                     <div class="mt-6 flex flex-auto flex-col text-base leading-7 text-gray-600">
                         <p class="flex-auto">My lengthy hiring process, average job posting, and limited employer
@@ -94,7 +94,7 @@
                         <path d="m9 18 6-6-6-6" />
                     </svg>
                 </a>
-                <p class="text-base text-gray-600">Start free, Pay later</p>
+                <p class="text-sm text-gray-600">Start free, Pay later</p>
             </div>
         </div>
     </div>

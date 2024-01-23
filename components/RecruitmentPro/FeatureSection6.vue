@@ -12,8 +12,8 @@
                         </h2>
                         <p class="mt-6 text-lg leading-8 text-gray-600">Become More Fluent Starting From Scratch</p>
                         <div class="space-y-4">
-                            <div v-for="item in cardData" :key="item.title">
-                                <div class="flex  group">
+                            <a class="block group" href="#" v-for="item in cardData" :key="item.title">
+                                <div class="flex">
                                     <div class=" text-blue-600  shrink-0 mt-1">
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
                                             class="w-6 h-6">
@@ -26,20 +26,19 @@
                                     <div class="ms-3">
                                         <p class="text-lg font-semibold leading-7 text-gray-900" v-text="item.title" />
                                         <p class="mt-1  text-base leading-7 text-gray-600" v-text="item.description" />
+                                        <span
+                                            class="flex items-center mt-3 text-blue-600 hover:text-blue-700 font-bold gap-2"
+                                            data-v-inspector="components/CanITrySection.vue:11:9"> Learn More <svg
+                                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                                stroke-width="1.5" stroke="currentColor" class="w-6 h-6"
+                                                data-v-inspector="components/CanITrySection.vue:14:11">
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                    d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3"
+                                                    data-v-inspector="components/CanITrySection.vue:16:13"></path>
+                                            </svg></span>
                                     </div>
                                 </div>
-
-                                <a href="#"
-                                    class="flex items-center ms-8 mt-3 text-blue-600 hover:text-blue-700 font-bold gap-2"
-                                    data-v-inspector="components/CanITrySection.vue:11:9"> Learn More <svg
-                                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                        stroke-width="1.5" stroke="currentColor" class="w-6 h-6"
-                                        data-v-inspector="components/CanITrySection.vue:14:11">
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3"
-                                            data-v-inspector="components/CanITrySection.vue:16:13"></path>
-                                    </svg></a>
-                            </div>
+                            </a>
                         </div>
                     </div>
                 </div>

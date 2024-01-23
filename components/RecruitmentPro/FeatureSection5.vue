@@ -1,6 +1,6 @@
 <template>
-    <div class="bg-black py-10 sm:py-16">
-        <SectionHeader subtitle="Free step.by.step. Training session" title="Unlock the master keys of your recruitment operation" text="Burn unnecessary fat from your recruitments process when systemize" textClass="!text-gray-200" titleClass="!text-white" />
+    <div class="py-10 sm:py-16">
+        <SectionHeader subtitle="Free step.by.step. Training session" title="Unlock the master keys of your recruitment operation" text="Burn unnecessary fat from your recruitments process when systemize" />
         <div class="max-w-7xl px-6 lg:px-8 mx-auto">
             <div class="flex flex-col md:flex-row gap-8 md:justify-center md:items-center">
                 <ul role="list" class="grid grid-cols-2 gap-y-4 gap-x-12 mt-16">
@@ -15,7 +15,7 @@
                         </span>
                         <!-- End Solid Check -->
 
-                        <span class="text-sm sm:text-base text-gray-300">
+                        <span class="text-sm sm:text-base text-gray-600">
                             Save Your Time
                         </span>
                     </li>
@@ -31,7 +31,7 @@
                         </span>
                         <!-- End Solid Check -->
 
-                        <span class="text-sm sm:text-base text-gray-300">
+                        <span class="text-sm sm:text-base text-gray-600">
                             Speed Up Productivity
                         </span>
                     </li>
@@ -47,7 +47,7 @@
                         </span>
                         <!-- End Solid Check -->
 
-                        <span class="text-sm sm:text-base text-gray-300">
+                        <span class="text-sm sm:text-base text-gray-600">
                             Supercharge Retention Rate
                         </span>
                     </li>
@@ -63,7 +63,7 @@
                         </span>
                         <!-- End Solid Check -->
 
-                        <span class="text-sm sm:text-base text-gray-300">
+                        <span class="text-sm sm:text-base text-gray-600">
                             Stop Manual Tasking
                         </span>
                     </li>
@@ -79,7 +79,7 @@
                         </span>
                         <!-- End Solid Check -->
 
-                        <span class="text-sm sm:text-base text-gray-300">
+                        <span class="text-sm sm:text-base text-gray-600">
                             Enjoy More Freedom
                         </span>
                     </li>
@@ -95,7 +95,7 @@
                         </span>
                         <!-- End Solid Check -->
 
-                        <span class="text-sm sm:text-base text-gray-300">
+                        <span class="text-sm sm:text-base text-gray-600">
                             Scale budgets <span class="font-medium">efficiently</span>
                         </span>
                     </li>
@@ -112,7 +112,7 @@
                     <path d="m9 18 6-6-6-6" />
                 </svg>
             </a>
-            <p class="text-base text-gray-300">Join Inner Circle</p>
+            <p class="text-sm text-gray-600">Join Inner Circle</p>
         </div>
     </div>
 </template>
