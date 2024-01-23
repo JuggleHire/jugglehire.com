@@ -63,7 +63,7 @@
             class="hs-accordion-content w-full overflow-hidden transition-[height] duration-300"
             aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-one">
             <p class="text-gray-800">
-              <b>Ans</b>: Juggle Hire constructs the most creative coding
+              <b>Ans</b>: JuggleHire constructs the most creative coding
               structure that secures the data itself. As you start using our
               requirement software, you'll get a totally personalized system
               where only you have access and who you'll approve. Even we can't
@@ -78,7 +78,7 @@
           <summary
             class="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500"
             aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-one">
-            Can I Manage All The Hiring Process Using Only Juggle Hire?
+            Can I Manage All The Hiring Process Using Only JuggleHire?
             <svg
               class="hs-accordion-active:hidden block flex-shrink-0 w-5 h-5 text-gray-600 group-hover:text-gray-500 group-open:rotate-180 transition duration-200 ease-linear"
               xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
@@ -137,7 +137,7 @@
           <summary
             class="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500"
             aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-one">
-            What If I Want To Cancel The Juggle Hire?
+            What If I Want To Cancel The JuggleHire?
             <svg
               class="hs-accordion-active:hidden block flex-shrink-0 w-5 h-5 text-gray-600 group-hover:text-gray-500 group-open:rotate-180 transition duration-200 ease-linear"
               xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"

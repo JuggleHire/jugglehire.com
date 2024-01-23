@@ -12,7 +12,8 @@
                         <p class="mt-6 text-lg leading-8 text-gray-600">Become More Fluent Starting From Scratch</p>
                         <div class="space-y-2">
                             <template v-for="item in cardData" :key="item.title">
-                                <a :href="item.href" class="block group hover:bg-gray-50 p-3 rounded-md transition-all duration-300">
+                                <a :href="item.href"
+                                    class="block group hover:bg-gray-50 p-3 rounded-md transition-all duration-300">
                                     <div class="flex">
                                         <div class=" text-green-600  shrink-0 mt-1">
                                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
@@ -44,9 +45,9 @@
                     </div>
                 </div>
                 <div class="flex items-start justify-end lg:order-first">
-                    <img src="/jugglehire-app.png" alt="Product screenshot"
-                        class="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
-                        width="2432" height="1442" />
+                    <img src="/jugglehire-app.jpg" alt="Product screenshot"
+                        class="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]" width="2432"
+                        height="1442" />
                 </div>
             </div>
         </div>
@@ -56,24 +57,24 @@
 <script setup>
 
 
-    const cardData = [
-        {
-            href: '#',
-            title: "Small Business Recruitment Software",
-            description: `Stop small business requirements nightmare`,
+const cardData = [
+    {
+        href: '#',
+        title: "Small Business Recruitment Software",
+        description: `Stop small business requirements nightmare`,
 
-        },
-        {
-            href: '#',
-            title: "Remote Hiring Solution.",
-            description: `Virtually get your team members to keep coming.`,
+    },
+    {
+        href: '#',
+        title: "Remote Hiring Solution.",
+        description: `Virtually get your team members to keep coming.`,
 
-        },
-        {
-            href: '#',
-            title: "Talent Acquisition Management.",
-            description: `Hire talent like the snap of a finger.`,
+    },
+    {
+        href: '#',
+        title: "Talent Acquisition Management.",
+        description: `Hire talent like the snap of a finger.`,
 
-        },
-    ];
+    },
+];
 </script>

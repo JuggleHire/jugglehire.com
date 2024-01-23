@@ -40,13 +40,13 @@ just enjoy the latest version, yet the price will remain the same.`,
   {
     question: "How Can You Guarantee My Data Security?",
     answer:
-      `<b>Ans:</b> Juggle Hire constructs the most creative coding structure that secures the data
+      `<b>Ans:</b> JuggleHire constructs the most creative coding structure that secures the data
 itself. As you start using our requirement software, you'll get a totally personalized
 system where only you have access and who you'll approve. Even we can't access your data without your approval. Anytime you want to cancel the plan, delete it
 with a single click. Otherwise, it will automatically delete after 30 days.`,
   },
   {
-    question: "Can I Manage All The Hiring Process Using Only Juggle Hire?",
+    question: "Can I Manage All The Hiring Process Using Only JuggleHire?",
     answer:
       `<b>Ans:</b> Yes. We bring the most updated requirements technology on the planet earth
 exits before. We're also open to taking our customers' suggestions if there is any
@@ -62,7 +62,7 @@ become a master at it within an
 hour or less.`,
   },
   {
-    question: "What If I Want To Cancel The Juggle Hire?",
+    question: "What If I Want To Cancel The JuggleHire?",
     answer:
       `<b>Ans:</b> Simply go to the dashboard. Click the setting under the category list. See
 "Cancel My Plan". It will automatically stop your account. You don't need to talk to

@@ -1,6 +1,6 @@
 <template>
   <div class="relative bg-gray-900">
-    <div class="relative h-80 overflow-hidden bg-indigo-600 md:absolute md:left-0 md:h-full md:w-1/3 lg:w-1/2">
+    <div class="relative h-80 overflow-hidden bg-indigo-400 md:absolute md:left-0 md:h-full md:w-1/3 lg:w-1/2">
       <img class="h-full w-full object-cover"
         src="https://images.unsplash.com/photo-1525130413817-d45c1d127c42?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1920&q=60&blend=6366F1&sat=-100&blend-mode=multiply"
         alt="" />
@@ -22,7 +22,7 @@
         <h2 class=" text-3xl font-bold tracking-tight text-white sm:text-5xl !leading-[4rem]">
           Want Stress-free Hiring Starting Today?
         </h2>
-        <p class="text-base font-semibold leading-7 text-indigo-400 mt-2">
+        <p class="text-base font-semibold leading-7 text-blue-400 mt-2">
           Bring Harmony To Your Current Hiring By Centralizing The Latest Tools
           In One Place.
         </p>
