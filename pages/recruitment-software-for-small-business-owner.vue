@@ -8,7 +8,7 @@
         <recruitment-pro-feature-section-4 />
         <recruitment-pro-testimonial-section />
         <recruitment-pro-feature-section-5 />
-        <pricing-faq-section title="Got Question?" centerTitle="true" :faqs="faqs" />
+        <pricing-faq-section title="Got Question?" subtitle="Get all your questions answered before you begin" centerTitle="true" :faqs="faqs" />
         <recruitment-pro-feature-section-6 />
     </div>
 </template>

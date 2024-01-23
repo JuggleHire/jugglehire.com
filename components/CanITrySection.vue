@@ -3,8 +3,8 @@
   <div class="bg-white mt-24">
     <div class="px-6 py-24 sm:px-6 sm:py-32 lg:px-8">
       <div class="mx-auto max-w-2xl text-center space-y-12">
-        <h2 class="mt-2 text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl uppercase">
-          Can I Try
+        <h2 class="mt-2 text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl uppercase !leading-[3.8rem]">
+          Can I Try <br>
           <span class="bg-clip-text bg-gradient-to-tl from-blue-600 to-blue-600 text-transparent">JUGGLE HIRE</span>
           For Free?
         </h2>

@@ -4,7 +4,7 @@
     <div class="max-w-[85rem] mx-auto space-y-16">
       <div class="mx-auto px-6 lg:px-8">
         <div class="mx-auto max-w-2xl sm:text-center" data-aos="fade-in">
-          <h2 class="mt-2 text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+          <h2 class="mt-2 text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl !leading-[3.8rem]">
             Single Dashboard. Manage Everything.
           </h2>
           <p class="mt-6 text-lg leading-8 text-gray-600">

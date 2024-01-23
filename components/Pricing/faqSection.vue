@@ -5,7 +5,7 @@
         <div>
           <h2 class="mt-2 text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl"
             :class="centerTitle ? 'text-center' : ''" v-text="title" />
-          <p class="mt-6 text-lg leading-8 text-gray-600 text-center">Get your answer before you begin</p>
+          <p class="mt-6 text-lg leading-8 text-gray-600 text-center" v-text="subtitle" />
         </div>
         <dl class="mt-10 space-y-6 divide-y divide-gray-900/10">
           <Disclosure as="div" v-for="faq in faqs" :key="faq.question" class="pt-6" v-slot="{ open }">
@@ -36,6 +36,10 @@ defineProps({
   title: {
     type: String,
     default: 'Frequently asked questions'
+  },
+  subtitle: {
+    type: String,
+    default: 'Get your answer before you begin',
   },
   centerTitle: {
     type: Boolean,

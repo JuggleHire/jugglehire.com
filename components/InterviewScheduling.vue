@@ -4,7 +4,8 @@
       <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
         <div class="lg:pr-8 lg:pt-4">
           <div class="lg:max-w-lg">
-            <h2 class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Simplest
+            <h2 class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl !leading-[3.8rem]">
+              Simplest
               Interview Scheduling.</h2>
             <p class="mt-6 text-lg leading-8 text-gray-600">Effortlessly coordinate interviews whenever you need.
               Shorten the hiring process when getting the best to

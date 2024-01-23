@@ -16,7 +16,7 @@
         </div>
         <div class="text-center">
           <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Hunt With <span
-              class="text-blue-600">Juggle Hire</span></h1>
+              class="text-blue-600">JuggleHire</span></h1>
           <p class="mt-6 text-lg leading-8 text-gray-600">From Small Businesses To HR Professionals, Now Anyone Can
             <u><em>Automatically</em></u> Choose The Right Candidate On Command
           </p>
