@@ -28,7 +28,7 @@
                                             <p class="text-lg font-semibold leading-7 text-gray-900" v-text="item.title" />
                                             <p class="mt-1  text-base leading-7 text-gray-600" v-text="item.description" />
                                             <span
-                                                class="flex items-center mt-3 text-blue-600 hover:text-blue-700 font-bold gap-2"
+                                                class="flex items-center mt-3 text-blue-600 hover:text-blue-700 font-semibold gap-2"
                                                 data-v-inspector="components/CanITrySection.vue:11:9"> Learn More <svg
                                                     xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                                     stroke-width="1.5" stroke="currentColor" class="w-6 h-6"
