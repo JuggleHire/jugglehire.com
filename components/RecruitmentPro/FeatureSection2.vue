@@ -3,7 +3,7 @@
         <SectionHeader title="Simplified Recruitment" text="Ultimate Recruitment Software For Small to Medium Business Hiring" />
         <div class="mt-12">
             <div class="mx-auto max-w-7xl px-6 lg:px-8">
-                <img src="/jugglehire-app.png" alt="App screenshot" class="max-h-[700px] mx-auto rounded-lg w-auto" />
+                <img src="/jugglehire-app.jpg" alt="App screenshot" class="max-h-[700px] mx-auto rounded-lg w-auto" />
             </div>
         </div>
         <div class="mx-auto mt-16 max-w-7xl px-6 sm:mt-20 md:mt-24 lg:px-8">
