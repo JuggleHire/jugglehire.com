@@ -16,6 +16,7 @@ defineProps({
 })
 
 const clients = [
+
     {
         name: 'Dorik - JuggleHire Client',
         logo: '/clients/dorik.svg'
@@ -23,6 +24,10 @@ const clients = [
     {
         name: 'Xgenious - JuggleHire Client',
         logo: '/clients/xgenious.svg'
+    },
+    {
+        name: 'Spagreen - JuggleHire Client',
+        logo: '/spagreen-logo.png'
     },
     {
         name: 'Blinto - JuggleHire Client',
@@ -36,13 +41,13 @@ const clients = [
         name: 'Pixency - JuggleHire Client',
         logo: '/clients/pixency.png'
     },
-    // {
-    //     name: 'BitByte Technology - JuggleHire Client',
-    //     logo: '/clients/bitbyte-technology.svg'
-    // },
-    // {
-    //     name: 'Microters - JuggleHire Client',
-    //     logo: '/clients/microters.png'
-    // },
+    {
+        name: 'BitByte Technology - JuggleHire Client',
+        logo: '/clients/bitbyte-technology.svg'
+    },
+    {
+        name: 'Microters - JuggleHire Client',
+        logo: '/clients/microters.png'
+    },
 ]
 </script>
