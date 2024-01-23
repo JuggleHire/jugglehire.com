@@ -3,9 +3,9 @@
   <div class="bg-white mt-24">
     <div class="px-6 py-24 sm:px-6 sm:py-32 lg:px-8">
       <div class="mx-auto max-w-2xl text-center space-y-12">
-        <h2 class="mt-2 text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl uppercase !leading-[3.8rem]">
+        <h2 class="mt-2 text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl  !leading-[3.8rem]">
           Can I Try <br>
-          <span class="bg-clip-text bg-gradient-to-tl from-blue-600 to-blue-600 text-transparent">JUGGLE HIRE</span>
+          <span class="bg-clip-text bg-gradient-to-tl from-blue-600 to-blue-600 text-transparent">JuggleHire</span>
           For Free?
         </h2>
         <a href="#"
@@ -25,7 +25,7 @@
             <ul class="space-y-6">
               <li v-for="(item, index) in without" :key="item"
                 class="text-gray-900 font-medium text-left flex items-center gap-2" data-aos="fade-in"
-                :data-aos-delay="100 * index">
+                :data-aos-delay="100 * index" data-aos-once="true">
                 <span class="text-red-500  shrink-0 inline-flex items-center justify-center text-sm">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
                     <path fill-rule="evenodd"
@@ -46,7 +46,7 @@
             <ul class="space-y-6">
               <li v-for="(item, index) in withx" :key="item"
                 class=" text-left flex items-start  gap-2 text-base font-semibold leading-7 text-gray-900"
-                data-aos="fade-in" :data-aos-delay="100 * index">
+                data-aos="fade-in" :data-aos-delay="100 * index" data-aos-once="true">
                 <span class="text-blue-600 mt-1 inline-flex items-center justify-center shrink-0">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
                     <path fill-rule="evenodd"
