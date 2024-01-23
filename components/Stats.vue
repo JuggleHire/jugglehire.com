@@ -7,7 +7,7 @@
 
           <div class="lg:max-w-lg space-y-10">
             <h2 class="mt-2  text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl !leading-[3.8rem]">
-              Meet Juggle Hire Technologies
+              Meet JuggleHire Technologies
             </h2>
 
             <div class="space-y-4">
@@ -41,7 +41,7 @@
           </div>
         </div>
         <div class="flex items-start justify-end lg:order-first">
-          <img src="/jugglehire-app.png" alt="Product screenshot"
+          <img src="/jugglehire-app.jpg" alt="Product screenshot"
             class="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]" width="2432"
             height="1442" />
         </div>

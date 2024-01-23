@@ -11,7 +11,7 @@
 
     <!-- Icon Blocks -->
     <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-12 mt-16">
-      <div class="flex group transition duration-200 ease-linear hover:scale-110" v-for="(item) in cardData"
+      <div class="flex group transition duration-200 ease-linear hover:scale-105" v-for="(item) in cardData"
         :key="item.title">
         <div v-html="item.icon"
           class="flex h-10 w-10 items-center justify-center rounded-lg bg-blue-600 text-white shrink-0">

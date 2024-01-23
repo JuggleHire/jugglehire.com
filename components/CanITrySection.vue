@@ -30,7 +30,7 @@
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-12">
           <div class="space-y-4">
             <h4 class="text-left text-lg font-semibold leading-8 text-gray-900">
-              Without Juggle Hire
+              Without JuggleHire
             </h4>
             <ul class="space-y-6">
               <li v-for="(item, index) in without" :key="item"
@@ -51,7 +51,7 @@
           </div>
           <div class="space-y-4">
             <h4 class="text-left text-lg font-semibold leading-8 text-gray-900">
-              With Juggle Hire
+              With JuggleHire
             </h4>
             <ul class="space-y-6">
               <li v-for="(item, index) in withx" :key="item"

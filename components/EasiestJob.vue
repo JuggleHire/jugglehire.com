@@ -26,12 +26,12 @@
             </dl>
           </div>
         </div>
-        <img src="/easiest-jobposting.png" alt="Product screenshot"
+        <img src="/easiest-job.jpg" alt="Product screenshot"
           class="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
           width="2432" height="1442" />
       </div>
       <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-12 mt-16 ">
-        <div class="flex group transition duration-200 ease-linear hover:scale-110" v-for="(item, index) in cardData"
+        <div class="flex group transition duration-200 ease-linear hover:scale-105" v-for="(item) in cardData"
           :key="item.title">
           <div class="mb-6 flex h-10 w-10 items-center justify-center rounded-lg bg-blue-600 text-white shrink-0">
             <component :is="item.icon" class="h-6 w-6" />

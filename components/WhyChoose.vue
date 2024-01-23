@@ -7,7 +7,7 @@
             <span class="text-[4.45rem]">Why</span> <br>
             <span> Businesses Like</span> <br>
             <span class="text-5xl"> <strong>You</strong></span> <em>Choose</em> <br>
-            <span class="text-blue-600 text-5xl">Juggle Hire</span>
+            <span class="text-blue-600 text-5xl">JuggleHire</span>
           </h2>
           <dl class="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
             <div v-for="feature in features" :key="feature.name" class="relative ">
@@ -26,8 +26,8 @@
           </dl>
         </div>
         <div class="grid grid-cols-1 lg:grid-cols-2  gap-6 lg:gap-12 mt-16 flex-1">
-          <div class="flex group" v-for="(item, index) in cardData" :key="item.title" data-aos="zoom-in"
-            :data-aos-delay="100 * index">
+          <div class="flex group transition duration-200 ease-linear hover:scale-105" v-for="(item) in cardData"
+            :key="item.title">
             <div class="mb-6 flex h-10 w-10 items-center justify-center rounded-lg bg-blue-600 text-white shrink-0">
               <component :is="item.icon" class="h-6 w-6" />
             </div>

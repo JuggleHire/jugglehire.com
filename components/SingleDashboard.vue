@@ -14,8 +14,8 @@
         </div>
       </div>
       <div class="mx-auto px-6 lg:px-8" data-aos="zoom-in">
-        <img src="/jugglehire-app.png" alt="App screenshot"
-          class="mb-[-12%] hover:scale-110 transition-all duration-200 ease-linear rounded-xl " width="2432"
+        <img src="/jugglehire-app.jpg" alt="App screenshot"
+          class="mb-[-12%] hover:scale-105 transition-all duration-200 ease-linear rounded-xl " width="2432"
           height="1442" />
       </div>
     </div>
