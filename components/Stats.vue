@@ -12,7 +12,7 @@
 
             <div class="space-y-4">
               <div v-for="item in cardData" :key="item.title">
-                <a href="#"
+                <nuxt-link :href="item.href"
                   class="flex  group transition duration-200 ease-linear hover:bg-gray-50 cursor-pointer p-3 rounded">
                   <div class=" text-green-600  shrink-0 mt-1">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
@@ -33,7 +33,7 @@
                           data-v-inspector="components/CanITrySection.vue:16:13"></path>
                       </svg></p>
                   </div>
-                </a>
+                </nuxt-link>
 
 
               </div>
@@ -57,17 +57,18 @@ const cardData = [
   {
     title: "Recruitment Software for SMB.",
     description: `Stop small business requirements nightmare`,
-
+    href: '/recruitment-software-for-small-business-owner'
   },
   {
     title: "Remote Hiring Solution.",
     description: `Virtually get your team members to keep coming.`,
+    href: '',
 
   },
   {
     title: "Talent Acquisition Management.",
     description: `Hire talent like the snap of a finger.`,
-
+    href: ''
   },
 ];
 </script>
