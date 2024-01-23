@@ -1,6 +1,6 @@
 <template>
   <div class="max-w-[85rem] px-4 sm:px-6 lg:px-8 py-16 sm:py-20  mx-auto">
-    <div class="text-center" data-aos="fade-up">
+    <div class="text-center" data-aos="fade-up" data-aos-once="true">
       <h2 class="mt-2 text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl !leading-[3.4rem]">
         Gain Control Over Your <br /> Recruitment Puzzle
       </h2>
