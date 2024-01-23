@@ -1,5 +1,6 @@
 <template>
-  <header ref="headerRef" class="w-full mx-auto   transition-all duration-200 ease-linear absolute inset-x-0 top-0 z-50">
+  <header ref="headerRef"
+    class="bg-white fixed top-0  inset-x-0 w-full mx-auto border-b border-b-gray-100 z-10 transition-all duration-200 ease-linear ">
     <nav class="flex items-center justify-between p-6 lg:px-8 max-w-7xl mx-auto" aria-label="Global">
       <div class="flex lg:flex-1">
         <nuxt-link href="/" class="-m-1.5 p-1.5">
