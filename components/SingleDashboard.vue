@@ -1,10 +1,10 @@
 <template>
-  <div class="bg-white py-16 sm:py-20 space-y-16">
+  <div class="bg-white sm:pt-0 pb-12 lg:py-20 space-y-16">
     <!-- Feature section -->
     <div class="max-w-[85rem] mx-auto space-y-16">
       <div class="mx-auto px-6 lg:px-8">
         <div class="mx-auto max-w-2xl sm:text-center" data-aos="fade-in" data-aos-once="true">
-          <h2 class="mt-2 text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl !leading-[3.8rem]">
+          <h2 class="mt-2 text-2xl !leading-[2.5rem] font-bold tracking-tight text-gray-900 sm:text-4xl sm:!leading-[3.8rem]">
             Single Dashboard. <br> <span class="text-blue-600">Manage Everything.</span>
           </h2>
           <p class="mt-6 text-lg leading-8 text-gray-600">

@@ -3,7 +3,7 @@
         <SectionHeader subtitle="Free step by step. Training session" title="Unlock the master keys of your recruitment operation" text="Burn unnecessary fat from your recruitments process when systemize" />
         <div class="max-w-7xl px-6 lg:px-8 mx-auto">
             <div class="flex flex-col md:flex-row gap-8 md:justify-center md:items-center">
-                <ul role="list" class="grid grid-cols-2 gap-y-4 gap-x-12 mt-16">
+                <ul role="list" class="grid min-[480px]:grid-cols-2 gap-y-4 gap-x-12 mt-16">
                     <li class="flex space-x-3">
                         <!-- Solid Check -->
                         <span class="text-blue-600">

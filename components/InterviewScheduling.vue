@@ -1,10 +1,10 @@
 <template>
-  <div class="overflow-hidden bg-white py-24 sm:py-32">
+  <div class="overflow-hidden bg-white pt-0 pb-24 lg:py-32">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
       <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
         <div class="lg:pr-8 lg:pt-4">
           <div class="lg:max-w-lg">
-            <h2 class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl !leading-[3.8rem]">
+            <h2 class="mt-2 text-3xl leading-[3rem] font-bold tracking-tight text-gray-900 sm:text-4xl sm:!leading-[3.8rem]">
               Simplest
               Interview Scheduling.</h2>
             <p class="mt-6 text-lg leading-8 text-gray-600">Effortlessly coordinate interviews whenever you need.
@@ -28,10 +28,10 @@
           </div>
         </div>
         <img src="/simple-interview.jpg" alt="Product screenshot"
-          class="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
+          class="w-full max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 lg:w-[57rem] md:-ml-4 lg:-ml-0"
           width="2432" height="1442" />
       </div>
-      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-12 mt-16">
+      <div class="max-w-2xl lg:max-w-full mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-12 mt-16">
         <div class="flex group transition duration-200 ease-linear hover:scale-105" v-for="(item) in cardData"
           :key="item.title">
           <div class="mb-6 flex h-10 w-10 items-center justify-center rounded-lg bg-blue-600 text-white shrink-0">

@@ -3,9 +3,8 @@
     class="bg-transparent relative z-[999] top-0  inset-x-0 w-full mx-auto border-b border-b-gray-100  transition-all duration-200 ease-linear ">
     <nav class="flex items-center justify-between p-6 lg:px-8 max-w-7xl mx-auto" aria-label="Global">
       <div class="flex lg:flex-1">
-        <nuxt-link href="/" class="-m-1.5 p-1.5">
+        <nuxt-link to="/" class="-m-1.5 p-1.5">
           <img src="/jugglehire.png" alt="company logo" width="130">
-          <!-- <span class="text-xl text-white font-bold">JuggleHire</span> -->
         </nuxt-link>
       </div>
       <div class="flex lg:hidden">
@@ -43,10 +42,10 @@
                           aria-hidden="true" />
                       </div>
                       <div>
-                        <a :href="subitem.href" class="font-semibold text-gray-900">
+                        <nuxt-link :to="subitem.href" class="font-semibold text-gray-900">
                           {{ subitem.name }}
                           <span class="absolute inset-0" />
-                        </a>
+                        </nuxt-link>
                         <p class="mt-1 text-gray-600">
                           {{ subitem.description }}
                         </p>
@@ -69,9 +68,6 @@
         </template>
       </div>
       <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-        <!-- <a href="https://app.jugglehire.com/register" class="mr-1 flex items-center gap-x-1 rounded-md bg-blue-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600">
-            Get Started Free
-          </a> -->
         <a href="https://app.jugglehire.com/login"
           class="flex items-center gap-x-1 rounded-md px-3 py-2 text-sm font-semibold text-gray-900 border border-gray-200 hover:border-blue-600 hover:bg-blue-600 hover:text-white">
           Login
@@ -91,7 +87,6 @@
           <nuxt-link to="/" class="-m-1.5 p-1.5">
             <span class="sr-only">JuggleHire</span>
             <img class="h-8 w-auto" src="/logo-light.svg" alt="Jugglehire.com logo - light theme" />
-            <!-- <span class="text-xl text-white font-bold">JuggleHire</span> -->
           </nuxt-link>
           <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-400" @click="mobileMenuOpen = false">
             <span class="sr-only">Close menu</span>
@@ -106,9 +101,6 @@
                   item.name }}</nuxt-link>
             </div>
             <div class="py-6">
-              <!-- <a href="https://facebook.com/groups/useJuggleHire" target="_blank" class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-white hover:bg-gray-800 bg-blue-700 text-center uppercase">
-                  Join our Facebook Group
-                </a> -->
               <a href="https://app.jugglehire.com/register"
                 class="ml-auto flex items-center gap-x-1 rounded-md bg-blue-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600">
                 <svg class="-ml-1.5 h-5 w-5" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">

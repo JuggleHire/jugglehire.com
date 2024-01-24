@@ -1,7 +1,7 @@
 <template>
-  <div class="max-w-[85rem] px-4 sm:px-6 lg:px-8 py-16 sm:py-20  mx-auto">
+  <div class="max-w-[85rem] px-4 sm:px-6 lg:px-8 pt-0 pb-12 lg:py-20  mx-auto">
     <div class="text-center" data-aos="fade-up" data-aos-once="true">
-      <h2 class="mt-2 text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl !leading-[3.4rem]">
+      <h2 class="mt-2 text-2xl !leaidng-[2.5rem]font-bold tracking-tight text-gray-900 sm:text-4xl sm:!leading-[3.4rem]">
         Gain Control Over Your <br /> Recruitment Puzzle
       </h2>
       <p class="mt-2 md:mt-4 text-lg leading-8 text-gray-600">
@@ -10,7 +10,7 @@
     </div>
 
     <!-- Icon Blocks -->
-    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-12 mt-16">
+    <div class="max-w-2xl lg:max-w-full mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-12 mt-16">
       <div class="flex group transition duration-200 ease-linear hover:scale-105" v-for="(item) in cardData"
         :key="item.title">
         <div v-html="item.icon"

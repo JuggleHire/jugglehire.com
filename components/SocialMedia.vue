@@ -2,7 +2,7 @@
   <!-- Icon Blocks -->
   <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-20 mx-auto">
     <!-- Grid -->
-    <div class="flex flex-col xl:flex-row gap-16">
+    <div class="flex flex-col xl:flex-row gap-8 lg:gap-16">
       <div class="lg:min-w-fit py-10 flex-1 text-center xl:text-left" data-aos="fade-in" data-aos-once="true">
         <h2 class="text-3xl text-gray-900 font-bold lg:text-4xl">
           Social Media Integration

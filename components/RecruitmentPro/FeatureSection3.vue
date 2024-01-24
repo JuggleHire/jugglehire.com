@@ -1,7 +1,7 @@
 <template>
     <div class="py-10 sm:py-16">
         <SectionHeader title="Single Solution" text="For all recruitment systemization" />
-        <div class="mt-6 text-center flex flex-col gap-2 items-center justify-center">
+        <div class="mt-6 px-6 max-w-2xl mx-auto text-center flex items-center lg:justify-center">
             <a target="_blank"
                 class="py-3 px-4 inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
                 href="https://app.jugglehire.com/register">

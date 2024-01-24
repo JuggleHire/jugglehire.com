@@ -1,12 +1,12 @@
 <template>
-  <div class="overflow-hidden bg-white  relative pb-[10rem]">
+  <div class="overflow-hidden bg-white relative pb-12 lg:pb-[10rem]">
 
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
-      <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+      <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-8 lg:mx-0 lg:max-w-none lg:grid-cols-2">
         <div class="lg:ml-auto lg:pl-4 lg:pt-4 relative">
 
-          <div class="lg:max-w-lg space-y-10">
-            <h2 class="mt-2  text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl !leading-[3.8rem]">
+          <div class="lg:max-w-lg space-y-5 lg:space-y-10">
+            <h2 class="mt-2  text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:!leading-[3.8rem]">
               Meet JuggleHire Technologies
             </h2>
 
@@ -42,7 +42,7 @@
         </div>
         <div class="flex items-start justify-end lg:order-first">
           <img src="/jugglehire-app.jpg" alt="Product screenshot"
-            class="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]" width="2432"
+            class="w-full max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 lg:w-[57rem]" width="2432"
             height="1442" />
         </div>
       </div>
@@ -72,4 +72,4 @@ const cardData = [
   },
 ];
 </script>
-    
+

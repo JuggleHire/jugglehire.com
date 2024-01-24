@@ -2,8 +2,8 @@
     <div class="bg-white py-24 sm:py-32">
         <div class="mx-auto max-w-7xl px-6 lg:px-8">
             <h2 class="text-center text-lg font-semibold leading-8 text-gray-900" v-text="title" />
-            <div class="mx-auto mt-10 flex flex-wrap justify-center items-center gap-[5rem]">
-                <img v-for="client in clients" :key="client.name" class="max-h-10 w-auto  object-contain" :src="client.logo"
+            <div class="mx-auto mt-10 flex flex-wrap justify-center items-center gap-12 md:gap-[5rem]">
+                <img v-for="client in clients" :key="client.name" class="max-h-7 md:max-h-10 w-auto object-contain" :src="client.logo"
                     :alt="client.name" width="158" height="40" />
             </div>
         </div>

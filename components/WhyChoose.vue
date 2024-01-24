@@ -1,13 +1,13 @@
 <template>
   <div class="overflow-hidden bg-white py-24 sm:py-32">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
-      <div class="mx-auto flex flex-col sm:flex-row gap-24">
+      <div class="mx-auto flex flex-col sm:flex-row gap-8 sm:gap-16 lg:gap-24">
         <div class="lg:max-w-max ">
-          <h2 class="mt-2 text-4xl font-bold tracking-tight text-gray-900  leading-[4rem]">
-            <span class="text-[4.45rem]">Why</span> <br>
+          <h2 class="mt-2 text-2xl leading-[3rem] lg:text-4xl font-bold tracking-tight text-gray-900  lg:leading-[4rem]">
+            <span class="text-[3rem] lg:text-[4.45rem]">Why</span> <br>
             <span> Businesses Like</span> <br>
-            <span class="text-5xl"> <strong>You</strong></span> <em>Choose</em> <br>
-            <span class="text-blue-600 text-5xl">JuggleHire</span>
+            <span class="text-3xl lg:text-5xl"> <strong>You</strong></span> <em>Choose</em> <br>
+            <span class="text-blue-600 text-3xl lg:text-5xl">JuggleHire</span>
           </h2>
           <dl class="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
             <div v-for="feature in features" :key="feature.name" class="relative ">
@@ -41,7 +41,7 @@
     </div>
   </div>
 </template>
-      
+
 <script setup>
 import { BarsArrowUpIcon, MagnifyingGlassPlusIcon, ChatBubbleBottomCenterTextIcon, UserGroupIcon, CurrencyDollarIcon, CubeIcon } from '@heroicons/vue/20/solid';
 const features = [

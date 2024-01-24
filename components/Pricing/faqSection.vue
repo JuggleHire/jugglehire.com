@@ -1,6 +1,6 @@
 <template>
   <div class="bg-white">
-    <div class="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:px-8 lg:py-40">
+    <div class="mx-auto max-w-2xl lg:max-w-7xl px-6 py-12 md:py-32 lg:px-8 lg:py-40">
       <div class="mx-auto max-w-4xl divide-y divide-gray-900/10">
         <div>
           <h2 class="mt-2 text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl"
