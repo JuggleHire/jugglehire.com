@@ -57,24 +57,20 @@ const features = [
   'Collect Information Like Pro',
   'Pick True Talent From The Mess'
 ]
-
 const cardData = [
   {
     title: 'Unique Company Portal',
-    description: `Professionally display the company standard.
-Create lasting impressions in the talented mind.`,
+    description: `Professionally display the company standard. Create lasting impressions in the talented mind.`,
     icon: AcademicCapIcon
   },
   {
     title: 'Captivating Company Gallery',
-    description: `Visually showcase company culture, vision,
-mission, workforce, & everything to create value.`,
+    description: `Visually showcase company culture, vision, mission, workforce, & everything to create value.`,
     icon: PhotoIcon
   },
   {
     title: 'Open Jobs',
-    description: `Presenting all the current job openings will
-attract talent and guarantee credibility.`,
+    description: `Presenting all the current job openings will attract talent and guarantee credibility.`,
     icon: BriefcaseIcon
   },
 ]
