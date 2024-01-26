@@ -10,8 +10,8 @@
         <div class="mb-8 flex justify-center">
           <div
             class="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-            <a href="#" class="font-semibold "><em>Struggling to find the
-                <span class="text-blue-600">right talents?</span></em></a>
+            <p class="font-semibold "><em>Struggling to find the
+                <a href="https://app.jugglehire.com/register" class="text-blue-600">right talents?</a></em></p>
           </div>
         </div>
         <div class="text-center">
@@ -21,7 +21,7 @@
             <u><em>Automatically</em></u> Choose The Right Candidate On Command
           </p>
           <div class="mt-10 flex flex-col gap-2 items-center justify-center gap-x-6">
-            <a href="#"
+            <a href="https://app.jugglehire.com/register"
               class="rounded-md bg-blue-600 px-2.5 sm:px-3.5 py-2.5 text-sm sm:text-base inline-flex items-center justify-center gap-3 font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600">14
               Days Free Trial Start Here
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"

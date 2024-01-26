@@ -12,7 +12,7 @@
                         <p class="mt-6 text-lg leading-8 text-gray-600">Become More Fluent Starting From Scratch</p>
                         <div class="space-y-2">
                             <template v-for="item in cardData" :key="item.title">
-                                <a :href="item.href"
+                                <nuxt-link :to="item.href"
                                     class="block group hover:bg-gray-50 p-3 rounded-md transition-all duration-300">
                                     <div class="flex">
                                         <div class=" text-green-600  shrink-0 mt-1">
@@ -42,7 +42,7 @@
                                             </span>
                                         </div>
                                     </div>
-                                </a>
+                                </nuxt-link>
                             </template>
                         </div>
                     </div>
@@ -62,19 +62,19 @@
 
     const cardData = [
         {
-            href: '#',
+            href: '/recruitment-software-for-small-business-owner',
             title: "Small Business Recruitment Software",
             description: `Stop small business requirements nightmare`,
 
         },
         {
-            href: '#',
+            href: '',
             title: "Remote Hiring Solution.",
             description: `Virtually get your team members to keep coming.`,
 
         },
         {
-            href: '#',
+            href: '',
             title: "Talent Acquisition Management.",
             description: `Hire talent like the snap of a finger.`,
 

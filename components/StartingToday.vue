@@ -28,10 +28,10 @@
         </p>
 
         <div class="mt-8 flex items-center gap-4 flex-wrap lg:flex-nowrap">
-          <a href="#"
+          <a href="https://www.facebook.com/groups/jugglehire" target="_blank" 
             class="inline-flex rounded-md bg-white/10 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-white/20 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">Join
             Free Facebook Community</a>
-          <a href="#"
+          <a href="https://app.jugglehire.com/register"
             class="inline-flex items-center gap-2 rounded-md bg-white/10 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-white/20 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">
             Start 14 Days Free Trail
           </a>
