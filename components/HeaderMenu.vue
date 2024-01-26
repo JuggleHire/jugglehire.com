@@ -18,7 +18,7 @@
             <div class="hidden lg:flex lg:gap-x-8">
                 <template v-for="(nav, index) in navigation" :key="index">
                     <Popover v-if="nav.items" class="relative z-50">
-                        <PopoverButton @click="popover = !popover"
+                        <PopoverButton 
                             class="inline-flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-900 focus-visible:outline-none">
                             <span>{{ nav.name }}</span>
                             <ChevronDownIcon class="h-5 w-5" aria-hidden="true" />
@@ -28,7 +28,7 @@
                             enter-from-class="opacity-0 translate-y-1" enter-to-class="opacity-100 translate-y-0"
                             leave-active-class="transition ease-in duration-150"
                             leave-from-class="opacity-100 translate-y-0" leave-to-class="opacity-0 translate-y-1">
-                            <PopoverPanel v-if="popover"
+                            <PopoverPanel
                                 class="absolute left-1/2 z-[999] mt-5 flex w-screen max-w-max -translate-x-1/2 px-4">
                                 <div class="w-screen max-w-md flex-auto overflow-hidden rounded-3xl bg-white text-sm leading-6 shadow-lg ring-1 ring-gray-900/5"
                                     :class="{ 'lg:max-w-3xl': nav.megaMenu }">
@@ -45,8 +45,7 @@
                                                     aria-hidden="true" />
                                             </div>
                                             <div>
-                                                <nuxt-link :to="subitem.href" class="font-semibold text-gray-900"
-                                                    @click="popover = false">
+                                                <nuxt-link :to="subitem.href" class="font-semibold text-gray-900">
                                                     {{ subitem.name }}
                                                     <span class="absolute inset-0" />
                                                 </nuxt-link>
@@ -102,7 +101,7 @@
                     <div class="flex flex-col">
                         <template v-for="(nav, index) in navigation" :key="index">
                             <Popover v-if="nav.items" class="relative z-50">
-                                <PopoverButton @click="popover = !popover"
+                                <PopoverButton
                                     class="w-full flex items-center py-3 gap-x-1 text-sm font-semibold leading-6 text-white focus-visible:outline-none">
                                     <span>{{ nav.name }}</span>
                                     <ChevronDownIcon class="h-5 w-5" aria-hidden="true" />
@@ -114,7 +113,7 @@
                                     leave-active-class="transition ease-in duration-150"
                                     leave-from-class="opacity-100 translate-y-0"
                                     leave-to-class="opacity-0 translate-y-1">
-                                    <PopoverPanel v-if="popover"
+                                    <PopoverPanel
                                         class="absolute left-1/2 z-[9999] flex w-full -translate-x-1/2 rounded-3xl bg-white">
                                         <div
                                             class="relative z-[9999] w-full flex-auto overflow-hidden rounded-3xl bg-white text-sm leading-6 shadow-lg ring-1 ring-gray-900/5">
@@ -131,7 +130,7 @@
                                                             aria-hidden="true" />
                                                     </div>
                                                     <div>
-                                                        <nuxt-link :to="subitem.href" @click="popover = false"
+                                                        <nuxt-link :to="subitem.href"
                                                             class="font-semibold text-gray-900">
                                                             {{ subitem.name }}
                                                             <span class="absolute inset-0" />
