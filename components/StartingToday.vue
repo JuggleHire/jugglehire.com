@@ -33,7 +33,7 @@
             Free Facebook Community</a>
           <a href="https://app.jugglehire.com/register"
             class="inline-flex items-center gap-2 rounded-md bg-white/10 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-white/20 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">
-            Start 14 Days Free Trail
+            Start 14 Days Free Trial
           </a>
         </div>
       </div>
