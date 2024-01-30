@@ -22,15 +22,15 @@
           </p>
           <div class="mt-10 flex flex-col gap-2 items-center justify-center gap-x-6">
             <a href="https://app.jugglehire.com/register"
-              class="rounded-md bg-blue-600 px-2.5 sm:px-3.5 py-2.5 text-sm sm:text-base inline-flex items-center justify-center gap-3 font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600">14
-              Days Free Trial Start Here
+              class="rounded-md bg-blue-600 px-2.5 sm:px-3.5 py-2.5 text-sm sm:text-base inline-flex items-center justify-center gap-3 font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600">
+              Get Started for Free
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                 stroke="currentColor" class="w-6 h-6">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
               </svg>
 
             </a>
-            <span class="text-gray-600 text-xs sm:text-sm">Start In A Minute. Cancel Anytime</span>
+            <span class="text-gray-600 text-xs sm:text-sm">Start Free. No Card Required</span>
           </div>
 
         </div>
