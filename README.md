@@ -1,25 +1,11 @@
-# Jugglehire.com - Recruitment software for busy professionals.
-JuggleHire is specifically designed for small businesses
+## Simple & Powerful Recruitment Software for Small Businesses
+JuggleHire is a recruitment software solution designed to simplify the hiring process for busy professionals. It's aimed at making the hiring journey easy and efficient, catering to recruiters, founders, small businesses owners, and HR professionals.
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+[Get JuggleHire Today](https://jugglehire.com)
 
-## Setup
 
-Make sure to install the dependencies:
+![JuggleHire](https://github.com/JuggleHire/.github/assets/33604077/d9b45d59-84d3-4ce9-9d88-c9e8e488c2ad)
 
-```bash
-yarn install
-```
-Start the development server on `http://localhost:3000`:
-```bash
-yarn dev
-```
-
-## Hero Section Title
-Simple & Powerful
-Recruitment Software for Small Businesses
-
-Simple and easy to Use Recruitment Software
 
 ## Features
 - Job Posting and Management
@@ -36,7 +22,7 @@ Simple and easy to Use Recruitment Software
 - Team Collaboration
 
 ## Use Cases
-- All in One Recruitment Software
+- <a href="https://www.jugglehire.com/recruitment-software-for-small-business-owner" target="_blank"> All in One Recruitment Software </a>
 - Talent Acquisition Management
 - Remote Hiring Solution
 
@@ -50,16 +36,15 @@ Simple and easy to Use Recruitment Software
 - Engineering and Manufacturing
 
 ## Resources
-- Product Roadmap
-- Changelog
-- The Wall of Love
-- About Us
-- Contact Us
-- Knowledgebase
-- Our Community
-
-Pricing
-Blog
+- [Product Roadmap](https://jugglehire.com/roadmap)
+- [Changelog](https://jugglehire.com/changelog)
+- [The Wall of Love](https://jugglehire.com/wall-of-love)
+- [About Us](https://jugglehire.com/about-us)
+- [Contact Us](https://jugglehire.com/contact-us)
+- [Knowledgebase](https://jugglehire.helpcenter.guide/)
+- [Our Community](https://www.facebook.com/groups/jugglehire)
+- [Pricing](https://jugglehire.com/pricing)
+- [Blog](https://jugglehire.com/blog)
 
 
 ## Our Competitors
@@ -71,3 +56,18 @@ Blog
 - Zoho Recruit
 - Smart Recruiter
 - workable.com
+
+
+Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+
+## Setup
+
+Make sure to install the dependencies:
+
+```bash
+yarn install
+```
+Start the development server on `http://localhost:3000`:
+```bash
+yarn dev
+```
